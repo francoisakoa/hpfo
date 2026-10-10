@@ -1,0 +1,7 @@
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+PF_EIGEN_INCLUDE:PATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/include/eigen3
+PF_NATIVE:BOOL=OFF
+PF_WITH_IPOPT:BOOL=OFF
+PF_WITH_METIS:BOOL=OFF
+PF_WITH_MUMPS:BOOL=OFF
+PF_WITH_OPENMP:BOOL=ON

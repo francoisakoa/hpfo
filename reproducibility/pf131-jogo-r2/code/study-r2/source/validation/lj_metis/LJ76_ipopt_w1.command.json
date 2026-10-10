@@ -1,0 +1,21 @@
+[
+  "/workspace/scratch/8543e66db3a1/pf_cpp_v1.3.1/build_native/pf_local_bench",
+  "--atoms",
+  "76",
+  "--population",
+  "/workspace/scratch/8543e66db3a1/pf_cpp_v1.3.1/validation/lj_metis/LJ76_first2.pfpop",
+  "--workers",
+  "1",
+  "--local-max-iter",
+  "5000",
+  "--local-tol",
+  "1e-8",
+  "--max-time",
+  "90",
+  "--output",
+  "/workspace/scratch/8543e66db3a1/pf_cpp_v1.3.1/validation/lj_metis/LJ76_ipopt_w1.json",
+  "--method",
+  "ipopt",
+  "--ipopt-linear-solver",
+  "mumps"
+]

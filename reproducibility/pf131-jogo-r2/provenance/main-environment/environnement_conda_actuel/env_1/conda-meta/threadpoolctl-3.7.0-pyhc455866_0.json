@@ -1,0 +1,104 @@
+{
+  "name": "threadpoolctl",
+  "version": "3.7.0",
+  "build": "pyhc455866_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "threadpoolctl-3.7.0-pyhc455866_0.conda",
+  "md5": "8c05910e780502e362d658f00f5ec10f",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.7.0-pyhc455866_0.conda",
+  "sha256": "a32d17fe979e59fe1295875b5d4f0431a76dfbbfcee5b01e657a8aa3c4a1b5d1",
+  "depends": [
+    "python >=3.11"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "BSD-3-Clause",
+  "package_type": "noarch_python",
+  "timestamp": 1789547529761,
+  "size": 31829,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/threadpoolctl-3.7.0-pyhc455866_0.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/threadpoolctl-3.7.0-pyhc455866_0",
+  "files": [
+    "lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/threadpoolctl-3.7.0.dist-info/licenses/LICENSE",
+    "lib/python3.12/site-packages/threadpoolctl.py",
+    "lib/python3.12/site-packages/__pycache__/threadpoolctl.cpython-312.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/threadpoolctl-3.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/threadpoolctl-3.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "09b19e721560cd12246402d44e53c1ede5194b8398ef60822f02cab86ccf8d1f",
+        "size_in_bytes": 24052,
+        "sha256_in_prefix": "09b19e721560cd12246402d44e53c1ede5194b8398ef60822f02cab86ccf8d1f"
+      },
+      {
+        "_path": "site-packages/threadpoolctl-3.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0234d0bb6d0d12cd4bf59ba82aa5d841f1107c8c91151da2df2e4d23220c224a",
+        "size_in_bytes": 742,
+        "sha256_in_prefix": "0234d0bb6d0d12cd4bf59ba82aa5d841f1107c8c91151da2df2e4d23220c224a"
+      },
+      {
+        "_path": "site-packages/threadpoolctl-3.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/threadpoolctl-3.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff23073da055face9f40cc14a28f3735275308cddcf315d6157461a9a7cdfbb6",
+        "size_in_bytes": 81,
+        "sha256_in_prefix": "ff23073da055face9f40cc14a28f3735275308cddcf315d6157461a9a7cdfbb6"
+      },
+      {
+        "_path": "site-packages/threadpoolctl-3.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "889abf1a59fb9d781b4a87ec2ad2bbe246e90570baed7e9ecbdffa70500543be",
+        "size_in_bytes": 109,
+        "sha256_in_prefix": "889abf1a59fb9d781b4a87ec2ad2bbe246e90570baed7e9ecbdffa70500543be"
+      },
+      {
+        "_path": "site-packages/threadpoolctl-3.7.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b",
+        "size_in_bytes": 1507,
+        "sha256_in_prefix": "81ac619075248b06e53660b652d10e485f4675f5d0ae0f97ea22370da1f7e23b"
+      },
+      {
+        "_path": "site-packages/threadpoolctl.py",
+        "path_type": "hardlink",
+        "sha256": "e5f119e394193e206655bec4b993ef0bb40b0fbb2f22c92bd5b2d70a622bb518",
+        "size_in_bytes": 67710,
+        "sha256_in_prefix": "e5f119e394193e206655bec4b993ef0bb40b0fbb2f22c92bd5b2d70a622bb518"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/threadpoolctl.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/threadpoolctl-3.7.0-pyhc455866_0",
+    "type": 1
+  }
+}

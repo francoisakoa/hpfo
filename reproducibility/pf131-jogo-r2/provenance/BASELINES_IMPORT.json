@@ -1,0 +1,22 @@
+{
+  "state": "IMPORTED_GRID_VERIFIED",
+  "results": 1200,
+  "cells": 40,
+  "runs_per_cell": 30,
+  "archive_hash_matches": 1200,
+  "note": "Hashes checked when present in exported manifests/index. Export membership is not a new historical execution certificate.",
+  "frozen_drivers": [
+    "baselines_v3/run_one_baseline.py",
+    "baselines_v3_1/run_one_baseline.py"
+  ],
+  "budget_files": [
+    "baselines_v3/baseline_eval_limits_v3.json",
+    "baselines_v3_1/baseline_eval_limits_v3.json"
+  ],
+  "source_files_copied": 52,
+  "excluded_from_git_but_retained_in_zip": [
+    "results_baselines_nohup_R1/scheduler.events.jsonl"
+  ],
+  "invalid_nonresult_json_files": [],
+  "baseline_trajectories_complete": false
+}

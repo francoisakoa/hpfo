@@ -1,0 +1,50 @@
+{
+  "description": "Baselines v3: energy budgets from author-provided PF131 maxima; all five methods retain v2 numerical limits.",
+  "strategy": "max_evals = 2 * hpf_max_observed; not an identical HPF/baseline budget design",
+  "counting_convention": "all energy calls in search, including L-BFGS-B objective callbacks and each evaluated batch candidate; gradient calls separate; final reference audit separate",
+  "potential_default": "PF131 source src/problem.cpp: q=1/(r^2+1e-8), E=sum(q^3*(q^3-2)); not standard sigma=1 LJ at the same coordinates",
+  "provenance": "Author supplied PF131_METIS_ipA6V5w9 aggregate maxima. Source PF C++ v1.3.1 confirms objective_total=objective_pf+objective_local. Exact run/source linkage requires the campaign metadata.",
+  "generated": "2026-09-26",
+  "eval_limits": {
+    "38": {
+      "max_evals": 973472,
+      "hpf_max_observed": 486736,
+      "budget_ratio": 2.0
+    },
+    "75": {
+      "max_evals": 27857692,
+      "hpf_max_observed": 13928846,
+      "budget_ratio": 2.0
+    },
+    "76": {
+      "max_evals": 38146196,
+      "hpf_max_observed": 19073098,
+      "budget_ratio": 2.0
+    },
+    "77": {
+      "max_evals": 57259400,
+      "hpf_max_observed": 28629700,
+      "budget_ratio": 2.0
+    },
+    "98": {
+      "max_evals": 82633222,
+      "hpf_max_observed": 41316611,
+      "budget_ratio": 2.0
+    },
+    "102": {
+      "max_evals": 9085764,
+      "hpf_max_observed": 4542882,
+      "budget_ratio": 2.0
+    },
+    "103": {
+      "max_evals": 9583880,
+      "hpf_max_observed": 4791940,
+      "budget_ratio": 2.0
+    },
+    "104": {
+      "max_evals": 19340034,
+      "hpf_max_observed": 9670017,
+      "budget_ratio": 2.0
+    }
+  }
+}

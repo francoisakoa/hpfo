@@ -1,0 +1,482 @@
+{
+  "name": "mumps-seq",
+  "version": "5.8.2",
+  "build": "hc1b3267_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "mumps-seq-5.8.2-hc1b3267_2.conda",
+  "md5": "d4f0602b1cd00d94e1467cdb60ba7750",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mumps-seq-5.8.2-hc1b3267_2.conda",
+  "sha256": "ce6c9495defd9a45ead27701e76fc8405571c9cfa305cbfa1f407b773d8e5e41",
+  "depends": [
+    "mumps-include ==5.8.2 h5a610fb_2",
+    "_openmp_mutex >=4.5",
+    "libgfortran5 >=14.3.0",
+    "libgfortran",
+    "libgcc >=14",
+    "__glibc >=2.17,<3.0.a0",
+    "libblas >=3.9.0,<4.0a0",
+    "liblapack >=3.9.0,<4.0a0",
+    "metis >=5.1.0,<5.1.1.0a0",
+    "libscotch >=7.0.11,<7.0.12.0a0",
+    "libscotch * int64_*"
+  ],
+  "constrains": [
+    "libopenblas * *openmp*"
+  ],
+  "license": "CECILL-C",
+  "timestamp": 1771833764229,
+  "size": 2711532,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/mumps-seq-5.8.2-hc1b3267_2",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/mumps-seq-5.8.2-hc1b3267_2",
+  "files": [
+    "etc/conda/test-files/mumps-seq/0/examples/Makefile",
+    "etc/conda/test-files/mumps-seq/0/examples/README",
+    "etc/conda/test-files/mumps-seq/0/examples/c_example",
+    "etc/conda/test-files/mumps-seq/0/examples/c_example.c",
+    "etc/conda/test-files/mumps-seq/0/examples/c_example.o",
+    "etc/conda/test-files/mumps-seq/0/examples/c_example_save_restore",
+    "etc/conda/test-files/mumps-seq/0/examples/c_example_save_restore.c",
+    "etc/conda/test-files/mumps-seq/0/examples/c_example_save_restore.o",
+    "etc/conda/test-files/mumps-seq/0/examples/csimpletest",
+    "etc/conda/test-files/mumps-seq/0/examples/csimpletest.F",
+    "etc/conda/test-files/mumps-seq/0/examples/csimpletest.o",
+    "etc/conda/test-files/mumps-seq/0/examples/csimpletest_save_restore",
+    "etc/conda/test-files/mumps-seq/0/examples/csimpletest_save_restore.F",
+    "etc/conda/test-files/mumps-seq/0/examples/csimpletest_save_restore.o",
+    "etc/conda/test-files/mumps-seq/0/examples/dsimpletest",
+    "etc/conda/test-files/mumps-seq/0/examples/dsimpletest.F",
+    "etc/conda/test-files/mumps-seq/0/examples/dsimpletest.o",
+    "etc/conda/test-files/mumps-seq/0/examples/dsimpletest_save_restore",
+    "etc/conda/test-files/mumps-seq/0/examples/dsimpletest_save_restore.F",
+    "etc/conda/test-files/mumps-seq/0/examples/dsimpletest_save_restore.o",
+    "etc/conda/test-files/mumps-seq/0/examples/input_simpletest_cmplx",
+    "etc/conda/test-files/mumps-seq/0/examples/input_simpletest_real",
+    "etc/conda/test-files/mumps-seq/0/examples/multiple_arithmetics_example",
+    "etc/conda/test-files/mumps-seq/0/examples/multiple_arithmetics_example.F",
+    "etc/conda/test-files/mumps-seq/0/examples/multiple_arithmetics_example.o",
+    "etc/conda/test-files/mumps-seq/0/examples/ssimpletest",
+    "etc/conda/test-files/mumps-seq/0/examples/ssimpletest.F",
+    "etc/conda/test-files/mumps-seq/0/examples/ssimpletest.o",
+    "etc/conda/test-files/mumps-seq/0/examples/ssimpletest_save_restore",
+    "etc/conda/test-files/mumps-seq/0/examples/ssimpletest_save_restore.F",
+    "etc/conda/test-files/mumps-seq/0/examples/ssimpletest_save_restore.o",
+    "etc/conda/test-files/mumps-seq/0/examples/zsimpletest",
+    "etc/conda/test-files/mumps-seq/0/examples/zsimpletest.F",
+    "etc/conda/test-files/mumps-seq/0/examples/zsimpletest.o",
+    "etc/conda/test-files/mumps-seq/0/examples/zsimpletest_save_restore",
+    "etc/conda/test-files/mumps-seq/0/examples/zsimpletest_save_restore.F",
+    "etc/conda/test-files/mumps-seq/0/examples/zsimpletest_save_restore.o",
+    "include/mumps_seq/mpi.h",
+    "include/mumps_seq/mpif.h",
+    "lib/libcmumps_seq.so",
+    "lib/libdmumps_seq.so",
+    "lib/libmpiseq.so",
+    "lib/libmpiseq_seq.so",
+    "lib/libmumps_common_seq.so",
+    "lib/libpord_seq.so",
+    "lib/libsmumps_seq.so",
+    "lib/libzmumps_seq.so",
+    "lib/pkgconfig/cmumps_seq.pc",
+    "lib/pkgconfig/dmumps_seq.pc",
+    "lib/pkgconfig/smumps_seq.pc",
+    "lib/pkgconfig/zmumps_seq.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/Makefile",
+        "path_type": "hardlink",
+        "sha256": "222312e5104803a74a26e83d0fea9e1aefb910067df9c00288beb9813eb52f22",
+        "size_in_bytes": 2642,
+        "sha256_in_prefix": "222312e5104803a74a26e83d0fea9e1aefb910067df9c00288beb9813eb52f22"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/README",
+        "path_type": "hardlink",
+        "sha256": "71e8d128d43c8af2a7da94e2f6ddd178182554b5260aa1074851aba37e428fe0",
+        "size_in_bytes": 2561,
+        "sha256_in_prefix": "71e8d128d43c8af2a7da94e2f6ddd178182554b5260aa1074851aba37e428fe0"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/c_example",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "1c7b156b585c85f0fde4175ef574460ac3570cfe8b1e886548303bde6525100b",
+        "size_in_bytes": 16040,
+        "sha256_in_prefix": "e34c3bb8e0b17051a88a6f62465ffc36f78eae0f82583886a5af87fccc9a123f"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/c_example.c",
+        "path_type": "hardlink",
+        "sha256": "331830757b60ac8917b2365dbaffaff3045444ef78a9ff30d8bc77685664589d",
+        "size_in_bytes": 2436,
+        "sha256_in_prefix": "331830757b60ac8917b2365dbaffaff3045444ef78a9ff30d8bc77685664589d"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/c_example.o",
+        "path_type": "hardlink",
+        "sha256": "8218fd58caa8f355ad5d249d5880c6df56b15a4d86267842814f453edea26673",
+        "size_in_bytes": 3344,
+        "sha256_in_prefix": "8218fd58caa8f355ad5d249d5880c6df56b15a4d86267842814f453edea26673"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/c_example_save_restore",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "93eca7d6d36e92165cfb4a6401a6cc138cff71d040379f67e2eec1bbe3280bf9",
+        "size_in_bytes": 16048,
+        "sha256_in_prefix": "e37f9d8bf77d2eab6ee5a806dce32ccc3a7e650a354c87d819c24e0afe951737"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/c_example_save_restore.c",
+        "path_type": "hardlink",
+        "sha256": "8bdc7a1aa31a3c0a45bd4acd4be7b705440767653c098e7d7042930c53e9e1b1",
+        "size_in_bytes": 5117,
+        "sha256_in_prefix": "8bdc7a1aa31a3c0a45bd4acd4be7b705440767653c098e7d7042930c53e9e1b1"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/c_example_save_restore.o",
+        "path_type": "hardlink",
+        "sha256": "31bf1212bb315e240b0ee2038ff71ed656555d895621e74407e5946262761a2c",
+        "size_in_bytes": 5312,
+        "sha256_in_prefix": "31bf1212bb315e240b0ee2038ff71ed656555d895621e74407e5946262761a2c"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/csimpletest",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "73e8a22db2c3b2a88c72d51899e28ac5e2cb61c3e79e0ed9d3eebc9e8bbd15fe",
+        "size_in_bytes": 16960,
+        "sha256_in_prefix": "08773d64650adbe52c4b5178a7caea0ce1ba81ee73f59b4e0c62fef4bc932c5c"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/csimpletest.F",
+        "path_type": "hardlink",
+        "sha256": "a3a2718287975e70e91cc35d519fe02055899f8f0276ae8d9d1d59bddaf1f59c",
+        "size_in_bytes": 2514,
+        "sha256_in_prefix": "a3a2718287975e70e91cc35d519fe02055899f8f0276ae8d9d1d59bddaf1f59c"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/csimpletest.o",
+        "path_type": "hardlink",
+        "sha256": "8837539173e2639098f82d72f61f263dd3d4a9f222161bcf886d9e0c21b898eb",
+        "size_in_bytes": 8776,
+        "sha256_in_prefix": "8837539173e2639098f82d72f61f263dd3d4a9f222161bcf886d9e0c21b898eb"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/csimpletest_save_restore",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "12bd2fa74de58c91552e923f25573a4964ee64978c18053b2345f474b961ea76",
+        "size_in_bytes": 16952,
+        "sha256_in_prefix": "b07a3727f42697a13c2f86c65624e315b8c128f0946c61afe3915554606fc403"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/csimpletest_save_restore.F",
+        "path_type": "hardlink",
+        "sha256": "ec5b3f3e8c1afa5a84bfeb2bfcd7983c402704ceb3672bf4467561b28f5d77b1",
+        "size_in_bytes": 5243,
+        "sha256_in_prefix": "ec5b3f3e8c1afa5a84bfeb2bfcd7983c402704ceb3672bf4467561b28f5d77b1"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/csimpletest_save_restore.o",
+        "path_type": "hardlink",
+        "sha256": "fa438925d555a68b3e887d904df12292e9cf9e1e991eb35007ede475762e0bbc",
+        "size_in_bytes": 10456,
+        "sha256_in_prefix": "fa438925d555a68b3e887d904df12292e9cf9e1e991eb35007ede475762e0bbc"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/dsimpletest",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "016fb88aae0da5c19c696fd37f9cd69642916c21d6dfadadfbd9fea4b2270679",
+        "size_in_bytes": 16952,
+        "sha256_in_prefix": "004a507d9f2a87276dc127ce78050fa5cacc31e677e5309880c4e461d7005495"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/dsimpletest.F",
+        "path_type": "hardlink",
+        "sha256": "7386c5758e6f1507cb5ecefb2937e0885b568e4c6c7018866356a6cc72fc454d",
+        "size_in_bytes": 2514,
+        "sha256_in_prefix": "7386c5758e6f1507cb5ecefb2937e0885b568e4c6c7018866356a6cc72fc454d"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/dsimpletest.o",
+        "path_type": "hardlink",
+        "sha256": "f6dde9c63a95645e5e524858bcce0a0face07f673b95c20a4dd835d36e395076",
+        "size_in_bytes": 8768,
+        "sha256_in_prefix": "f6dde9c63a95645e5e524858bcce0a0face07f673b95c20a4dd835d36e395076"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/dsimpletest_save_restore",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "4de5225a30a3ec74d2c6e1619a9ebf1c77e8e441812080cc3a304f3dbd004a9b",
+        "size_in_bytes": 16952,
+        "sha256_in_prefix": "6133f7b13d6bfec0371b8bdbea3bd04bc4f317e7193e4f481c999d38aff984da"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/dsimpletest_save_restore.F",
+        "path_type": "hardlink",
+        "sha256": "5ad47434004b44232d335aed6d067f169c073e3edbd556c2004b9f4e22625a06",
+        "size_in_bytes": 5243,
+        "sha256_in_prefix": "5ad47434004b44232d335aed6d067f169c073e3edbd556c2004b9f4e22625a06"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/dsimpletest_save_restore.o",
+        "path_type": "hardlink",
+        "sha256": "f24acb8af0a7910fcd79ababb24ae07058a2e92db674403b1e8f4d0247c1f102",
+        "size_in_bytes": 10448,
+        "sha256_in_prefix": "f24acb8af0a7910fcd79ababb24ae07058a2e92db674403b1e8f4d0247c1f102"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/input_simpletest_cmplx",
+        "path_type": "hardlink",
+        "sha256": "caca9c6c1f4197639ce389ff8fe0b88e9b40a810e60453979ed979a2d206039d",
+        "size_in_bytes": 322,
+        "sha256_in_prefix": "caca9c6c1f4197639ce389ff8fe0b88e9b40a810e60453979ed979a2d206039d"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/input_simpletest_real",
+        "path_type": "hardlink",
+        "sha256": "aa860c370e045e3198663fef0adea5bb64bcb88ff88091764175f060bc12afe5",
+        "size_in_bytes": 189,
+        "sha256_in_prefix": "aa860c370e045e3198663fef0adea5bb64bcb88ff88091764175f060bc12afe5"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/multiple_arithmetics_example",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "3eb1ca4f3eb2eeb83eb7c63d855be66c9e91a083f215a3dac2515e6c6d94f0b1",
+        "size_in_bytes": 16504,
+        "sha256_in_prefix": "08c7d0289c5381a9a8eda2a5480285cb642d5e01ec643c45ff584d6adabba58d"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/multiple_arithmetics_example.F",
+        "path_type": "hardlink",
+        "sha256": "f197774bc6827c85f2d859f0faae48ca2dffd03093ad9f4afe18f53c56cd776b",
+        "size_in_bytes": 3929,
+        "sha256_in_prefix": "f197774bc6827c85f2d859f0faae48ca2dffd03093ad9f4afe18f53c56cd776b"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/multiple_arithmetics_example.o",
+        "path_type": "hardlink",
+        "sha256": "feb9cdccc7d6bb30e6784f78c6f755acb9737382b7ec098e8d10bed000eb94fb",
+        "size_in_bytes": 6656,
+        "sha256_in_prefix": "feb9cdccc7d6bb30e6784f78c6f755acb9737382b7ec098e8d10bed000eb94fb"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/ssimpletest",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "1361e56c178ee816e816ece28a9a800d2d97534f59d7db12c9a70023c120673b",
+        "size_in_bytes": 16952,
+        "sha256_in_prefix": "f962020726e6790fba87bd136d8e049dfcbac12e4de312d1f129a36a3f7d1cba"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/ssimpletest.F",
+        "path_type": "hardlink",
+        "sha256": "f71f170846c2df6e4e8f3da238ac418355f208257c003d740e0d8d15eca4bdb0",
+        "size_in_bytes": 2514,
+        "sha256_in_prefix": "f71f170846c2df6e4e8f3da238ac418355f208257c003d740e0d8d15eca4bdb0"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/ssimpletest.o",
+        "path_type": "hardlink",
+        "sha256": "9c83aace38a6513fa09b5caad73ce06cb6d816215153a9f703fdc1bb23a2366b",
+        "size_in_bytes": 8664,
+        "sha256_in_prefix": "9c83aace38a6513fa09b5caad73ce06cb6d816215153a9f703fdc1bb23a2366b"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/ssimpletest_save_restore",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "43e31a72f11d78f561cc176a2f9b03cbcbc23fcd332fa0b6224e9d66e54e640e",
+        "size_in_bytes": 16952,
+        "sha256_in_prefix": "3a85010302b634691e75ed1ff9bafc341e08e302cc1a100ecab9bf716933824b"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/ssimpletest_save_restore.F",
+        "path_type": "hardlink",
+        "sha256": "74f4cb496049b97a9b02d8a2f9147da0083e0350017caac3f739a12e0c45ae2e",
+        "size_in_bytes": 5243,
+        "sha256_in_prefix": "74f4cb496049b97a9b02d8a2f9147da0083e0350017caac3f739a12e0c45ae2e"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/ssimpletest_save_restore.o",
+        "path_type": "hardlink",
+        "sha256": "3c4274a8d7a62eeb62259fc6e170f636a2da5062fa8afe0d6d1fc0d9e4ae8b82",
+        "size_in_bytes": 10248,
+        "sha256_in_prefix": "3c4274a8d7a62eeb62259fc6e170f636a2da5062fa8afe0d6d1fc0d9e4ae8b82"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/zsimpletest",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "75a4f3bead54dc841d5663b5ec586f65282dfe11fac395ba3472826fbeef8886",
+        "size_in_bytes": 16960,
+        "sha256_in_prefix": "8ef3f465eebd8239bc1c0d0b1b6f99fecf46b2e12cfb7a9c230b72c6e35ede63"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/zsimpletest.F",
+        "path_type": "hardlink",
+        "sha256": "f31514a8da43efced575f570d4c3bc6186df838f5bb6ae1635d1818ff3108098",
+        "size_in_bytes": 2514,
+        "sha256_in_prefix": "f31514a8da43efced575f570d4c3bc6186df838f5bb6ae1635d1818ff3108098"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/zsimpletest.o",
+        "path_type": "hardlink",
+        "sha256": "308437cd3ee8483660f814b18d229a7e7ac366bbc6fd64e8ceee0b003e7be94a",
+        "size_in_bytes": 8776,
+        "sha256_in_prefix": "308437cd3ee8483660f814b18d229a7e7ac366bbc6fd64e8ceee0b003e7be94a"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/zsimpletest_save_restore",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "8be38a4c5edca4582c450360d357784836da0e1afde743ea28c36b20056ff3d0",
+        "size_in_bytes": 16952,
+        "sha256_in_prefix": "2d174d5a6b42871841d6c094d58ab2e9a672b9aac32641dbd422a4507f6045d1"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/zsimpletest_save_restore.F",
+        "path_type": "hardlink",
+        "sha256": "57436f31e344045e8f7993ebb61ad284934611f05734a9a4f856456e7d5418a6",
+        "size_in_bytes": 5243,
+        "sha256_in_prefix": "57436f31e344045e8f7993ebb61ad284934611f05734a9a4f856456e7d5418a6"
+      },
+      {
+        "_path": "etc/conda/test-files/mumps-seq/0/examples/zsimpletest_save_restore.o",
+        "path_type": "hardlink",
+        "sha256": "425dd7af49e1e20640b9f9f7e598b7184b11dc50de2e6fd0b79be94f7802a4b0",
+        "size_in_bytes": 10456,
+        "sha256_in_prefix": "425dd7af49e1e20640b9f9f7e598b7184b11dc50de2e6fd0b79be94f7802a4b0"
+      },
+      {
+        "_path": "include/mumps_seq/mpi.h",
+        "path_type": "hardlink",
+        "sha256": "25f17c2b905d834cd10290d7fb3565c8c0ad5815684a22014c49cc8a905d8608",
+        "size_in_bytes": 2256,
+        "sha256_in_prefix": "25f17c2b905d834cd10290d7fb3565c8c0ad5815684a22014c49cc8a905d8608"
+      },
+      {
+        "_path": "include/mumps_seq/mpif.h",
+        "path_type": "hardlink",
+        "sha256": "1a288522dc9da76903e9d249b5a69f12291b5f53c66134bb8e9f94a14c750294",
+        "size_in_bytes": 3397,
+        "sha256_in_prefix": "1a288522dc9da76903e9d249b5a69f12291b5f53c66134bb8e9f94a14c750294"
+      },
+      {
+        "_path": "lib/libcmumps_seq.so",
+        "path_type": "hardlink",
+        "sha256": "e9dce3e55a5da5812490fc257a97c4f516c5835f60ab2f94f615fd055d1e07f5",
+        "size_in_bytes": 2666225,
+        "sha256_in_prefix": "e9dce3e55a5da5812490fc257a97c4f516c5835f60ab2f94f615fd055d1e07f5"
+      },
+      {
+        "_path": "lib/libdmumps_seq.so",
+        "path_type": "hardlink",
+        "sha256": "bee6ba6055568bf2e02f1547e94677fde7a2613d0fa3a117a9d4124ac8296964",
+        "size_in_bytes": 2616977,
+        "sha256_in_prefix": "bee6ba6055568bf2e02f1547e94677fde7a2613d0fa3a117a9d4124ac8296964"
+      },
+      {
+        "_path": "lib/libmpiseq.so",
+        "path_type": "softlink",
+        "sha256": "826fac01e4fc7d47e5c6a4b759120ed6f88bf700049b3191636a093500ad90e5",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "lib/libmpiseq_seq.so",
+        "path_type": "hardlink",
+        "sha256": "826fac01e4fc7d47e5c6a4b759120ed6f88bf700049b3191636a093500ad90e5",
+        "size_in_bytes": 62545,
+        "sha256_in_prefix": "826fac01e4fc7d47e5c6a4b759120ed6f88bf700049b3191636a093500ad90e5"
+      },
+      {
+        "_path": "lib/libmumps_common_seq.so",
+        "path_type": "hardlink",
+        "sha256": "53fa33b1d71609ce4e01789fe3a4d40592aad406b02eaeef99400a2e0814869f",
+        "size_in_bytes": 670792,
+        "sha256_in_prefix": "53fa33b1d71609ce4e01789fe3a4d40592aad406b02eaeef99400a2e0814869f"
+      },
+      {
+        "_path": "lib/libpord_seq.so",
+        "path_type": "hardlink",
+        "sha256": "06a8502f0967318543e2124497e449e2255d9288e4e384c461e78ae89413cd3d",
+        "size_in_bytes": 114489,
+        "sha256_in_prefix": "06a8502f0967318543e2124497e449e2255d9288e4e384c461e78ae89413cd3d"
+      },
+      {
+        "_path": "lib/libsmumps_seq.so",
+        "path_type": "hardlink",
+        "sha256": "8c01ef3afd172f359666910fe21c2a9b1cfdb60b7c7d1bc5ebb6d3e5f9c5b64e",
+        "size_in_bytes": 2616913,
+        "sha256_in_prefix": "8c01ef3afd172f359666910fe21c2a9b1cfdb60b7c7d1bc5ebb6d3e5f9c5b64e"
+      },
+      {
+        "_path": "lib/libzmumps_seq.so",
+        "path_type": "hardlink",
+        "sha256": "5be16fbefe8a4056265348c1d09c59649a4800ce61449f48599a224de002047a",
+        "size_in_bytes": 2629481,
+        "sha256_in_prefix": "5be16fbefe8a4056265348c1d09c59649a4800ce61449f48599a224de002047a"
+      },
+      {
+        "_path": "lib/pkgconfig/cmumps_seq.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "bd394532b674bf69a28bda7dbd5fef641ed3eb3ee5380054daff28fac995310f",
+        "size_in_bytes": 539,
+        "sha256_in_prefix": "556fb0f43b8424deceb7f56810bc7ccebfa20894d8fb5c522ea3502bf8c61b79"
+      },
+      {
+        "_path": "lib/pkgconfig/dmumps_seq.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "c3b39ed2d2e53a33513264719dc77d5d81c607d37cfd3897747340dd56289c80",
+        "size_in_bytes": 531,
+        "sha256_in_prefix": "7e49670b32a904727a32107ea2a3138512acae3ce084f4e731739bcc7b2c9759"
+      },
+      {
+        "_path": "lib/pkgconfig/smumps_seq.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "a0a4872a448c6f4d04174d617989068baa493982256cb107b4b4d193807212f7",
+        "size_in_bytes": 531,
+        "sha256_in_prefix": "c126fb33f5e35c58b7b8d9c9364b26130c3c47b1404948c0eb9ed81fd23f5d86"
+      },
+      {
+        "_path": "lib/pkgconfig/zmumps_seq.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_mumps-seq_1771833764/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "d744c63909f77cd20b6c476b4cd7079dc026e8d42b72871fe826c37328f9f175",
+        "size_in_bytes": 539,
+        "sha256_in_prefix": "72a46fabbbefdfa58f5cd834aba7451ba09235095b01ab5b0b14140d8d9a7f3d"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/mumps-seq-5.8.2-hc1b3267_2",
+    "type": 1
+  }
+}

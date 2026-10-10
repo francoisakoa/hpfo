@@ -1,0 +1,5 @@
+# Tested under Python 3.13.5; install in a dedicated environment (Python >=3.11).
+# CuPy is deliberately not installed blindly: choose the wheel for your CUDA stack.
+numpy==2.3.5
+scipy==1.17.0
+pytest==9.0.2

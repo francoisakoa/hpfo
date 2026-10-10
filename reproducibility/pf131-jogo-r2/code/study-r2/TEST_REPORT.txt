@@ -1,0 +1,20 @@
+PF131 LJ75/LJ102 REFINE_ALL R2 — validation
+
+C++ / headers / CMake / source tree: unchanged from supplied instrumented R1 ZIP.
+Runner: LJ75/LJ102 only; refine_all true on 700 tasks, false on 120 no-local tasks.
+Native C++ semantics retained: all in PF loop, terminal top5 if target not reached.
+
+18 unit tests of the plan and archive handling: PASS.
+5 tests of source validation and targeted stopping: PASS.
+The stopping integration test used owned dummy processes, killed only the selected
+runner and its child, and verified that another unrelated study process survived.
+The completed fixture file was unchanged.
+
+No new C++ optimization was run in this session. No scientific success rate or
+machine runtime is inferred from these tests. Existing C++ binaries are reused
+on the workstation only after source, checksum and interface verification.
+
+Full source tree hash comparison: 513 files identical to instrumented R1.
+Synthetic 42-task / 46-row end-to-end test: PASS. All=38, no-local=4.
+Synthetic resume: PASS (no output run file changed, no recomputation).
+Two generated synthetic bundles: manifests/checksums verified.

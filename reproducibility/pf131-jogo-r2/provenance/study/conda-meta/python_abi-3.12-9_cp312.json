@@ -1,0 +1,33 @@
+{
+  "name": "python_abi",
+  "version": "3.12",
+  "build": "9_cp312",
+  "build_number": 9,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "subdir": "noarch",
+  "fn": "python_abi-3.12-9_cp312.conda",
+  "md5": "4c32076993e6270825441d059ab5c18b",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python_abi-3.12-9_cp312.conda",
+  "sha256": "ee9c2922e07afc85fc82d5fa82c9ac2c79da3be3283a5e17bf2f2ae38dbd02fb",
+  "depends": [],
+  "constrains": [
+    "python 3.12.* *_cpython"
+  ],
+  "noarch": "generic",
+  "license": "BSD-3-Clause",
+  "package_type": "noarch_generic",
+  "timestamp": 1788302823694,
+  "size": 6751,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/python_abi-3.12-9_cp312.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/python_abi-3.12-9_cp312",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/python_abi-3.12-9_cp312",
+    "type": 1
+  }
+}

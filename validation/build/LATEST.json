@@ -1,0 +1,29 @@
+{
+  "created_utc": "20261010T163242Z",
+  "status": "PASS",
+  "source_inventory_sha256": "8c9f3b5ea26570d52bb977c7114c94cea2889167d3a57dd0ddc8391def467f34",
+  "benchmarks_rerun": false,
+  "tests_run": true,
+  "native": true,
+  "builds": [
+    {
+      "variant": "main",
+      "build_dir": ".local/builds/20261010T163242Z-1r7t_nup/main",
+      "status": "PASS",
+      "tests": 11,
+      "version": "1.3.1 ipopt=1 float64=1 native_mumps=1 metis=1 metis_api=5 openmp=1"
+    },
+    {
+      "variant": "study",
+      "build_dir": ".local/builds/20261010T163242Z-1r7t_nup/study",
+      "status": "PASS",
+      "tests": 12,
+      "version": "1.3.1-article-study-r1 ipopt=1 float64=1 native_mumps=1 metis=1 metis_api=5 openmp=1"
+    }
+  ],
+  "python_source_syntax": {
+    "status": "PASS",
+    "files": 61,
+    "imports_or_experiments_executed": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "conda-gcc-specs",
+  "version": "15.3.0",
+  "build": "h8846f6e_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "conda-gcc-specs-15.3.0-h8846f6e_5.conda",
+  "md5": "1e528e9087b065353337275369151640",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/conda-gcc-specs-15.3.0-h8846f6e_5.conda",
+  "sha256": "969fd0ed8854739103a0a58a5976f11d0b9f476350c5f5d3d6a3e36ba1ba7596",
+  "depends": [
+    "gcc_impl_linux-64 >=15.3.0,<15.3.1.0a0"
+  ],
+  "constrains": [],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "timestamp": 1789486882706,
+  "size": 32620,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/conda-gcc-specs-15.3.0-h8846f6e_5.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/conda-gcc-specs-15.3.0-h8846f6e_5",
+  "files": [
+    "lib/gcc/x86_64-conda-linux-gnu/15.3.0/conda.specs"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/gcc/x86_64-conda-linux-gnu/15.3.0/conda.specs",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/gcc_compilers_1789484200796/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "c73a54cbac651f3509f9d3e7b1f7d326f12865514a84b12a4db1cecb305a4d49",
+        "size_in_bytes": 11683,
+        "sha256_in_prefix": "1cb57e15f15c70381db0c9e47d6a240ca1e3dc40e7849d02697555d5a7926968"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/conda-gcc-specs-15.3.0-h8846f6e_5",
+    "type": 1
+  }
+}

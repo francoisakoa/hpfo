@@ -1,0 +1,10 @@
+data/
+_build/
+_reruns/
+tables-rebuilt/
+**/build*/
+**/__pycache__/
+*.pyc
+*.tar.gz
+*.zip
+.env

@@ -1,0 +1,7 @@
+PFO_LJ_JOGO_SN_R2(1).pdf
+SHA256 : 83a0fd7f581a1a62c723363e4ab6a117d5acc1ee3d551363299b8bee0b2e0ea0
+Tableau 7 : page 20, dix lignes, 30 runs, LJ75 et LJ98.
+Tableau 8 : page 20, Np=100,200,300,400,500, 10 runs.
+Tableau 9 : page 21, beta_min=1e-5,1e-4,1e-3,1e-2, 10 runs.
+Tableau 10 : page 21, alpha_0=0.95,0.98,0.99,1.00, 10 runs.
+Les pourcentages historiques ne sont pas utilisés pour fabriquer de nouveaux résultats.

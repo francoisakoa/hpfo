@@ -1,0 +1,9 @@
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+PF_EIGEN_INCLUDE:PATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/include/eigen3
+PF_METIS_INCLUDE:PATH=/workspace/scratch/8543e66db3a1/tooling/metis_source/pymetis-2025.2.2/src/metis/include
+PF_METIS_LIBRARY:FILEPATH=/workspace/scratch/8543e66db3a1/tooling/metis_source/build/libmetis.so
+PF_NATIVE:BOOL=OFF
+PF_WITH_IPOPT:BOOL=OFF
+PF_WITH_METIS:BOOL=ON
+PF_WITH_MUMPS:BOOL=OFF
+PF_WITH_OPENMP:BOOL=ON

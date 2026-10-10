@@ -1,0 +1,14 @@
+{
+  "numpy_version": "2.3.5",
+  "source_sha256": "6d21a05eb7b31d2a42f0041e40de72effc45d7db13bbad03ac1d5256113ee328",
+  "md5_seed_cases": 123,
+  "normal_samples_bitwise_equal": 800000,
+  "controlled_source_pf_iterations_bitwise_equal": 6,
+  "status": "PASS",
+  "checks": 467,
+  "compared_values": 3444615,
+  "initialization_runs": 60,
+  "initial_coordinates_bitwise_equal": 2534220,
+  "frozen_replay": true,
+  "full_lj76_trajectory_validated": false
+}

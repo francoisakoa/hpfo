@@ -1,0 +1,13 @@
+{
+  "upstream_git_checksums": "PASS",
+  "upstream_release_checksums": "PASS",
+  "baseline_zip_checksums": "PASS",
+  "pf_json_hashes_and_counters": "PASS",
+  "study_table_rebuild": "PASS",
+  "baseline_grid": "1200/1200",
+  "baseline_source_drivers": "PRESENT",
+  "binary_rebuild": "NOT_RUN",
+  "full_privacy_and_license_review": "AUTHOR_REQUIRED",
+  "raw_data_changed": false,
+  "remote_publication": false
+}

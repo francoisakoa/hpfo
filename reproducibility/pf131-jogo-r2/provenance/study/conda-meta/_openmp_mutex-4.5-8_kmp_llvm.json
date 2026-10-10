@@ -1,0 +1,40 @@
+{
+  "name": "_openmp_mutex",
+  "version": "4.5",
+  "build": "8_kmp_llvm",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "_openmp_mutex-4.5-8_kmp_llvm.conda",
+  "md5": "b4d1b93dd1dab4eea23395fd5e5b357d",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-8_kmp_llvm.conda",
+  "sha256": "b8de006376660eb12c7fc40803c97e1480bf4bc1253f0d59694b12f81b52fe14",
+  "depends": [
+    "llvm-openmp >=9.0.1"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1788046427177,
+  "size": 8050,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/_openmp_mutex-4.5-8_kmp_llvm.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/_openmp_mutex-4.5-8_kmp_llvm",
+  "files": [
+    "lib/libgomp.so.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libgomp.so.1",
+        "path_type": "softlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/_openmp_mutex-4.5-8_kmp_llvm",
+    "type": 1
+  }
+}

@@ -1,0 +1,27 @@
+Test project /data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main
+      Start  1: local_incumbent
+ 1/11 Test  #1: local_incumbent ..................   Passed    0.10 sec
+      Start  2: linear_ldl
+ 2/11 Test  #2: linear_ldl .......................   Passed    0.01 sec
+      Start  3: linear_metis_ldl
+ 3/11 Test  #3: linear_metis_ldl .................   Passed    0.01 sec
+      Start  4: linear_mumps
+ 4/11 Test  #4: linear_mumps .....................   Passed    0.01 sec
+      Start  5: linear_metis_mumps
+ 5/11 Test  #5: linear_metis_mumps ...............   Passed    0.01 sec
+      Start  6: core
+ 6/11 Test  #6: core .............................   Passed    0.14 sec
+      Start  7: eigen_memory_boundary
+ 7/11 Test  #7: eigen_memory_boundary ............   Passed    0.01 sec
+      Start  8: lj_newton
+ 8/11 Test  #8: lj_newton ........................   Passed    0.01 sec
+      Start  9: numpy_random_parity
+ 9/11 Test  #9: numpy_random_parity ..............   Passed    3.49 sec
+      Start 10: python_source_parity
+10/11 Test #10: python_source_parity .............   Passed    0.93 sec
+      Start 11: cli_integration
+11/11 Test #11: cli_integration ..................   Passed    0.66 sec
+
+100% tests passed out of 11
+
+Total Test time (real) =   5.37 sec

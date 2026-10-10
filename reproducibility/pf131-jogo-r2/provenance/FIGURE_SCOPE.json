@@ -1,0 +1,5 @@
+{
+  "diagnostic_script": "scripts/plot_history.py",
+  "exact_manuscript_figures_reproduced_by_this_installer": false,
+  "note": "Original source snapshots are retained. Diagnostic plots are not substitutes for the paper figure-generation pipeline."
+}

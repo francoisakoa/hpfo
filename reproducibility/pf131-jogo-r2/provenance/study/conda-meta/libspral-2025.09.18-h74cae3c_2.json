@@ -1,0 +1,140 @@
+{
+  "name": "libspral",
+  "version": "2025.09.18",
+  "build": "h74cae3c_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libspral-2025.09.18-h74cae3c_2.conda",
+  "md5": "5ee48d510cb22553d446210b76d1f645",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libspral-2025.09.18-h74cae3c_2.conda",
+  "sha256": "f66b648fd6f7b59d94e513f976f7396b9014395f57b5a9907fb07b847fbfd141",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "_openmp_mutex >=4.5",
+    "libblas >=3.9.0,<4.0a0",
+    "libcblas >=3.9.0,<4.0a0",
+    "libgcc >=14",
+    "libgfortran",
+    "libgfortran5 >=14.3.0",
+    "libhwloc >=2.13.0,<2.13.1.0a0",
+    "liblapack >=3.9.0,<4.0a0",
+    "libstdcxx >=14",
+    "libzlib >=1.3.2,<2.0a0",
+    "metis >=5.1.0,<5.1.1.0a0"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1778770889939,
+  "size": 360426,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/libspral-2025.09.18-h74cae3c_2.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/libspral-2025.09.18-h74cae3c_2",
+  "files": [
+    "bin/spral_ssids",
+    "include/spral.h",
+    "include/spral_complex.h",
+    "include/spral_lsmr.h",
+    "include/spral_matrix_util.h",
+    "include/spral_random.h",
+    "include/spral_random_matrix.h",
+    "include/spral_rutherford_boeing.h",
+    "include/spral_scaling.h",
+    "include/spral_ssids.h",
+    "include/spral_ssmfe.h",
+    "lib/libspral.so"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/spral_ssids",
+        "path_type": "hardlink",
+        "sha256": "a17f3972be0f1986df56a3b7837644602c4013ad3bbcc6725df4242cacea56ee",
+        "size_in_bytes": 44424,
+        "sha256_in_prefix": "a17f3972be0f1986df56a3b7837644602c4013ad3bbcc6725df4242cacea56ee"
+      },
+      {
+        "_path": "include/spral.h",
+        "path_type": "hardlink",
+        "sha256": "0124f0242694fd8cd73116a34bacccace47adc75a26607e3339d419c8288f610",
+        "size_in_bytes": 359,
+        "sha256_in_prefix": "0124f0242694fd8cd73116a34bacccace47adc75a26607e3339d419c8288f610"
+      },
+      {
+        "_path": "include/spral_complex.h",
+        "path_type": "hardlink",
+        "sha256": "9ffdc9cd3b76c7533c1973756ce0bd01cbd2e341dce27b860c719d0dd913e108",
+        "size_in_bytes": 424,
+        "sha256_in_prefix": "9ffdc9cd3b76c7533c1973756ce0bd01cbd2e341dce27b860c719d0dd913e108"
+      },
+      {
+        "_path": "include/spral_lsmr.h",
+        "path_type": "hardlink",
+        "sha256": "747cf81d00b7a72a65f2e454e5cfcf5f3f5450887e502082c17638e27490dc47",
+        "size_in_bytes": 1187,
+        "sha256_in_prefix": "747cf81d00b7a72a65f2e454e5cfcf5f3f5450887e502082c17638e27490dc47"
+      },
+      {
+        "_path": "include/spral_matrix_util.h",
+        "path_type": "hardlink",
+        "sha256": "2651e0c663b6931f81d2eba8ddb1709e5ab735101be4301b8c931798c806fd6c",
+        "size_in_bytes": 1389,
+        "sha256_in_prefix": "2651e0c663b6931f81d2eba8ddb1709e5ab735101be4301b8c931798c806fd6c"
+      },
+      {
+        "_path": "include/spral_random.h",
+        "path_type": "hardlink",
+        "sha256": "b33a6b0160aa3590ce0605f8423e3adcb80725e25fed0a08020268998fc06433",
+        "size_in_bytes": 651,
+        "sha256_in_prefix": "b33a6b0160aa3590ce0605f8423e3adcb80725e25fed0a08020268998fc06433"
+      },
+      {
+        "_path": "include/spral_random_matrix.h",
+        "path_type": "hardlink",
+        "sha256": "fb297b8e2cc67fe17624012bee024739be841317e216455a96c4c17d004c8ff4",
+        "size_in_bytes": 840,
+        "sha256_in_prefix": "fb297b8e2cc67fe17624012bee024739be841317e216455a96c4c17d004c8ff4"
+      },
+      {
+        "_path": "include/spral_rutherford_boeing.h",
+        "path_type": "hardlink",
+        "sha256": "b32f7cfa57bead56cc934e3ba83f61c190fa8cee91d28309bc68a30fd2fc4a64",
+        "size_in_bytes": 1849,
+        "sha256_in_prefix": "b32f7cfa57bead56cc934e3ba83f61c190fa8cee91d28309bc68a30fd2fc4a64"
+      },
+      {
+        "_path": "include/spral_scaling.h",
+        "path_type": "hardlink",
+        "sha256": "3f9c8245c3038afb3e4da37ff8cd779759d45fcbe4a9b03397d414dfa7b76d17",
+        "size_in_bytes": 5441,
+        "sha256_in_prefix": "3f9c8245c3038afb3e4da37ff8cd779759d45fcbe4a9b03397d414dfa7b76d17"
+      },
+      {
+        "_path": "include/spral_ssids.h",
+        "path_type": "hardlink",
+        "sha256": "5a040cea6e253de9d320759d560678bd4bb2a25ddacfb6e5774ebc1f192d729d",
+        "size_in_bytes": 4412,
+        "sha256_in_prefix": "5a040cea6e253de9d320759d560678bd4bb2a25ddacfb6e5774ebc1f192d729d"
+      },
+      {
+        "_path": "include/spral_ssmfe.h",
+        "path_type": "hardlink",
+        "sha256": "36e2a66277a9abb79176f9d8ba2914dede082bb7a7748f3bfd6d59cbef6afc49",
+        "size_in_bytes": 10974,
+        "sha256_in_prefix": "36e2a66277a9abb79176f9d8ba2914dede082bb7a7748f3bfd6d59cbef6afc49"
+      },
+      {
+        "_path": "lib/libspral.so",
+        "path_type": "hardlink",
+        "sha256": "5d9dce52b5738f3c0581b0b3f2cb3e4e5e83e44ed570e3c1fca3b61f74bc2099",
+        "size_in_bytes": 964544,
+        "sha256_in_prefix": "5d9dce52b5738f3c0581b0b3f2cb3e4e5e83e44ed570e3c1fca3b61f74bc2099"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/libspral-2025.09.18-h74cae3c_2",
+    "type": 1
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "backtraceGraph" : 
+  {
+    "commands" : 
+    [
+      "add_test"
+    ],
+    "files" : 
+    [
+      "/data/projects/PF_GlobalOptimization/hpfo/reproducibility/pf131-jogo-r2/code/main-pf131/CMakeLists.txt"
+    ],
+    "nodes" : 
+    [
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 96,
+        "parent" : 0
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 98,
+        "parent" : 2
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 100,
+        "parent" : 4
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 103,
+        "parent" : 6
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 105,
+        "parent" : 8
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 111,
+        "parent" : 10
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 115,
+        "parent" : 12
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 120,
+        "parent" : 14
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 128,
+        "parent" : 16
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 129,
+        "parent" : 18
+      },
+      {
+        "file" : 0
+      },
+      {
+        "command" : 0,
+        "file" : 0,
+        "line" : 130,
+        "parent" : 20
+      }
+    ]
+  },
+  "kind" : "ctestInfo",
+  "tests" : 
+  [
+    {
+      "backtrace" : 1,
+      "command" : 
+      [
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_local_incumbent_tests"
+      ],
+      "name" : "local_incumbent",
+      "properties" : 
+      [
+        {
+          "name" : "ENVIRONMENT",
+          "value" : 
+          [
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1"
+          ]
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 3,
+      "command" : 
+      [
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_linear_check",
+        "--backend",
+        "ldl"
+      ],
+      "name" : "linear_ldl",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 5,
+      "command" : 
+      [
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_linear_check",
+        "--backend",
+        "ldl",
+        "--ordering",
+        "metis"
+      ],
+      "name" : "linear_metis_ldl",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 7,
+      "command" : 
+      [
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_linear_check",
+        "--backend",
+        "mumps"
+      ],
+      "name" : "linear_mumps",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 9,
+      "command" : 
+      [
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_linear_check",
+        "--backend",
+        "mumps",
+        "--ordering",
+        "metis"
+      ],
+      "name" : "linear_metis_mumps",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 11,
+      "command" : 
+      [
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_tests"
+      ],
+      "name" : "core",
+      "properties" : 
+      [
+        {
+          "name" : "ENVIRONMENT",
+          "value" : 
+          [
+            "OMP_NUM_THREADS=1",
+            "OPENBLAS_NUM_THREADS=1",
+            "MKL_NUM_THREADS=1"
+          ]
+        },
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 13,
+      "command" : 
+      [
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_eigen_boundary_tests"
+      ],
+      "name" : "eigen_memory_boundary",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 15,
+      "command" : 
+      [
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_lj_newton_tests"
+      ],
+      "name" : "lj_newton",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 17,
+      "command" : 
+      [
+        "/home/fakoa/anaconda3/envs/pf_cpp_110/bin/python3",
+        "/data/projects/PF_GlobalOptimization/hpfo/reproducibility/pf131-jogo-r2/code/main-pf131/tests/numpy_random_parity.py",
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_rng_probe",
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_solver",
+        "--report",
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/numpy_random_parity.json"
+      ],
+      "name" : "numpy_random_parity",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 19,
+      "command" : 
+      [
+        "/home/fakoa/anaconda3/envs/pf_cpp_110/bin/python3",
+        "/data/projects/PF_GlobalOptimization/hpfo/reproducibility/pf131-jogo-r2/code/main-pf131/tests/python_parity.py",
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_probe"
+      ],
+      "name" : "python_source_parity",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    },
+    {
+      "backtrace" : 21,
+      "command" : 
+      [
+        "/home/fakoa/anaconda3/envs/pf_cpp_110/bin/python3",
+        "/data/projects/PF_GlobalOptimization/hpfo/reproducibility/pf131-jogo-r2/code/main-pf131/tests/integration.py",
+        "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main/pf_solver"
+      ],
+      "name" : "cli_integration",
+      "properties" : 
+      [
+        {
+          "name" : "WORKING_DIRECTORY",
+          "value" : "/data/projects/PF_GlobalOptimization/hpfo/.local/builds/20261010T163242Z-1r7t_nup/main"
+        }
+      ]
+    }
+  ],
+  "version" : 
+  {
+    "major" : 1,
+    "minor" : 0
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-03T03:52:31+00:00",
+  "status": "FINISHED",
+  "pid": 324979,
+  "phase": "/data/projects/PF_GlobalOptimization/results_baselines_nohup_R1/phase_20260927T064110_0473bf06",
+  "jobs_limit": 22,
+  "elapsed_hours": 141.18916980637889,
+  "expected": 1200,
+  "retained_before": 234,
+  "completed": 1200,
+  "missing": 0,
+  "completed_this_session": 966,
+  "failed": [],
+  "active": 0,
+  "paused": null,
+  "required_results_per_hour_for_week": 0.0,
+  "completed_per_hour_this_session": 6.841884553360101,
+  "pace_scope": "Observed throughput is not an ETA: cells/methods have different costs. The 7-day target does not terminate runs.",
+  "remaining_upper_nominal_run_hours": 0.0,
+  "workers": [],
+  "methods": [
+    {
+      "method": "BH-OJ",
+      "completed": 240,
+      "expected": 240,
+      "successes": 3,
+      "censored": 30,
+      "active": 0
+    },
+    {
+      "method": "GA",
+      "completed": 240,
+      "expected": 240,
+      "successes": 0,
+      "censored": 0,
+      "active": 0
+    },
+    {
+      "method": "PSO",
+      "completed": 240,
+      "expected": 240,
+      "successes": 0,
+      "censored": 0,
+      "active": 0
+    },
+    {
+      "method": "CLPSO",
+      "completed": 240,
+      "expected": 240,
+      "successes": 0,
+      "censored": 0,
+      "active": 0
+    },
+    {
+      "method": "SMC",
+      "completed": 240,
+      "expected": 240,
+      "successes": 0,
+      "censored": 0,
+      "active": 0
+    }
+  ]
+}

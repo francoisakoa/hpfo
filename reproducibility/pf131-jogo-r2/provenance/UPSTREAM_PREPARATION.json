@@ -1,0 +1,19 @@
+{
+  "prepared_utc": "2026-10-10T08:57:21.722798+00:00",
+  "repository": "francoisakoa/hpfo",
+  "main_archive_sha256": "7fb0ee2444308058cc54bd50de40fbcafcc9e8a4b0e1d194fc2a67d326835b6a",
+  "indexed_results": {
+    "main": 240,
+    "ipopt_multistart": 240,
+    "study": 820
+  },
+  "baseline_import": {
+    "state": "NOT_IMPORTED",
+    "candidates": []
+  },
+  "optimization_executed": false,
+  "cpp_build_executed": false,
+  "source_campaigns_modified": false,
+  "historical_main_binary_run_link_certified": false,
+  "publication_state": "LOCAL_PREPARATION_REQUIRES_BUILD_LICENSE_AND_BASELINE_REVIEW"
+}

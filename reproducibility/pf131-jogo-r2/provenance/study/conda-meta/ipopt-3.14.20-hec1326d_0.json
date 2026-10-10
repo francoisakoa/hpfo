@@ -1,0 +1,1566 @@
+{
+  "name": "ipopt",
+  "version": "3.14.20",
+  "build": "hec1326d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "ipopt-3.14.20-hec1326d_0.conda",
+  "md5": "dc269299f500ebd548d2f6b065fe1390",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ipopt-3.14.20-hec1326d_0.conda",
+  "sha256": "44554d5124ee96c27c6650a3ee971f8ede6384c542fa99ed1f16ba104d0cbeb5",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "ampl-asl >=1.0.0,<1.0.1.0a0",
+    "libblas >=3.9.0,<4.0a0",
+    "libgcc >=15",
+    "liblapack >=3.9.0,<4.0a0",
+    "libspral >=2025.9.18,<2025.9.19.0a0",
+    "libstdcxx >=15",
+    "mumps-seq >=5.8.2,<5.8.3.0a0"
+  ],
+  "constrains": [],
+  "license": "EPL-1.0",
+  "timestamp": 1787865995557,
+  "size": 1036202,
+  "requested_spec": "ipopt=3.14",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/ipopt-3.14.20-hec1326d_0.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/ipopt-3.14.20-hec1326d_0",
+  "files": [
+    "bin/ipopt",
+    "bin/ipopt_sens",
+    "include/coin-or/AmplTNLP.hpp",
+    "include/coin-or/IpAlgBuilder.hpp",
+    "include/coin-or/IpAlgStrategy.hpp",
+    "include/coin-or/IpAlgTypes.hpp",
+    "include/coin-or/IpAugSystemSolver.hpp",
+    "include/coin-or/IpBlas.hpp",
+    "include/coin-or/IpCachedResults.hpp",
+    "include/coin-or/IpCompoundMatrix.hpp",
+    "include/coin-or/IpCompoundSymMatrix.hpp",
+    "include/coin-or/IpCompoundVector.hpp",
+    "include/coin-or/IpConvCheck.hpp",
+    "include/coin-or/IpDebug.hpp",
+    "include/coin-or/IpDenseVector.hpp",
+    "include/coin-or/IpDiagMatrix.hpp",
+    "include/coin-or/IpEqMultCalculator.hpp",
+    "include/coin-or/IpException.hpp",
+    "include/coin-or/IpExpansionMatrix.hpp",
+    "include/coin-or/IpGenTMatrix.hpp",
+    "include/coin-or/IpHessianUpdater.hpp",
+    "include/coin-or/IpIdentityMatrix.hpp",
+    "include/coin-or/IpIpoptAlg.hpp",
+    "include/coin-or/IpIpoptApplication.hpp",
+    "include/coin-or/IpIpoptCalculatedQuantities.hpp",
+    "include/coin-or/IpIpoptData.hpp",
+    "include/coin-or/IpIpoptNLP.hpp",
+    "include/coin-or/IpIterateInitializer.hpp",
+    "include/coin-or/IpIteratesVector.hpp",
+    "include/coin-or/IpIterationOutput.hpp",
+    "include/coin-or/IpJournalist.hpp",
+    "include/coin-or/IpLapack.hpp",
+    "include/coin-or/IpLibraryLoader.hpp",
+    "include/coin-or/IpLineSearch.hpp",
+    "include/coin-or/IpLinearSolvers.h",
+    "include/coin-or/IpMatrix.hpp",
+    "include/coin-or/IpMuUpdate.hpp",
+    "include/coin-or/IpNLP.hpp",
+    "include/coin-or/IpNLPScaling.hpp",
+    "include/coin-or/IpObserver.hpp",
+    "include/coin-or/IpOptionsList.hpp",
+    "include/coin-or/IpOrigIpoptNLP.hpp",
+    "include/coin-or/IpPDSystemSolver.hpp",
+    "include/coin-or/IpReferenced.hpp",
+    "include/coin-or/IpRegOptions.hpp",
+    "include/coin-or/IpReturnCodes.h",
+    "include/coin-or/IpReturnCodes.hpp",
+    "include/coin-or/IpReturnCodes.inc",
+    "include/coin-or/IpReturnCodes_inc.h",
+    "include/coin-or/IpScaledMatrix.hpp",
+    "include/coin-or/IpSearchDirCalculator.hpp",
+    "include/coin-or/IpSlackBasedTSymScalingMethod.hpp",
+    "include/coin-or/IpSmartPtr.hpp",
+    "include/coin-or/IpSolveStatistics.hpp",
+    "include/coin-or/IpSparseSymLinearSolverInterface.hpp",
+    "include/coin-or/IpStdAugSystemSolver.hpp",
+    "include/coin-or/IpStdCInterface.h",
+    "include/coin-or/IpSumSymMatrix.hpp",
+    "include/coin-or/IpSymLinearSolver.hpp",
+    "include/coin-or/IpSymMatrix.hpp",
+    "include/coin-or/IpSymScaledMatrix.hpp",
+    "include/coin-or/IpSymTMatrix.hpp",
+    "include/coin-or/IpTNLP.hpp",
+    "include/coin-or/IpTNLPAdapter.hpp",
+    "include/coin-or/IpTNLPReducer.hpp",
+    "include/coin-or/IpTSymLinearSolver.hpp",
+    "include/coin-or/IpTSymScalingMethod.hpp",
+    "include/coin-or/IpTaggedObject.hpp",
+    "include/coin-or/IpTimedTask.hpp",
+    "include/coin-or/IpTimingStatistics.hpp",
+    "include/coin-or/IpTripletHelper.hpp",
+    "include/coin-or/IpTripletToCSRConverter.hpp",
+    "include/coin-or/IpTypes.h",
+    "include/coin-or/IpTypes.hpp",
+    "include/coin-or/IpUtils.hpp",
+    "include/coin-or/IpVector.hpp",
+    "include/coin-or/IpZeroSymMatrix.hpp",
+    "include/coin-or/IpoptConfig.h",
+    "include/coin-or/SensAlgorithm.hpp",
+    "include/coin-or/SensApplication.hpp",
+    "include/coin-or/SensBacksolver.hpp",
+    "include/coin-or/SensMeasurement.hpp",
+    "include/coin-or/SensPCalculator.hpp",
+    "include/coin-or/SensRegOp.hpp",
+    "include/coin-or/SensSchurData.hpp",
+    "include/coin-or/SensSchurDriver.hpp",
+    "include/coin-or/SensSimpleBacksolver.hpp",
+    "include/coin-or/SensStepCalc.hpp",
+    "include/coin-or/SensUtils.hpp",
+    "include/coin/AmplTNLP.hpp",
+    "include/coin/IpAlgBuilder.hpp",
+    "include/coin/IpAlgStrategy.hpp",
+    "include/coin/IpAlgTypes.hpp",
+    "include/coin/IpAugSystemSolver.hpp",
+    "include/coin/IpBlas.hpp",
+    "include/coin/IpCachedResults.hpp",
+    "include/coin/IpCompoundMatrix.hpp",
+    "include/coin/IpCompoundSymMatrix.hpp",
+    "include/coin/IpCompoundVector.hpp",
+    "include/coin/IpConvCheck.hpp",
+    "include/coin/IpDebug.hpp",
+    "include/coin/IpDenseVector.hpp",
+    "include/coin/IpDiagMatrix.hpp",
+    "include/coin/IpEqMultCalculator.hpp",
+    "include/coin/IpException.hpp",
+    "include/coin/IpExpansionMatrix.hpp",
+    "include/coin/IpGenTMatrix.hpp",
+    "include/coin/IpHessianUpdater.hpp",
+    "include/coin/IpIdentityMatrix.hpp",
+    "include/coin/IpIpoptAlg.hpp",
+    "include/coin/IpIpoptApplication.hpp",
+    "include/coin/IpIpoptCalculatedQuantities.hpp",
+    "include/coin/IpIpoptData.hpp",
+    "include/coin/IpIpoptNLP.hpp",
+    "include/coin/IpIterateInitializer.hpp",
+    "include/coin/IpIteratesVector.hpp",
+    "include/coin/IpIterationOutput.hpp",
+    "include/coin/IpJournalist.hpp",
+    "include/coin/IpLapack.hpp",
+    "include/coin/IpLibraryLoader.hpp",
+    "include/coin/IpLineSearch.hpp",
+    "include/coin/IpLinearSolvers.h",
+    "include/coin/IpMatrix.hpp",
+    "include/coin/IpMuUpdate.hpp",
+    "include/coin/IpNLP.hpp",
+    "include/coin/IpNLPScaling.hpp",
+    "include/coin/IpObserver.hpp",
+    "include/coin/IpOptionsList.hpp",
+    "include/coin/IpOrigIpoptNLP.hpp",
+    "include/coin/IpPDSystemSolver.hpp",
+    "include/coin/IpReferenced.hpp",
+    "include/coin/IpRegOptions.hpp",
+    "include/coin/IpReturnCodes.h",
+    "include/coin/IpReturnCodes.hpp",
+    "include/coin/IpReturnCodes.inc",
+    "include/coin/IpReturnCodes_inc.h",
+    "include/coin/IpScaledMatrix.hpp",
+    "include/coin/IpSearchDirCalculator.hpp",
+    "include/coin/IpSlackBasedTSymScalingMethod.hpp",
+    "include/coin/IpSmartPtr.hpp",
+    "include/coin/IpSolveStatistics.hpp",
+    "include/coin/IpSparseSymLinearSolverInterface.hpp",
+    "include/coin/IpStdAugSystemSolver.hpp",
+    "include/coin/IpStdCInterface.h",
+    "include/coin/IpSumSymMatrix.hpp",
+    "include/coin/IpSymLinearSolver.hpp",
+    "include/coin/IpSymMatrix.hpp",
+    "include/coin/IpSymScaledMatrix.hpp",
+    "include/coin/IpSymTMatrix.hpp",
+    "include/coin/IpTNLP.hpp",
+    "include/coin/IpTNLPAdapter.hpp",
+    "include/coin/IpTNLPReducer.hpp",
+    "include/coin/IpTSymLinearSolver.hpp",
+    "include/coin/IpTSymScalingMethod.hpp",
+    "include/coin/IpTaggedObject.hpp",
+    "include/coin/IpTimedTask.hpp",
+    "include/coin/IpTimingStatistics.hpp",
+    "include/coin/IpTripletHelper.hpp",
+    "include/coin/IpTripletToCSRConverter.hpp",
+    "include/coin/IpTypes.h",
+    "include/coin/IpTypes.hpp",
+    "include/coin/IpUtils.hpp",
+    "include/coin/IpVector.hpp",
+    "include/coin/IpZeroSymMatrix.hpp",
+    "include/coin/IpoptConfig.h",
+    "include/coin/SensAlgorithm.hpp",
+    "include/coin/SensApplication.hpp",
+    "include/coin/SensBacksolver.hpp",
+    "include/coin/SensMeasurement.hpp",
+    "include/coin/SensPCalculator.hpp",
+    "include/coin/SensRegOp.hpp",
+    "include/coin/SensSchurData.hpp",
+    "include/coin/SensSchurDriver.hpp",
+    "include/coin/SensSimpleBacksolver.hpp",
+    "include/coin/SensStepCalc.hpp",
+    "include/coin/SensUtils.hpp",
+    "lib/libipopt.so",
+    "lib/libipopt.so.3",
+    "lib/libipopt.so.3.14.20",
+    "lib/libipoptamplinterface.so",
+    "lib/libipoptamplinterface.so.3",
+    "lib/libipoptamplinterface.so.3.14.20",
+    "lib/libsipopt.so",
+    "lib/libsipopt.so.3",
+    "lib/libsipopt.so.3.14.20",
+    "lib/pkgconfig/ipopt.pc",
+    "lib/pkgconfig/ipoptamplinterface.pc",
+    "share/doc/ipopt/AUTHORS",
+    "share/doc/ipopt/ChangeLog.md",
+    "share/doc/ipopt/LICENSE",
+    "share/doc/ipopt/README.md"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/ipopt",
+        "path_type": "hardlink",
+        "sha256": "2d7bcf8835ac26437a81a6bf840e9c6c5a87c36540bc467d6fe7ddec63924a63",
+        "size_in_bytes": 32336,
+        "sha256_in_prefix": "2d7bcf8835ac26437a81a6bf840e9c6c5a87c36540bc467d6fe7ddec63924a63"
+      },
+      {
+        "_path": "bin/ipopt_sens",
+        "path_type": "hardlink",
+        "sha256": "3a8865a8edfce036f1eb58ead9f63c5c4efeb81e9dd3b79c78a7ba4c69e23762",
+        "size_in_bytes": 71640,
+        "sha256_in_prefix": "3a8865a8edfce036f1eb58ead9f63c5c4efeb81e9dd3b79c78a7ba4c69e23762"
+      },
+      {
+        "_path": "include/coin-or/AmplTNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "d6f118b1392c7fc67c42098bfe0aa56942abbcd2a203ad47bad854556d6b8832",
+        "size_in_bytes": 21788,
+        "sha256_in_prefix": "d6f118b1392c7fc67c42098bfe0aa56942abbcd2a203ad47bad854556d6b8832"
+      },
+      {
+        "_path": "include/coin-or/IpAlgBuilder.hpp",
+        "path_type": "hardlink",
+        "sha256": "157eaa7ca55bab3114ba07fa80cc9774c16863fc4cfa4c0a3ce1a634ffd6d165",
+        "size_in_bytes": 14755,
+        "sha256_in_prefix": "157eaa7ca55bab3114ba07fa80cc9774c16863fc4cfa4c0a3ce1a634ffd6d165"
+      },
+      {
+        "_path": "include/coin-or/IpAlgStrategy.hpp",
+        "path_type": "hardlink",
+        "sha256": "1fedb50c6bd1fa5e2b643070ddca92014875c8c0caf1743497349da5235f0cec",
+        "size_in_bytes": 5675,
+        "sha256_in_prefix": "1fedb50c6bd1fa5e2b643070ddca92014875c8c0caf1743497349da5235f0cec"
+      },
+      {
+        "_path": "include/coin-or/IpAlgTypes.hpp",
+        "path_type": "hardlink",
+        "sha256": "915679d9119f593a1af42c538afd49ed66c00d86a4f1a490427acb36e65420cf",
+        "size_in_bytes": 1661,
+        "sha256_in_prefix": "915679d9119f593a1af42c538afd49ed66c00d86a4f1a490427acb36e65420cf"
+      },
+      {
+        "_path": "include/coin-or/IpAugSystemSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "dc4d7efffa05b060543d10af5797e52d81ccec88015d0a6a76c54b1a6f26db62",
+        "size_in_bytes": 7188,
+        "sha256_in_prefix": "dc4d7efffa05b060543d10af5797e52d81ccec88015d0a6a76c54b1a6f26db62"
+      },
+      {
+        "_path": "include/coin-or/IpBlas.hpp",
+        "path_type": "hardlink",
+        "sha256": "70fc7ab45520f5d183b72eaecabed1d4c70d209ad3ba7f6ab7467a2233eb4a56",
+        "size_in_bytes": 8234,
+        "sha256_in_prefix": "70fc7ab45520f5d183b72eaecabed1d4c70d209ad3ba7f6ab7467a2233eb4a56"
+      },
+      {
+        "_path": "include/coin-or/IpCachedResults.hpp",
+        "path_type": "hardlink",
+        "sha256": "68ba659dfc07e349a1ecd5dc22e35a892a183addbb0260b0ef8b7fbe969a1f7a",
+        "size_in_bytes": 23848,
+        "sha256_in_prefix": "68ba659dfc07e349a1ecd5dc22e35a892a183addbb0260b0ef8b7fbe969a1f7a"
+      },
+      {
+        "_path": "include/coin-or/IpCompoundMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "fcc15ee828d961919c905843bf60241cf22109d9918a2cf27b7f2e8ef6add0e8",
+        "size_in_bytes": 10823,
+        "sha256_in_prefix": "fcc15ee828d961919c905843bf60241cf22109d9918a2cf27b7f2e8ef6add0e8"
+      },
+      {
+        "_path": "include/coin-or/IpCompoundSymMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "9ad5a22259aef3eb89e6cf35881d0fabd2b7fcb557b6d4a4e6715dca126d7fd5",
+        "size_in_bytes": 9375,
+        "sha256_in_prefix": "9ad5a22259aef3eb89e6cf35881d0fabd2b7fcb557b6d4a4e6715dca126d7fd5"
+      },
+      {
+        "_path": "include/coin-or/IpCompoundVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "56e277a1ea489a24d5c45390c574e05aef7426cc580520701eba0cb95c3caabf",
+        "size_in_bytes": 9346,
+        "sha256_in_prefix": "56e277a1ea489a24d5c45390c574e05aef7426cc580520701eba0cb95c3caabf"
+      },
+      {
+        "_path": "include/coin-or/IpConvCheck.hpp",
+        "path_type": "hardlink",
+        "sha256": "a69f7bce45dc56f4055f7461fa76e5f84adee29684c200f6ac2ff4b04963be18",
+        "size_in_bytes": 2438,
+        "sha256_in_prefix": "a69f7bce45dc56f4055f7461fa76e5f84adee29684c200f6ac2ff4b04963be18"
+      },
+      {
+        "_path": "include/coin-or/IpDebug.hpp",
+        "path_type": "hardlink",
+        "sha256": "14fb74057e678478b54179adc022d902be7ffeda4b949acc35a1223beefbdd5b",
+        "size_in_bytes": 4043,
+        "sha256_in_prefix": "14fb74057e678478b54179adc022d902be7ffeda4b949acc35a1223beefbdd5b"
+      },
+      {
+        "_path": "include/coin-or/IpDenseVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "12ff8afb2b307aa5a0ef6bb0b5d7d952f97fc93b9f7842d3ae8f68a79a5dbc02",
+        "size_in_bytes": 15172,
+        "sha256_in_prefix": "12ff8afb2b307aa5a0ef6bb0b5d7d952f97fc93b9f7842d3ae8f68a79a5dbc02"
+      },
+      {
+        "_path": "include/coin-or/IpDiagMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "210b650ceba0df95fe1ae22f5600468245c134eb77e29be932dd4351399c36af",
+        "size_in_bytes": 3450,
+        "sha256_in_prefix": "210b650ceba0df95fe1ae22f5600468245c134eb77e29be932dd4351399c36af"
+      },
+      {
+        "_path": "include/coin-or/IpEqMultCalculator.hpp",
+        "path_type": "hardlink",
+        "sha256": "c3f8a05180b3d6220779a0beab1dc7d6d20c0277d75e874c8cca3e7003b038d7",
+        "size_in_bytes": 1950,
+        "sha256_in_prefix": "c3f8a05180b3d6220779a0beab1dc7d6d20c0277d75e874c8cca3e7003b038d7"
+      },
+      {
+        "_path": "include/coin-or/IpException.hpp",
+        "path_type": "hardlink",
+        "sha256": "54ece3d2556dc4484d27fdf51dedb12151e4eac227220db2bff018e1b9c095d5",
+        "size_in_bytes": 4704,
+        "sha256_in_prefix": "54ece3d2556dc4484d27fdf51dedb12151e4eac227220db2bff018e1b9c095d5"
+      },
+      {
+        "_path": "include/coin-or/IpExpansionMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "c7e7beb83ae9bdf378fb9a28cf5248f41b30cd7d38ebb07d17cadbb3046f2995",
+        "size_in_bytes": 6490,
+        "sha256_in_prefix": "c7e7beb83ae9bdf378fb9a28cf5248f41b30cd7d38ebb07d17cadbb3046f2995"
+      },
+      {
+        "_path": "include/coin-or/IpGenTMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "a4705b53959f7c8581c573fb7076dd5326a3035e083fa17ef24b2c7a23fffe2e",
+        "size_in_bytes": 6973,
+        "sha256_in_prefix": "a4705b53959f7c8581c573fb7076dd5326a3035e083fa17ef24b2c7a23fffe2e"
+      },
+      {
+        "_path": "include/coin-or/IpHessianUpdater.hpp",
+        "path_type": "hardlink",
+        "sha256": "52957fb405007ee1f274e393e5e38bf9813487bb97eefc2186da95292900c276",
+        "size_in_bytes": 1744,
+        "sha256_in_prefix": "52957fb405007ee1f274e393e5e38bf9813487bb97eefc2186da95292900c276"
+      },
+      {
+        "_path": "include/coin-or/IpIdentityMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "82db43e56ff596e7ffc0a90819455af0fdbc64e0e119df7e054baff4f7e6a692",
+        "size_in_bytes": 3811,
+        "sha256_in_prefix": "82db43e56ff596e7ffc0a90819455af0fdbc64e0e119df7e054baff4f7e6a692"
+      },
+      {
+        "_path": "include/coin-or/IpIpoptAlg.hpp",
+        "path_type": "hardlink",
+        "sha256": "58e8b5abd5da72e976c830b956459b0713e555fecd1b24ffbe644324d70eaf6f",
+        "size_in_bytes": 8710,
+        "sha256_in_prefix": "58e8b5abd5da72e976c830b956459b0713e555fecd1b24ffbe644324d70eaf6f"
+      },
+      {
+        "_path": "include/coin-or/IpIpoptApplication.hpp",
+        "path_type": "hardlink",
+        "sha256": "7b1f382f06d52affd3ac141d8cc74d9dc4544862ae94a456ce46fbd043a8a265",
+        "size_in_bytes": 11333,
+        "sha256_in_prefix": "7b1f382f06d52affd3ac141d8cc74d9dc4544862ae94a456ce46fbd043a8a265"
+      },
+      {
+        "_path": "include/coin-or/IpIpoptCalculatedQuantities.hpp",
+        "path_type": "hardlink",
+        "sha256": "1ff5442a3c9f606468f471f05ef415045859d0687ac33c33d14b8cb86b56560f",
+        "size_in_bytes": 34447,
+        "sha256_in_prefix": "1ff5442a3c9f606468f471f05ef415045859d0687ac33c33d14b8cb86b56560f"
+      },
+      {
+        "_path": "include/coin-or/IpIpoptData.hpp",
+        "path_type": "hardlink",
+        "sha256": "ee7b8a9e10191d17ccfd261c9fbfcb018267d07ab51c85263722a8e04c50efd3",
+        "size_in_bytes": 24834,
+        "sha256_in_prefix": "ee7b8a9e10191d17ccfd261c9fbfcb018267d07ab51c85263722a8e04c50efd3"
+      },
+      {
+        "_path": "include/coin-or/IpIpoptNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "a7d59ab8007c5fcd6b400d4d823f45ce750d66dee783f45a9136db314feaf342",
+        "size_in_bytes": 9338,
+        "sha256_in_prefix": "a7d59ab8007c5fcd6b400d4d823f45ce750d66dee783f45a9136db314feaf342"
+      },
+      {
+        "_path": "include/coin-or/IpIterateInitializer.hpp",
+        "path_type": "hardlink",
+        "sha256": "7f7a1cfe32cc8bcb258d8ce31c00828b24a3fb2baffc6c326a82d4f9ed8cb27e",
+        "size_in_bytes": 1635,
+        "sha256_in_prefix": "7f7a1cfe32cc8bcb258d8ce31c00828b24a3fb2baffc6c326a82d4f9ed8cb27e"
+      },
+      {
+        "_path": "include/coin-or/IpIteratesVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "dd0d0e3c0551d0d3b18f012079948281dba175eac03f5dc6be7c391a3a5017df",
+        "size_in_bytes": 19965,
+        "sha256_in_prefix": "dd0d0e3c0551d0d3b18f012079948281dba175eac03f5dc6be7c391a3a5017df"
+      },
+      {
+        "_path": "include/coin-or/IpIterationOutput.hpp",
+        "path_type": "hardlink",
+        "sha256": "d07aba6ffd7ffd508804a1ec062d464b48eaf18927d7269677a556981db90f30",
+        "size_in_bytes": 1776,
+        "sha256_in_prefix": "d07aba6ffd7ffd508804a1ec062d464b48eaf18927d7269677a556981db90f30"
+      },
+      {
+        "_path": "include/coin-or/IpJournalist.hpp",
+        "path_type": "hardlink",
+        "sha256": "851228840e03aaab565b68512e26abefb0fc6f37b3e523850c8bddba693b79b5",
+        "size_in_bytes": 16203,
+        "sha256_in_prefix": "851228840e03aaab565b68512e26abefb0fc6f37b3e523850c8bddba693b79b5"
+      },
+      {
+        "_path": "include/coin-or/IpLapack.hpp",
+        "path_type": "hardlink",
+        "sha256": "5dbe0e1b1895393b89a8ca27ce6706b8a6699a471cb207d15ffe1867fc75b1c4",
+        "size_in_bytes": 4938,
+        "sha256_in_prefix": "5dbe0e1b1895393b89a8ca27ce6706b8a6699a471cb207d15ffe1867fc75b1c4"
+      },
+      {
+        "_path": "include/coin-or/IpLibraryLoader.hpp",
+        "path_type": "hardlink",
+        "sha256": "449fc2758e4b81f13cbada23189bb1f32af8478327192b12b34fe843a98edf2e",
+        "size_in_bytes": 1641,
+        "sha256_in_prefix": "449fc2758e4b81f13cbada23189bb1f32af8478327192b12b34fe843a98edf2e"
+      },
+      {
+        "_path": "include/coin-or/IpLineSearch.hpp",
+        "path_type": "hardlink",
+        "sha256": "8ec107e57e8f315f6add44c13c23d8103e80bea6d3440097e3364689fcf58b6e",
+        "size_in_bytes": 3126,
+        "sha256_in_prefix": "8ec107e57e8f315f6add44c13c23d8103e80bea6d3440097e3364689fcf58b6e"
+      },
+      {
+        "_path": "include/coin-or/IpLinearSolvers.h",
+        "path_type": "hardlink",
+        "sha256": "db504551e937522494fc18864897382393f99f0dc1dcfe4f0d592a4a1024977b",
+        "size_in_bytes": 1476,
+        "sha256_in_prefix": "db504551e937522494fc18864897382393f99f0dc1dcfe4f0d592a4a1024977b"
+      },
+      {
+        "_path": "include/coin-or/IpMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "6ed895ac14225021ff9f0d88fdf16d626cfb8be33a4418df2dea5b2e0556c4ef",
+        "size_in_bytes": 10739,
+        "sha256_in_prefix": "6ed895ac14225021ff9f0d88fdf16d626cfb8be33a4418df2dea5b2e0556c4ef"
+      },
+      {
+        "_path": "include/coin-or/IpMuUpdate.hpp",
+        "path_type": "hardlink",
+        "sha256": "901f4970038275e9644032f23fd8fc6132a606277b558ea62d62f68545f42869",
+        "size_in_bytes": 1969,
+        "sha256_in_prefix": "901f4970038275e9644032f23fd8fc6132a606277b558ea62d62f68545f42869"
+      },
+      {
+        "_path": "include/coin-or/IpNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "dbba825723c022d602d2d3a7b24e845a30cab196e086abfcd9d56d0cb1df0e80",
+        "size_in_bytes": 9610,
+        "sha256_in_prefix": "dbba825723c022d602d2d3a7b24e845a30cab196e086abfcd9d56d0cb1df0e80"
+      },
+      {
+        "_path": "include/coin-or/IpNLPScaling.hpp",
+        "path_type": "hardlink",
+        "sha256": "5a086db6e296c629109019d9b482c36d4db76309bb3215dad2ded91cffcf5869",
+        "size_in_bytes": 16638,
+        "sha256_in_prefix": "5a086db6e296c629109019d9b482c36d4db76309bb3215dad2ded91cffcf5869"
+      },
+      {
+        "_path": "include/coin-or/IpObserver.hpp",
+        "path_type": "hardlink",
+        "sha256": "32ecf1a98f5353bf5c6ec8b47b6584c983a2637085826217c4b5dca7692c2f98",
+        "size_in_bytes": 10475,
+        "sha256_in_prefix": "32ecf1a98f5353bf5c6ec8b47b6584c983a2637085826217c4b5dca7692c2f98"
+      },
+      {
+        "_path": "include/coin-or/IpOptionsList.hpp",
+        "path_type": "hardlink",
+        "sha256": "f115c91874c75039bcb175f17e4f718be9f2aa80d58ebf860f79ad67eba7f9c4",
+        "size_in_bytes": 10735,
+        "sha256_in_prefix": "f115c91874c75039bcb175f17e4f718be9f2aa80d58ebf860f79ad67eba7f9c4"
+      },
+      {
+        "_path": "include/coin-or/IpOrigIpoptNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "2a7bb113759097d0791a029008fa361cf5eaa20bb69584daa47ff7cfc762b254",
+        "size_in_bytes": 16232,
+        "sha256_in_prefix": "2a7bb113759097d0791a029008fa361cf5eaa20bb69584daa47ff7cfc762b254"
+      },
+      {
+        "_path": "include/coin-or/IpPDSystemSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "5744b8304b4583285ae5d7418904ec12b702562704e27a8ace18feb91a9d717e",
+        "size_in_bytes": 4845,
+        "sha256_in_prefix": "5744b8304b4583285ae5d7418904ec12b702562704e27a8ace18feb91a9d717e"
+      },
+      {
+        "_path": "include/coin-or/IpReferenced.hpp",
+        "path_type": "hardlink",
+        "sha256": "651baeb9c689fa54fd2d286d3081f8eff6bf625793a4c3f729c3ce0d6c4b4706",
+        "size_in_bytes": 8834,
+        "sha256_in_prefix": "651baeb9c689fa54fd2d286d3081f8eff6bf625793a4c3f729c3ce0d6c4b4706"
+      },
+      {
+        "_path": "include/coin-or/IpRegOptions.hpp",
+        "path_type": "hardlink",
+        "sha256": "f1ab6c54294300a6753925b816be6f142eccecc3bba2b71cc80497c9549758e9",
+        "size_in_bytes": 40349,
+        "sha256_in_prefix": "f1ab6c54294300a6753925b816be6f142eccecc3bba2b71cc80497c9549758e9"
+      },
+      {
+        "_path": "include/coin-or/IpReturnCodes.h",
+        "path_type": "hardlink",
+        "sha256": "fe95f249aa3abb47f4fafca7f3287ee759b3ec44835d99adb0d59ece8f44b587",
+        "size_in_bytes": 434,
+        "sha256_in_prefix": "fe95f249aa3abb47f4fafca7f3287ee759b3ec44835d99adb0d59ece8f44b587"
+      },
+      {
+        "_path": "include/coin-or/IpReturnCodes.hpp",
+        "path_type": "hardlink",
+        "sha256": "e295dcfc0dc383b669b648c897ac9204f417ae29ad71cd67074350ddc794e1e2",
+        "size_in_bytes": 382,
+        "sha256_in_prefix": "e295dcfc0dc383b669b648c897ac9204f417ae29ad71cd67074350ddc794e1e2"
+      },
+      {
+        "_path": "include/coin-or/IpReturnCodes.inc",
+        "path_type": "hardlink",
+        "sha256": "438a90db47a478b8f454becf9461a1d698089d76d9fabd862ebf5a6686b11ef9",
+        "size_in_bytes": 2090,
+        "sha256_in_prefix": "438a90db47a478b8f454becf9461a1d698089d76d9fabd862ebf5a6686b11ef9"
+      },
+      {
+        "_path": "include/coin-or/IpReturnCodes_inc.h",
+        "path_type": "hardlink",
+        "sha256": "b610c490709800e2b8565ab060f37a1d4c556ab61a3736c09c1488507ab6b941",
+        "size_in_bytes": 1604,
+        "sha256_in_prefix": "b610c490709800e2b8565ab060f37a1d4c556ab61a3736c09c1488507ab6b941"
+      },
+      {
+        "_path": "include/coin-or/IpScaledMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "12b4dd5bd07c3511f5cda560cd40961d3ba67c911cb45cb97cb998e85fe0fe22",
+        "size_in_bytes": 7249,
+        "sha256_in_prefix": "12b4dd5bd07c3511f5cda560cd40961d3ba67c911cb45cb97cb998e85fe0fe22"
+      },
+      {
+        "_path": "include/coin-or/IpSearchDirCalculator.hpp",
+        "path_type": "hardlink",
+        "sha256": "91efd3f76c36a9e2c08bb111f40ac9e0fc2c585d21b8c941a1d3d26ef3883b61",
+        "size_in_bytes": 1676,
+        "sha256_in_prefix": "91efd3f76c36a9e2c08bb111f40ac9e0fc2c585d21b8c941a1d3d26ef3883b61"
+      },
+      {
+        "_path": "include/coin-or/IpSlackBasedTSymScalingMethod.hpp",
+        "path_type": "hardlink",
+        "sha256": "dfd0c2b3578714efab937031236d0756e41a5047c4c53dd31e84ed96f901bb16",
+        "size_in_bytes": 1896,
+        "sha256_in_prefix": "dfd0c2b3578714efab937031236d0756e41a5047c4c53dd31e84ed96f901bb16"
+      },
+      {
+        "_path": "include/coin-or/IpSmartPtr.hpp",
+        "path_type": "hardlink",
+        "sha256": "c1ef78d458eb9ce9d43f058456f738f56f246d2a0df992c9b8bd427254fd18e1",
+        "size_in_bytes": 21218,
+        "sha256_in_prefix": "c1ef78d458eb9ce9d43f058456f738f56f246d2a0df992c9b8bd427254fd18e1"
+      },
+      {
+        "_path": "include/coin-or/IpSolveStatistics.hpp",
+        "path_type": "hardlink",
+        "sha256": "3c1caca6b87da499cb1fc3a5c9eb02c0e788d60c95a3dfcdd69ecac40a9e1b3e",
+        "size_in_bytes": 6480,
+        "sha256_in_prefix": "3c1caca6b87da499cb1fc3a5c9eb02c0e788d60c95a3dfcdd69ecac40a9e1b3e"
+      },
+      {
+        "_path": "include/coin-or/IpSparseSymLinearSolverInterface.hpp",
+        "path_type": "hardlink",
+        "sha256": "bc6dfe81cbe162ea807623480e3296068ba0fb4a63aaf0796df4d77b104c6be0",
+        "size_in_bytes": 10040,
+        "sha256_in_prefix": "bc6dfe81cbe162ea807623480e3296068ba0fb4a63aaf0796df4d77b104c6be0"
+      },
+      {
+        "_path": "include/coin-or/IpStdAugSystemSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "989276bdec0d4d350fb06f0e0adcdbf78eec5431602c9d7f2b7b035f3d18b182",
+        "size_in_bytes": 9173,
+        "sha256_in_prefix": "989276bdec0d4d350fb06f0e0adcdbf78eec5431602c9d7f2b7b035f3d18b182"
+      },
+      {
+        "_path": "include/coin-or/IpStdCInterface.h",
+        "path_type": "hardlink",
+        "sha256": "9e8660f32f825b2132539d4404b1835002b263265d9feff57926801c777b4744",
+        "size_in_bytes": 19605,
+        "sha256_in_prefix": "9e8660f32f825b2132539d4404b1835002b263265d9feff57926801c777b4744"
+      },
+      {
+        "_path": "include/coin-or/IpSumSymMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "0f02e392906191b030c253d6db48409e79ddfac9470bb840c74948d59aad380d",
+        "size_in_bytes": 4314,
+        "sha256_in_prefix": "0f02e392906191b030c253d6db48409e79ddfac9470bb840c74948d59aad380d"
+      },
+      {
+        "_path": "include/coin-or/IpSymLinearSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "4df8da30314cae1499ba2b8c4d84083e2c2b7e1891a376f204516538bd878b95",
+        "size_in_bytes": 4450,
+        "sha256_in_prefix": "4df8da30314cae1499ba2b8c4d84083e2c2b7e1891a376f204516538bd878b95"
+      },
+      {
+        "_path": "include/coin-or/IpSymMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "e4e4ac21bbbaadbcb5b306c2eb85b7f22c2bc6efd34d2550804ac149eb9edc38",
+        "size_in_bytes": 3856,
+        "sha256_in_prefix": "e4e4ac21bbbaadbcb5b306c2eb85b7f22c2bc6efd34d2550804ac149eb9edc38"
+      },
+      {
+        "_path": "include/coin-or/IpSymScaledMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "9998fd62296b936899f46a14e353eddc2315d6e632da1aa47512ab781b53d760",
+        "size_in_bytes": 6473,
+        "sha256_in_prefix": "9998fd62296b936899f46a14e353eddc2315d6e632da1aa47512ab781b53d760"
+      },
+      {
+        "_path": "include/coin-or/IpSymTMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "65c0c11810c705008b8c0d122681ada2b5c35788d81b326a4a5925e4bed19ec4",
+        "size_in_bytes": 7143,
+        "sha256_in_prefix": "65c0c11810c705008b8c0d122681ada2b5c35788d81b326a4a5925e4bed19ec4"
+      },
+      {
+        "_path": "include/coin-or/IpTNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "f24714d852649a5fa2b404bced264909114423971b7a1d4812df970ee15f12c3",
+        "size_in_bytes": 38440,
+        "sha256_in_prefix": "f24714d852649a5fa2b404bced264909114423971b7a1d4812df970ee15f12c3"
+      },
+      {
+        "_path": "include/coin-or/IpTNLPAdapter.hpp",
+        "path_type": "hardlink",
+        "sha256": "e5cae70876f43ed8899e12f2b61f95f00c7e120b9ac1d554216f438314716d21",
+        "size_in_bytes": 23243,
+        "sha256_in_prefix": "e5cae70876f43ed8899e12f2b61f95f00c7e120b9ac1d554216f438314716d21"
+      },
+      {
+        "_path": "include/coin-or/IpTNLPReducer.hpp",
+        "path_type": "hardlink",
+        "sha256": "7af8e80c6b87e53805d13ba4de70f8500f5a0d305dcc9415e50508df4c533168",
+        "size_in_bytes": 6978,
+        "sha256_in_prefix": "7af8e80c6b87e53805d13ba4de70f8500f5a0d305dcc9415e50508df4c533168"
+      },
+      {
+        "_path": "include/coin-or/IpTSymLinearSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "d184785d1412b6a0d1e36c09085eb17e6efee3432bce0ffa3a09c3b017da5dde",
+        "size_in_bytes": 6674,
+        "sha256_in_prefix": "d184785d1412b6a0d1e36c09085eb17e6efee3432bce0ffa3a09c3b017da5dde"
+      },
+      {
+        "_path": "include/coin-or/IpTSymScalingMethod.hpp",
+        "path_type": "hardlink",
+        "sha256": "f43038187e47391286d6689208cf26c0e8bd6e95ddf6199f598839e92b1cf789",
+        "size_in_bytes": 1726,
+        "sha256_in_prefix": "f43038187e47391286d6689208cf26c0e8bd6e95ddf6199f598839e92b1cf789"
+      },
+      {
+        "_path": "include/coin-or/IpTaggedObject.hpp",
+        "path_type": "hardlink",
+        "sha256": "5c7055b7b75b27749ff5f038e5b5b9e1723eaa5b2534220789cf9e9989db6fcb",
+        "size_in_bytes": 3974,
+        "sha256_in_prefix": "5c7055b7b75b27749ff5f038e5b5b9e1723eaa5b2534220789cf9e9989db6fcb"
+      },
+      {
+        "_path": "include/coin-or/IpTimedTask.hpp",
+        "path_type": "hardlink",
+        "sha256": "0d7391021ce24000420a92316e7645a18c2126e28628ddefa072b412ed58462d",
+        "size_in_bytes": 5154,
+        "sha256_in_prefix": "0d7391021ce24000420a92316e7645a18c2126e28628ddefa072b412ed58462d"
+      },
+      {
+        "_path": "include/coin-or/IpTimingStatistics.hpp",
+        "path_type": "hardlink",
+        "sha256": "bd13c8d6dd3f3f7b0ea1194bb9d30a9642ecbccfea3ecdcc3b71f0c6106af580",
+        "size_in_bytes": 6532,
+        "sha256_in_prefix": "bd13c8d6dd3f3f7b0ea1194bb9d30a9642ecbccfea3ecdcc3b71f0c6106af580"
+      },
+      {
+        "_path": "include/coin-or/IpTripletHelper.hpp",
+        "path_type": "hardlink",
+        "sha256": "5c880de962c9c5d93eff053074a05a7f27699cc5b499dee3449a771fb2700939",
+        "size_in_bytes": 8104,
+        "sha256_in_prefix": "5c880de962c9c5d93eff053074a05a7f27699cc5b499dee3449a771fb2700939"
+      },
+      {
+        "_path": "include/coin-or/IpTripletToCSRConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "6dd29e1ccad54f49b59a15c77ce64e48ec391b17fc64fd994b4d5b8b8d6775ad",
+        "size_in_bytes": 6501,
+        "sha256_in_prefix": "6dd29e1ccad54f49b59a15c77ce64e48ec391b17fc64fd994b4d5b8b8d6775ad"
+      },
+      {
+        "_path": "include/coin-or/IpTypes.h",
+        "path_type": "hardlink",
+        "sha256": "814eca1603edd056fef2f0c92ceb7eb4aeae331815b1b19160213b7e6bd8e204",
+        "size_in_bytes": 1653,
+        "sha256_in_prefix": "814eca1603edd056fef2f0c92ceb7eb4aeae331815b1b19160213b7e6bd8e204"
+      },
+      {
+        "_path": "include/coin-or/IpTypes.hpp",
+        "path_type": "hardlink",
+        "sha256": "8fa37eb0f97cfe19041ffe0f15a7d568b316d0a50b226cf7a2bac32d7a399fc1",
+        "size_in_bytes": 596,
+        "sha256_in_prefix": "8fa37eb0f97cfe19041ffe0f15a7d568b316d0a50b226cf7a2bac32d7a399fc1"
+      },
+      {
+        "_path": "include/coin-or/IpUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "21780e5d91337f5f6657edcf5a031e35f387665351fb22b674df619357c87f1e",
+        "size_in_bytes": 4577,
+        "sha256_in_prefix": "21780e5d91337f5f6657edcf5a031e35f387665351fb22b674df619357c87f1e"
+      },
+      {
+        "_path": "include/coin-or/IpVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "d0bb485d809b47314565aa432ed1dcf47e16ab8fc2ccbf0e44c3e5dad03eb762",
+        "size_in_bytes": 21185,
+        "sha256_in_prefix": "d0bb485d809b47314565aa432ed1dcf47e16ab8fc2ccbf0e44c3e5dad03eb762"
+      },
+      {
+        "_path": "include/coin-or/IpZeroSymMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "9981b6cdad95de12573d46cf0b4b912ded5b5d36b04eafd3c91e8beb463faf07",
+        "size_in_bytes": 3486,
+        "sha256_in_prefix": "9981b6cdad95de12573d46cf0b4b912ded5b5d36b04eafd3c91e8beb463faf07"
+      },
+      {
+        "_path": "include/coin-or/IpoptConfig.h",
+        "path_type": "hardlink",
+        "sha256": "c2b920fb3042b8407f78ea29bb66054998138e7cff96395c7156661df1856fde",
+        "size_in_bytes": 1121,
+        "sha256_in_prefix": "c2b920fb3042b8407f78ea29bb66054998138e7cff96395c7156661df1856fde"
+      },
+      {
+        "_path": "include/coin-or/SensAlgorithm.hpp",
+        "path_type": "hardlink",
+        "sha256": "f77cb1896369ed21c0359e4250d24d3096788d896ce619be00f7975fbbff4cc3",
+        "size_in_bytes": 2674,
+        "sha256_in_prefix": "f77cb1896369ed21c0359e4250d24d3096788d896ce619be00f7975fbbff4cc3"
+      },
+      {
+        "_path": "include/coin-or/SensApplication.hpp",
+        "path_type": "hardlink",
+        "sha256": "c9a07d109a2a206955ae73681a4dec9fff9cd94a2aaeb6ef32095ea238863218",
+        "size_in_bytes": 4726,
+        "sha256_in_prefix": "c9a07d109a2a206955ae73681a4dec9fff9cd94a2aaeb6ef32095ea238863218"
+      },
+      {
+        "_path": "include/coin-or/SensBacksolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "b9c1ec7077bbe774c399053371a1d7d1a3cd08bcf5b8db26ab2c661fdb85bf42",
+        "size_in_bytes": 676,
+        "sha256_in_prefix": "b9c1ec7077bbe774c399053371a1d7d1a3cd08bcf5b8db26ab2c661fdb85bf42"
+      },
+      {
+        "_path": "include/coin-or/SensMeasurement.hpp",
+        "path_type": "hardlink",
+        "sha256": "60f20345cf7915dd32e8303778200e46c24e340f7f6b1ddbebbfa5ed8b402d75",
+        "size_in_bytes": 1437,
+        "sha256_in_prefix": "60f20345cf7915dd32e8303778200e46c24e340f7f6b1ddbebbfa5ed8b402d75"
+      },
+      {
+        "_path": "include/coin-or/SensPCalculator.hpp",
+        "path_type": "hardlink",
+        "sha256": "b731ae9d18fe2b89faae0e6f76447ac0ffe57fae16428b0f0539f8481f0ee7b1",
+        "size_in_bytes": 3189,
+        "sha256_in_prefix": "b731ae9d18fe2b89faae0e6f76447ac0ffe57fae16428b0f0539f8481f0ee7b1"
+      },
+      {
+        "_path": "include/coin-or/SensRegOp.hpp",
+        "path_type": "hardlink",
+        "sha256": "5424ee662d081d0cbaf1a208e02dbebff13401f111d8f0bd08b194194e66a423",
+        "size_in_bytes": 372,
+        "sha256_in_prefix": "5424ee662d081d0cbaf1a208e02dbebff13401f111d8f0bd08b194194e66a423"
+      },
+      {
+        "_path": "include/coin-or/SensSchurData.hpp",
+        "path_type": "hardlink",
+        "sha256": "f4c454d5b4b3aa1e4477653639caedeec52d5346e39b3750749cadaef87d5b77",
+        "size_in_bytes": 4374,
+        "sha256_in_prefix": "f4c454d5b4b3aa1e4477653639caedeec52d5346e39b3750749cadaef87d5b77"
+      },
+      {
+        "_path": "include/coin-or/SensSchurDriver.hpp",
+        "path_type": "hardlink",
+        "sha256": "1aa7a8c1b75df516ff3ec98ebeecc98f816dc6a492994aa2e15d90baac19ba2a",
+        "size_in_bytes": 2732,
+        "sha256_in_prefix": "1aa7a8c1b75df516ff3ec98ebeecc98f816dc6a492994aa2e15d90baac19ba2a"
+      },
+      {
+        "_path": "include/coin-or/SensSimpleBacksolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "0dfe6ad71d9dcbbc3784ffa5a80f30f3d159688afd3ab2aa44302c94b67ec391",
+        "size_in_bytes": 921,
+        "sha256_in_prefix": "0dfe6ad71d9dcbbc3784ffa5a80f30f3d159688afd3ab2aa44302c94b67ec391"
+      },
+      {
+        "_path": "include/coin-or/SensStepCalc.hpp",
+        "path_type": "hardlink",
+        "sha256": "e0ba6d20b209bf6a081a18e0d129d73606aa2f5096ca96a96623c6af649bc54a",
+        "size_in_bytes": 1856,
+        "sha256_in_prefix": "e0ba6d20b209bf6a081a18e0d129d73606aa2f5096ca96a96623c6af649bc54a"
+      },
+      {
+        "_path": "include/coin-or/SensUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "4f4ad53dfea6a1a8ad685d18830509e6eaac547f33a7a77b8d34a309d64cf213",
+        "size_in_bytes": 1442,
+        "sha256_in_prefix": "4f4ad53dfea6a1a8ad685d18830509e6eaac547f33a7a77b8d34a309d64cf213"
+      },
+      {
+        "_path": "include/coin/AmplTNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "d6f118b1392c7fc67c42098bfe0aa56942abbcd2a203ad47bad854556d6b8832",
+        "size_in_bytes": 21788,
+        "sha256_in_prefix": "d6f118b1392c7fc67c42098bfe0aa56942abbcd2a203ad47bad854556d6b8832"
+      },
+      {
+        "_path": "include/coin/IpAlgBuilder.hpp",
+        "path_type": "hardlink",
+        "sha256": "157eaa7ca55bab3114ba07fa80cc9774c16863fc4cfa4c0a3ce1a634ffd6d165",
+        "size_in_bytes": 14755,
+        "sha256_in_prefix": "157eaa7ca55bab3114ba07fa80cc9774c16863fc4cfa4c0a3ce1a634ffd6d165"
+      },
+      {
+        "_path": "include/coin/IpAlgStrategy.hpp",
+        "path_type": "hardlink",
+        "sha256": "1fedb50c6bd1fa5e2b643070ddca92014875c8c0caf1743497349da5235f0cec",
+        "size_in_bytes": 5675,
+        "sha256_in_prefix": "1fedb50c6bd1fa5e2b643070ddca92014875c8c0caf1743497349da5235f0cec"
+      },
+      {
+        "_path": "include/coin/IpAlgTypes.hpp",
+        "path_type": "hardlink",
+        "sha256": "915679d9119f593a1af42c538afd49ed66c00d86a4f1a490427acb36e65420cf",
+        "size_in_bytes": 1661,
+        "sha256_in_prefix": "915679d9119f593a1af42c538afd49ed66c00d86a4f1a490427acb36e65420cf"
+      },
+      {
+        "_path": "include/coin/IpAugSystemSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "dc4d7efffa05b060543d10af5797e52d81ccec88015d0a6a76c54b1a6f26db62",
+        "size_in_bytes": 7188,
+        "sha256_in_prefix": "dc4d7efffa05b060543d10af5797e52d81ccec88015d0a6a76c54b1a6f26db62"
+      },
+      {
+        "_path": "include/coin/IpBlas.hpp",
+        "path_type": "hardlink",
+        "sha256": "70fc7ab45520f5d183b72eaecabed1d4c70d209ad3ba7f6ab7467a2233eb4a56",
+        "size_in_bytes": 8234,
+        "sha256_in_prefix": "70fc7ab45520f5d183b72eaecabed1d4c70d209ad3ba7f6ab7467a2233eb4a56"
+      },
+      {
+        "_path": "include/coin/IpCachedResults.hpp",
+        "path_type": "hardlink",
+        "sha256": "68ba659dfc07e349a1ecd5dc22e35a892a183addbb0260b0ef8b7fbe969a1f7a",
+        "size_in_bytes": 23848,
+        "sha256_in_prefix": "68ba659dfc07e349a1ecd5dc22e35a892a183addbb0260b0ef8b7fbe969a1f7a"
+      },
+      {
+        "_path": "include/coin/IpCompoundMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "fcc15ee828d961919c905843bf60241cf22109d9918a2cf27b7f2e8ef6add0e8",
+        "size_in_bytes": 10823,
+        "sha256_in_prefix": "fcc15ee828d961919c905843bf60241cf22109d9918a2cf27b7f2e8ef6add0e8"
+      },
+      {
+        "_path": "include/coin/IpCompoundSymMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "9ad5a22259aef3eb89e6cf35881d0fabd2b7fcb557b6d4a4e6715dca126d7fd5",
+        "size_in_bytes": 9375,
+        "sha256_in_prefix": "9ad5a22259aef3eb89e6cf35881d0fabd2b7fcb557b6d4a4e6715dca126d7fd5"
+      },
+      {
+        "_path": "include/coin/IpCompoundVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "56e277a1ea489a24d5c45390c574e05aef7426cc580520701eba0cb95c3caabf",
+        "size_in_bytes": 9346,
+        "sha256_in_prefix": "56e277a1ea489a24d5c45390c574e05aef7426cc580520701eba0cb95c3caabf"
+      },
+      {
+        "_path": "include/coin/IpConvCheck.hpp",
+        "path_type": "hardlink",
+        "sha256": "a69f7bce45dc56f4055f7461fa76e5f84adee29684c200f6ac2ff4b04963be18",
+        "size_in_bytes": 2438,
+        "sha256_in_prefix": "a69f7bce45dc56f4055f7461fa76e5f84adee29684c200f6ac2ff4b04963be18"
+      },
+      {
+        "_path": "include/coin/IpDebug.hpp",
+        "path_type": "hardlink",
+        "sha256": "14fb74057e678478b54179adc022d902be7ffeda4b949acc35a1223beefbdd5b",
+        "size_in_bytes": 4043,
+        "sha256_in_prefix": "14fb74057e678478b54179adc022d902be7ffeda4b949acc35a1223beefbdd5b"
+      },
+      {
+        "_path": "include/coin/IpDenseVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "12ff8afb2b307aa5a0ef6bb0b5d7d952f97fc93b9f7842d3ae8f68a79a5dbc02",
+        "size_in_bytes": 15172,
+        "sha256_in_prefix": "12ff8afb2b307aa5a0ef6bb0b5d7d952f97fc93b9f7842d3ae8f68a79a5dbc02"
+      },
+      {
+        "_path": "include/coin/IpDiagMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "210b650ceba0df95fe1ae22f5600468245c134eb77e29be932dd4351399c36af",
+        "size_in_bytes": 3450,
+        "sha256_in_prefix": "210b650ceba0df95fe1ae22f5600468245c134eb77e29be932dd4351399c36af"
+      },
+      {
+        "_path": "include/coin/IpEqMultCalculator.hpp",
+        "path_type": "hardlink",
+        "sha256": "c3f8a05180b3d6220779a0beab1dc7d6d20c0277d75e874c8cca3e7003b038d7",
+        "size_in_bytes": 1950,
+        "sha256_in_prefix": "c3f8a05180b3d6220779a0beab1dc7d6d20c0277d75e874c8cca3e7003b038d7"
+      },
+      {
+        "_path": "include/coin/IpException.hpp",
+        "path_type": "hardlink",
+        "sha256": "54ece3d2556dc4484d27fdf51dedb12151e4eac227220db2bff018e1b9c095d5",
+        "size_in_bytes": 4704,
+        "sha256_in_prefix": "54ece3d2556dc4484d27fdf51dedb12151e4eac227220db2bff018e1b9c095d5"
+      },
+      {
+        "_path": "include/coin/IpExpansionMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "c7e7beb83ae9bdf378fb9a28cf5248f41b30cd7d38ebb07d17cadbb3046f2995",
+        "size_in_bytes": 6490,
+        "sha256_in_prefix": "c7e7beb83ae9bdf378fb9a28cf5248f41b30cd7d38ebb07d17cadbb3046f2995"
+      },
+      {
+        "_path": "include/coin/IpGenTMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "a4705b53959f7c8581c573fb7076dd5326a3035e083fa17ef24b2c7a23fffe2e",
+        "size_in_bytes": 6973,
+        "sha256_in_prefix": "a4705b53959f7c8581c573fb7076dd5326a3035e083fa17ef24b2c7a23fffe2e"
+      },
+      {
+        "_path": "include/coin/IpHessianUpdater.hpp",
+        "path_type": "hardlink",
+        "sha256": "52957fb405007ee1f274e393e5e38bf9813487bb97eefc2186da95292900c276",
+        "size_in_bytes": 1744,
+        "sha256_in_prefix": "52957fb405007ee1f274e393e5e38bf9813487bb97eefc2186da95292900c276"
+      },
+      {
+        "_path": "include/coin/IpIdentityMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "82db43e56ff596e7ffc0a90819455af0fdbc64e0e119df7e054baff4f7e6a692",
+        "size_in_bytes": 3811,
+        "sha256_in_prefix": "82db43e56ff596e7ffc0a90819455af0fdbc64e0e119df7e054baff4f7e6a692"
+      },
+      {
+        "_path": "include/coin/IpIpoptAlg.hpp",
+        "path_type": "hardlink",
+        "sha256": "58e8b5abd5da72e976c830b956459b0713e555fecd1b24ffbe644324d70eaf6f",
+        "size_in_bytes": 8710,
+        "sha256_in_prefix": "58e8b5abd5da72e976c830b956459b0713e555fecd1b24ffbe644324d70eaf6f"
+      },
+      {
+        "_path": "include/coin/IpIpoptApplication.hpp",
+        "path_type": "hardlink",
+        "sha256": "7b1f382f06d52affd3ac141d8cc74d9dc4544862ae94a456ce46fbd043a8a265",
+        "size_in_bytes": 11333,
+        "sha256_in_prefix": "7b1f382f06d52affd3ac141d8cc74d9dc4544862ae94a456ce46fbd043a8a265"
+      },
+      {
+        "_path": "include/coin/IpIpoptCalculatedQuantities.hpp",
+        "path_type": "hardlink",
+        "sha256": "1ff5442a3c9f606468f471f05ef415045859d0687ac33c33d14b8cb86b56560f",
+        "size_in_bytes": 34447,
+        "sha256_in_prefix": "1ff5442a3c9f606468f471f05ef415045859d0687ac33c33d14b8cb86b56560f"
+      },
+      {
+        "_path": "include/coin/IpIpoptData.hpp",
+        "path_type": "hardlink",
+        "sha256": "ee7b8a9e10191d17ccfd261c9fbfcb018267d07ab51c85263722a8e04c50efd3",
+        "size_in_bytes": 24834,
+        "sha256_in_prefix": "ee7b8a9e10191d17ccfd261c9fbfcb018267d07ab51c85263722a8e04c50efd3"
+      },
+      {
+        "_path": "include/coin/IpIpoptNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "a7d59ab8007c5fcd6b400d4d823f45ce750d66dee783f45a9136db314feaf342",
+        "size_in_bytes": 9338,
+        "sha256_in_prefix": "a7d59ab8007c5fcd6b400d4d823f45ce750d66dee783f45a9136db314feaf342"
+      },
+      {
+        "_path": "include/coin/IpIterateInitializer.hpp",
+        "path_type": "hardlink",
+        "sha256": "7f7a1cfe32cc8bcb258d8ce31c00828b24a3fb2baffc6c326a82d4f9ed8cb27e",
+        "size_in_bytes": 1635,
+        "sha256_in_prefix": "7f7a1cfe32cc8bcb258d8ce31c00828b24a3fb2baffc6c326a82d4f9ed8cb27e"
+      },
+      {
+        "_path": "include/coin/IpIteratesVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "dd0d0e3c0551d0d3b18f012079948281dba175eac03f5dc6be7c391a3a5017df",
+        "size_in_bytes": 19965,
+        "sha256_in_prefix": "dd0d0e3c0551d0d3b18f012079948281dba175eac03f5dc6be7c391a3a5017df"
+      },
+      {
+        "_path": "include/coin/IpIterationOutput.hpp",
+        "path_type": "hardlink",
+        "sha256": "d07aba6ffd7ffd508804a1ec062d464b48eaf18927d7269677a556981db90f30",
+        "size_in_bytes": 1776,
+        "sha256_in_prefix": "d07aba6ffd7ffd508804a1ec062d464b48eaf18927d7269677a556981db90f30"
+      },
+      {
+        "_path": "include/coin/IpJournalist.hpp",
+        "path_type": "hardlink",
+        "sha256": "851228840e03aaab565b68512e26abefb0fc6f37b3e523850c8bddba693b79b5",
+        "size_in_bytes": 16203,
+        "sha256_in_prefix": "851228840e03aaab565b68512e26abefb0fc6f37b3e523850c8bddba693b79b5"
+      },
+      {
+        "_path": "include/coin/IpLapack.hpp",
+        "path_type": "hardlink",
+        "sha256": "5dbe0e1b1895393b89a8ca27ce6706b8a6699a471cb207d15ffe1867fc75b1c4",
+        "size_in_bytes": 4938,
+        "sha256_in_prefix": "5dbe0e1b1895393b89a8ca27ce6706b8a6699a471cb207d15ffe1867fc75b1c4"
+      },
+      {
+        "_path": "include/coin/IpLibraryLoader.hpp",
+        "path_type": "hardlink",
+        "sha256": "449fc2758e4b81f13cbada23189bb1f32af8478327192b12b34fe843a98edf2e",
+        "size_in_bytes": 1641,
+        "sha256_in_prefix": "449fc2758e4b81f13cbada23189bb1f32af8478327192b12b34fe843a98edf2e"
+      },
+      {
+        "_path": "include/coin/IpLineSearch.hpp",
+        "path_type": "hardlink",
+        "sha256": "8ec107e57e8f315f6add44c13c23d8103e80bea6d3440097e3364689fcf58b6e",
+        "size_in_bytes": 3126,
+        "sha256_in_prefix": "8ec107e57e8f315f6add44c13c23d8103e80bea6d3440097e3364689fcf58b6e"
+      },
+      {
+        "_path": "include/coin/IpLinearSolvers.h",
+        "path_type": "hardlink",
+        "sha256": "db504551e937522494fc18864897382393f99f0dc1dcfe4f0d592a4a1024977b",
+        "size_in_bytes": 1476,
+        "sha256_in_prefix": "db504551e937522494fc18864897382393f99f0dc1dcfe4f0d592a4a1024977b"
+      },
+      {
+        "_path": "include/coin/IpMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "6ed895ac14225021ff9f0d88fdf16d626cfb8be33a4418df2dea5b2e0556c4ef",
+        "size_in_bytes": 10739,
+        "sha256_in_prefix": "6ed895ac14225021ff9f0d88fdf16d626cfb8be33a4418df2dea5b2e0556c4ef"
+      },
+      {
+        "_path": "include/coin/IpMuUpdate.hpp",
+        "path_type": "hardlink",
+        "sha256": "901f4970038275e9644032f23fd8fc6132a606277b558ea62d62f68545f42869",
+        "size_in_bytes": 1969,
+        "sha256_in_prefix": "901f4970038275e9644032f23fd8fc6132a606277b558ea62d62f68545f42869"
+      },
+      {
+        "_path": "include/coin/IpNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "dbba825723c022d602d2d3a7b24e845a30cab196e086abfcd9d56d0cb1df0e80",
+        "size_in_bytes": 9610,
+        "sha256_in_prefix": "dbba825723c022d602d2d3a7b24e845a30cab196e086abfcd9d56d0cb1df0e80"
+      },
+      {
+        "_path": "include/coin/IpNLPScaling.hpp",
+        "path_type": "hardlink",
+        "sha256": "5a086db6e296c629109019d9b482c36d4db76309bb3215dad2ded91cffcf5869",
+        "size_in_bytes": 16638,
+        "sha256_in_prefix": "5a086db6e296c629109019d9b482c36d4db76309bb3215dad2ded91cffcf5869"
+      },
+      {
+        "_path": "include/coin/IpObserver.hpp",
+        "path_type": "hardlink",
+        "sha256": "32ecf1a98f5353bf5c6ec8b47b6584c983a2637085826217c4b5dca7692c2f98",
+        "size_in_bytes": 10475,
+        "sha256_in_prefix": "32ecf1a98f5353bf5c6ec8b47b6584c983a2637085826217c4b5dca7692c2f98"
+      },
+      {
+        "_path": "include/coin/IpOptionsList.hpp",
+        "path_type": "hardlink",
+        "sha256": "f115c91874c75039bcb175f17e4f718be9f2aa80d58ebf860f79ad67eba7f9c4",
+        "size_in_bytes": 10735,
+        "sha256_in_prefix": "f115c91874c75039bcb175f17e4f718be9f2aa80d58ebf860f79ad67eba7f9c4"
+      },
+      {
+        "_path": "include/coin/IpOrigIpoptNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "2a7bb113759097d0791a029008fa361cf5eaa20bb69584daa47ff7cfc762b254",
+        "size_in_bytes": 16232,
+        "sha256_in_prefix": "2a7bb113759097d0791a029008fa361cf5eaa20bb69584daa47ff7cfc762b254"
+      },
+      {
+        "_path": "include/coin/IpPDSystemSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "5744b8304b4583285ae5d7418904ec12b702562704e27a8ace18feb91a9d717e",
+        "size_in_bytes": 4845,
+        "sha256_in_prefix": "5744b8304b4583285ae5d7418904ec12b702562704e27a8ace18feb91a9d717e"
+      },
+      {
+        "_path": "include/coin/IpReferenced.hpp",
+        "path_type": "hardlink",
+        "sha256": "651baeb9c689fa54fd2d286d3081f8eff6bf625793a4c3f729c3ce0d6c4b4706",
+        "size_in_bytes": 8834,
+        "sha256_in_prefix": "651baeb9c689fa54fd2d286d3081f8eff6bf625793a4c3f729c3ce0d6c4b4706"
+      },
+      {
+        "_path": "include/coin/IpRegOptions.hpp",
+        "path_type": "hardlink",
+        "sha256": "f1ab6c54294300a6753925b816be6f142eccecc3bba2b71cc80497c9549758e9",
+        "size_in_bytes": 40349,
+        "sha256_in_prefix": "f1ab6c54294300a6753925b816be6f142eccecc3bba2b71cc80497c9549758e9"
+      },
+      {
+        "_path": "include/coin/IpReturnCodes.h",
+        "path_type": "hardlink",
+        "sha256": "fe95f249aa3abb47f4fafca7f3287ee759b3ec44835d99adb0d59ece8f44b587",
+        "size_in_bytes": 434,
+        "sha256_in_prefix": "fe95f249aa3abb47f4fafca7f3287ee759b3ec44835d99adb0d59ece8f44b587"
+      },
+      {
+        "_path": "include/coin/IpReturnCodes.hpp",
+        "path_type": "hardlink",
+        "sha256": "e295dcfc0dc383b669b648c897ac9204f417ae29ad71cd67074350ddc794e1e2",
+        "size_in_bytes": 382,
+        "sha256_in_prefix": "e295dcfc0dc383b669b648c897ac9204f417ae29ad71cd67074350ddc794e1e2"
+      },
+      {
+        "_path": "include/coin/IpReturnCodes.inc",
+        "path_type": "hardlink",
+        "sha256": "438a90db47a478b8f454becf9461a1d698089d76d9fabd862ebf5a6686b11ef9",
+        "size_in_bytes": 2090,
+        "sha256_in_prefix": "438a90db47a478b8f454becf9461a1d698089d76d9fabd862ebf5a6686b11ef9"
+      },
+      {
+        "_path": "include/coin/IpReturnCodes_inc.h",
+        "path_type": "hardlink",
+        "sha256": "b610c490709800e2b8565ab060f37a1d4c556ab61a3736c09c1488507ab6b941",
+        "size_in_bytes": 1604,
+        "sha256_in_prefix": "b610c490709800e2b8565ab060f37a1d4c556ab61a3736c09c1488507ab6b941"
+      },
+      {
+        "_path": "include/coin/IpScaledMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "12b4dd5bd07c3511f5cda560cd40961d3ba67c911cb45cb97cb998e85fe0fe22",
+        "size_in_bytes": 7249,
+        "sha256_in_prefix": "12b4dd5bd07c3511f5cda560cd40961d3ba67c911cb45cb97cb998e85fe0fe22"
+      },
+      {
+        "_path": "include/coin/IpSearchDirCalculator.hpp",
+        "path_type": "hardlink",
+        "sha256": "91efd3f76c36a9e2c08bb111f40ac9e0fc2c585d21b8c941a1d3d26ef3883b61",
+        "size_in_bytes": 1676,
+        "sha256_in_prefix": "91efd3f76c36a9e2c08bb111f40ac9e0fc2c585d21b8c941a1d3d26ef3883b61"
+      },
+      {
+        "_path": "include/coin/IpSlackBasedTSymScalingMethod.hpp",
+        "path_type": "hardlink",
+        "sha256": "dfd0c2b3578714efab937031236d0756e41a5047c4c53dd31e84ed96f901bb16",
+        "size_in_bytes": 1896,
+        "sha256_in_prefix": "dfd0c2b3578714efab937031236d0756e41a5047c4c53dd31e84ed96f901bb16"
+      },
+      {
+        "_path": "include/coin/IpSmartPtr.hpp",
+        "path_type": "hardlink",
+        "sha256": "c1ef78d458eb9ce9d43f058456f738f56f246d2a0df992c9b8bd427254fd18e1",
+        "size_in_bytes": 21218,
+        "sha256_in_prefix": "c1ef78d458eb9ce9d43f058456f738f56f246d2a0df992c9b8bd427254fd18e1"
+      },
+      {
+        "_path": "include/coin/IpSolveStatistics.hpp",
+        "path_type": "hardlink",
+        "sha256": "3c1caca6b87da499cb1fc3a5c9eb02c0e788d60c95a3dfcdd69ecac40a9e1b3e",
+        "size_in_bytes": 6480,
+        "sha256_in_prefix": "3c1caca6b87da499cb1fc3a5c9eb02c0e788d60c95a3dfcdd69ecac40a9e1b3e"
+      },
+      {
+        "_path": "include/coin/IpSparseSymLinearSolverInterface.hpp",
+        "path_type": "hardlink",
+        "sha256": "bc6dfe81cbe162ea807623480e3296068ba0fb4a63aaf0796df4d77b104c6be0",
+        "size_in_bytes": 10040,
+        "sha256_in_prefix": "bc6dfe81cbe162ea807623480e3296068ba0fb4a63aaf0796df4d77b104c6be0"
+      },
+      {
+        "_path": "include/coin/IpStdAugSystemSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "989276bdec0d4d350fb06f0e0adcdbf78eec5431602c9d7f2b7b035f3d18b182",
+        "size_in_bytes": 9173,
+        "sha256_in_prefix": "989276bdec0d4d350fb06f0e0adcdbf78eec5431602c9d7f2b7b035f3d18b182"
+      },
+      {
+        "_path": "include/coin/IpStdCInterface.h",
+        "path_type": "hardlink",
+        "sha256": "9e8660f32f825b2132539d4404b1835002b263265d9feff57926801c777b4744",
+        "size_in_bytes": 19605,
+        "sha256_in_prefix": "9e8660f32f825b2132539d4404b1835002b263265d9feff57926801c777b4744"
+      },
+      {
+        "_path": "include/coin/IpSumSymMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "0f02e392906191b030c253d6db48409e79ddfac9470bb840c74948d59aad380d",
+        "size_in_bytes": 4314,
+        "sha256_in_prefix": "0f02e392906191b030c253d6db48409e79ddfac9470bb840c74948d59aad380d"
+      },
+      {
+        "_path": "include/coin/IpSymLinearSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "4df8da30314cae1499ba2b8c4d84083e2c2b7e1891a376f204516538bd878b95",
+        "size_in_bytes": 4450,
+        "sha256_in_prefix": "4df8da30314cae1499ba2b8c4d84083e2c2b7e1891a376f204516538bd878b95"
+      },
+      {
+        "_path": "include/coin/IpSymMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "e4e4ac21bbbaadbcb5b306c2eb85b7f22c2bc6efd34d2550804ac149eb9edc38",
+        "size_in_bytes": 3856,
+        "sha256_in_prefix": "e4e4ac21bbbaadbcb5b306c2eb85b7f22c2bc6efd34d2550804ac149eb9edc38"
+      },
+      {
+        "_path": "include/coin/IpSymScaledMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "9998fd62296b936899f46a14e353eddc2315d6e632da1aa47512ab781b53d760",
+        "size_in_bytes": 6473,
+        "sha256_in_prefix": "9998fd62296b936899f46a14e353eddc2315d6e632da1aa47512ab781b53d760"
+      },
+      {
+        "_path": "include/coin/IpSymTMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "65c0c11810c705008b8c0d122681ada2b5c35788d81b326a4a5925e4bed19ec4",
+        "size_in_bytes": 7143,
+        "sha256_in_prefix": "65c0c11810c705008b8c0d122681ada2b5c35788d81b326a4a5925e4bed19ec4"
+      },
+      {
+        "_path": "include/coin/IpTNLP.hpp",
+        "path_type": "hardlink",
+        "sha256": "f24714d852649a5fa2b404bced264909114423971b7a1d4812df970ee15f12c3",
+        "size_in_bytes": 38440,
+        "sha256_in_prefix": "f24714d852649a5fa2b404bced264909114423971b7a1d4812df970ee15f12c3"
+      },
+      {
+        "_path": "include/coin/IpTNLPAdapter.hpp",
+        "path_type": "hardlink",
+        "sha256": "e5cae70876f43ed8899e12f2b61f95f00c7e120b9ac1d554216f438314716d21",
+        "size_in_bytes": 23243,
+        "sha256_in_prefix": "e5cae70876f43ed8899e12f2b61f95f00c7e120b9ac1d554216f438314716d21"
+      },
+      {
+        "_path": "include/coin/IpTNLPReducer.hpp",
+        "path_type": "hardlink",
+        "sha256": "7af8e80c6b87e53805d13ba4de70f8500f5a0d305dcc9415e50508df4c533168",
+        "size_in_bytes": 6978,
+        "sha256_in_prefix": "7af8e80c6b87e53805d13ba4de70f8500f5a0d305dcc9415e50508df4c533168"
+      },
+      {
+        "_path": "include/coin/IpTSymLinearSolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "d184785d1412b6a0d1e36c09085eb17e6efee3432bce0ffa3a09c3b017da5dde",
+        "size_in_bytes": 6674,
+        "sha256_in_prefix": "d184785d1412b6a0d1e36c09085eb17e6efee3432bce0ffa3a09c3b017da5dde"
+      },
+      {
+        "_path": "include/coin/IpTSymScalingMethod.hpp",
+        "path_type": "hardlink",
+        "sha256": "f43038187e47391286d6689208cf26c0e8bd6e95ddf6199f598839e92b1cf789",
+        "size_in_bytes": 1726,
+        "sha256_in_prefix": "f43038187e47391286d6689208cf26c0e8bd6e95ddf6199f598839e92b1cf789"
+      },
+      {
+        "_path": "include/coin/IpTaggedObject.hpp",
+        "path_type": "hardlink",
+        "sha256": "5c7055b7b75b27749ff5f038e5b5b9e1723eaa5b2534220789cf9e9989db6fcb",
+        "size_in_bytes": 3974,
+        "sha256_in_prefix": "5c7055b7b75b27749ff5f038e5b5b9e1723eaa5b2534220789cf9e9989db6fcb"
+      },
+      {
+        "_path": "include/coin/IpTimedTask.hpp",
+        "path_type": "hardlink",
+        "sha256": "0d7391021ce24000420a92316e7645a18c2126e28628ddefa072b412ed58462d",
+        "size_in_bytes": 5154,
+        "sha256_in_prefix": "0d7391021ce24000420a92316e7645a18c2126e28628ddefa072b412ed58462d"
+      },
+      {
+        "_path": "include/coin/IpTimingStatistics.hpp",
+        "path_type": "hardlink",
+        "sha256": "bd13c8d6dd3f3f7b0ea1194bb9d30a9642ecbccfea3ecdcc3b71f0c6106af580",
+        "size_in_bytes": 6532,
+        "sha256_in_prefix": "bd13c8d6dd3f3f7b0ea1194bb9d30a9642ecbccfea3ecdcc3b71f0c6106af580"
+      },
+      {
+        "_path": "include/coin/IpTripletHelper.hpp",
+        "path_type": "hardlink",
+        "sha256": "5c880de962c9c5d93eff053074a05a7f27699cc5b499dee3449a771fb2700939",
+        "size_in_bytes": 8104,
+        "sha256_in_prefix": "5c880de962c9c5d93eff053074a05a7f27699cc5b499dee3449a771fb2700939"
+      },
+      {
+        "_path": "include/coin/IpTripletToCSRConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "6dd29e1ccad54f49b59a15c77ce64e48ec391b17fc64fd994b4d5b8b8d6775ad",
+        "size_in_bytes": 6501,
+        "sha256_in_prefix": "6dd29e1ccad54f49b59a15c77ce64e48ec391b17fc64fd994b4d5b8b8d6775ad"
+      },
+      {
+        "_path": "include/coin/IpTypes.h",
+        "path_type": "hardlink",
+        "sha256": "814eca1603edd056fef2f0c92ceb7eb4aeae331815b1b19160213b7e6bd8e204",
+        "size_in_bytes": 1653,
+        "sha256_in_prefix": "814eca1603edd056fef2f0c92ceb7eb4aeae331815b1b19160213b7e6bd8e204"
+      },
+      {
+        "_path": "include/coin/IpTypes.hpp",
+        "path_type": "hardlink",
+        "sha256": "8fa37eb0f97cfe19041ffe0f15a7d568b316d0a50b226cf7a2bac32d7a399fc1",
+        "size_in_bytes": 596,
+        "sha256_in_prefix": "8fa37eb0f97cfe19041ffe0f15a7d568b316d0a50b226cf7a2bac32d7a399fc1"
+      },
+      {
+        "_path": "include/coin/IpUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "21780e5d91337f5f6657edcf5a031e35f387665351fb22b674df619357c87f1e",
+        "size_in_bytes": 4577,
+        "sha256_in_prefix": "21780e5d91337f5f6657edcf5a031e35f387665351fb22b674df619357c87f1e"
+      },
+      {
+        "_path": "include/coin/IpVector.hpp",
+        "path_type": "hardlink",
+        "sha256": "d0bb485d809b47314565aa432ed1dcf47e16ab8fc2ccbf0e44c3e5dad03eb762",
+        "size_in_bytes": 21185,
+        "sha256_in_prefix": "d0bb485d809b47314565aa432ed1dcf47e16ab8fc2ccbf0e44c3e5dad03eb762"
+      },
+      {
+        "_path": "include/coin/IpZeroSymMatrix.hpp",
+        "path_type": "hardlink",
+        "sha256": "9981b6cdad95de12573d46cf0b4b912ded5b5d36b04eafd3c91e8beb463faf07",
+        "size_in_bytes": 3486,
+        "sha256_in_prefix": "9981b6cdad95de12573d46cf0b4b912ded5b5d36b04eafd3c91e8beb463faf07"
+      },
+      {
+        "_path": "include/coin/IpoptConfig.h",
+        "path_type": "hardlink",
+        "sha256": "c2b920fb3042b8407f78ea29bb66054998138e7cff96395c7156661df1856fde",
+        "size_in_bytes": 1121,
+        "sha256_in_prefix": "c2b920fb3042b8407f78ea29bb66054998138e7cff96395c7156661df1856fde"
+      },
+      {
+        "_path": "include/coin/SensAlgorithm.hpp",
+        "path_type": "hardlink",
+        "sha256": "f77cb1896369ed21c0359e4250d24d3096788d896ce619be00f7975fbbff4cc3",
+        "size_in_bytes": 2674,
+        "sha256_in_prefix": "f77cb1896369ed21c0359e4250d24d3096788d896ce619be00f7975fbbff4cc3"
+      },
+      {
+        "_path": "include/coin/SensApplication.hpp",
+        "path_type": "hardlink",
+        "sha256": "c9a07d109a2a206955ae73681a4dec9fff9cd94a2aaeb6ef32095ea238863218",
+        "size_in_bytes": 4726,
+        "sha256_in_prefix": "c9a07d109a2a206955ae73681a4dec9fff9cd94a2aaeb6ef32095ea238863218"
+      },
+      {
+        "_path": "include/coin/SensBacksolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "b9c1ec7077bbe774c399053371a1d7d1a3cd08bcf5b8db26ab2c661fdb85bf42",
+        "size_in_bytes": 676,
+        "sha256_in_prefix": "b9c1ec7077bbe774c399053371a1d7d1a3cd08bcf5b8db26ab2c661fdb85bf42"
+      },
+      {
+        "_path": "include/coin/SensMeasurement.hpp",
+        "path_type": "hardlink",
+        "sha256": "60f20345cf7915dd32e8303778200e46c24e340f7f6b1ddbebbfa5ed8b402d75",
+        "size_in_bytes": 1437,
+        "sha256_in_prefix": "60f20345cf7915dd32e8303778200e46c24e340f7f6b1ddbebbfa5ed8b402d75"
+      },
+      {
+        "_path": "include/coin/SensPCalculator.hpp",
+        "path_type": "hardlink",
+        "sha256": "b731ae9d18fe2b89faae0e6f76447ac0ffe57fae16428b0f0539f8481f0ee7b1",
+        "size_in_bytes": 3189,
+        "sha256_in_prefix": "b731ae9d18fe2b89faae0e6f76447ac0ffe57fae16428b0f0539f8481f0ee7b1"
+      },
+      {
+        "_path": "include/coin/SensRegOp.hpp",
+        "path_type": "hardlink",
+        "sha256": "5424ee662d081d0cbaf1a208e02dbebff13401f111d8f0bd08b194194e66a423",
+        "size_in_bytes": 372,
+        "sha256_in_prefix": "5424ee662d081d0cbaf1a208e02dbebff13401f111d8f0bd08b194194e66a423"
+      },
+      {
+        "_path": "include/coin/SensSchurData.hpp",
+        "path_type": "hardlink",
+        "sha256": "f4c454d5b4b3aa1e4477653639caedeec52d5346e39b3750749cadaef87d5b77",
+        "size_in_bytes": 4374,
+        "sha256_in_prefix": "f4c454d5b4b3aa1e4477653639caedeec52d5346e39b3750749cadaef87d5b77"
+      },
+      {
+        "_path": "include/coin/SensSchurDriver.hpp",
+        "path_type": "hardlink",
+        "sha256": "1aa7a8c1b75df516ff3ec98ebeecc98f816dc6a492994aa2e15d90baac19ba2a",
+        "size_in_bytes": 2732,
+        "sha256_in_prefix": "1aa7a8c1b75df516ff3ec98ebeecc98f816dc6a492994aa2e15d90baac19ba2a"
+      },
+      {
+        "_path": "include/coin/SensSimpleBacksolver.hpp",
+        "path_type": "hardlink",
+        "sha256": "0dfe6ad71d9dcbbc3784ffa5a80f30f3d159688afd3ab2aa44302c94b67ec391",
+        "size_in_bytes": 921,
+        "sha256_in_prefix": "0dfe6ad71d9dcbbc3784ffa5a80f30f3d159688afd3ab2aa44302c94b67ec391"
+      },
+      {
+        "_path": "include/coin/SensStepCalc.hpp",
+        "path_type": "hardlink",
+        "sha256": "e0ba6d20b209bf6a081a18e0d129d73606aa2f5096ca96a96623c6af649bc54a",
+        "size_in_bytes": 1856,
+        "sha256_in_prefix": "e0ba6d20b209bf6a081a18e0d129d73606aa2f5096ca96a96623c6af649bc54a"
+      },
+      {
+        "_path": "include/coin/SensUtils.hpp",
+        "path_type": "hardlink",
+        "sha256": "4f4ad53dfea6a1a8ad685d18830509e6eaac547f33a7a77b8d34a309d64cf213",
+        "size_in_bytes": 1442,
+        "sha256_in_prefix": "4f4ad53dfea6a1a8ad685d18830509e6eaac547f33a7a77b8d34a309d64cf213"
+      },
+      {
+        "_path": "lib/libipopt.so",
+        "path_type": "softlink",
+        "sha256": "b9533a59f740964ca2764d4f56d925e164d28b9de29ce8e6446de0bc18a73672",
+        "size_in_bytes": 2811800
+      },
+      {
+        "_path": "lib/libipopt.so.3",
+        "path_type": "softlink",
+        "sha256": "b9533a59f740964ca2764d4f56d925e164d28b9de29ce8e6446de0bc18a73672",
+        "size_in_bytes": 2811800
+      },
+      {
+        "_path": "lib/libipopt.so.3.14.20",
+        "path_type": "hardlink",
+        "sha256": "b9533a59f740964ca2764d4f56d925e164d28b9de29ce8e6446de0bc18a73672",
+        "size_in_bytes": 2811800,
+        "sha256_in_prefix": "b9533a59f740964ca2764d4f56d925e164d28b9de29ce8e6446de0bc18a73672"
+      },
+      {
+        "_path": "lib/libipoptamplinterface.so",
+        "path_type": "softlink",
+        "sha256": "9973a2cae3e7666ce6d2b4aa5484fa90c549fbec4272cf1ccad5e7691ab20e46",
+        "size_in_bytes": 137552
+      },
+      {
+        "_path": "lib/libipoptamplinterface.so.3",
+        "path_type": "softlink",
+        "sha256": "9973a2cae3e7666ce6d2b4aa5484fa90c549fbec4272cf1ccad5e7691ab20e46",
+        "size_in_bytes": 137552
+      },
+      {
+        "_path": "lib/libipoptamplinterface.so.3.14.20",
+        "path_type": "hardlink",
+        "sha256": "9973a2cae3e7666ce6d2b4aa5484fa90c549fbec4272cf1ccad5e7691ab20e46",
+        "size_in_bytes": 137552,
+        "sha256_in_prefix": "9973a2cae3e7666ce6d2b4aa5484fa90c549fbec4272cf1ccad5e7691ab20e46"
+      },
+      {
+        "_path": "lib/libsipopt.so",
+        "path_type": "softlink",
+        "sha256": "935414817f5c3c161b4ba053282aba8f41661878260fd6acbed84f75e9c6bd08",
+        "size_in_bytes": 234208
+      },
+      {
+        "_path": "lib/libsipopt.so.3",
+        "path_type": "softlink",
+        "sha256": "935414817f5c3c161b4ba053282aba8f41661878260fd6acbed84f75e9c6bd08",
+        "size_in_bytes": 234208
+      },
+      {
+        "_path": "lib/libsipopt.so.3.14.20",
+        "path_type": "hardlink",
+        "sha256": "935414817f5c3c161b4ba053282aba8f41661878260fd6acbed84f75e9c6bd08",
+        "size_in_bytes": 234208,
+        "sha256_in_prefix": "935414817f5c3c161b4ba053282aba8f41661878260fd6acbed84f75e9c6bd08"
+      },
+      {
+        "_path": "lib/pkgconfig/ipopt.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ipopt_1787865797690/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "329cc012c5312c98047c3b6726a70d3acd3df6c4a124d34952e6d29778beef4e",
+        "size_in_bytes": 880,
+        "sha256_in_prefix": "3a3c43f3f34bc58c63bd25b2e3f831edfdedc0fca24daab715880cd8ba7ed15e"
+      },
+      {
+        "_path": "lib/pkgconfig/ipoptamplinterface.pc",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/ipopt_1787865797690/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "8bb12362c4701b136bbce794c50325cba25cfe5b9f119566e8164187f62116d4",
+        "size_in_bytes": 655,
+        "sha256_in_prefix": "d19153ef309e02e67b1f5b328bd6917018ba606dfe1b82269811606fb0907c25"
+      },
+      {
+        "_path": "share/doc/ipopt/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "1ebb6cf89449c080f75421403b7474d21b965ba6eab65670f043779b54f74db6",
+        "size_in_bytes": 4373,
+        "sha256_in_prefix": "1ebb6cf89449c080f75421403b7474d21b965ba6eab65670f043779b54f74db6"
+      },
+      {
+        "_path": "share/doc/ipopt/ChangeLog.md",
+        "path_type": "hardlink",
+        "sha256": "a88bafe732d921837316b8a08cc7936a7390f8f98392cb6d155ccc69c4719367",
+        "size_in_bytes": 60870,
+        "sha256_in_prefix": "a88bafe732d921837316b8a08cc7936a7390f8f98392cb6d155ccc69c4719367"
+      },
+      {
+        "_path": "share/doc/ipopt/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303",
+        "size_in_bytes": 14198,
+        "sha256_in_prefix": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303"
+      },
+      {
+        "_path": "share/doc/ipopt/README.md",
+        "path_type": "hardlink",
+        "sha256": "059060671acea34a929b0aa6591e56a314a35646a7cda0e62a22b54ac4f28cc8",
+        "size_in_bytes": 10199,
+        "sha256_in_prefix": "059060671acea34a929b0aa6591e56a314a35646a7cda0e62a22b54ac4f28cc8"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/ipopt-3.14.20-hec1326d_0",
+    "type": 1
+  }
+}

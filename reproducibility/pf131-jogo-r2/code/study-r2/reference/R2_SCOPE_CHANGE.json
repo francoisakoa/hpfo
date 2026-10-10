@@ -1,0 +1,21 @@
+{
+  "cpp_tree_unchanged": true,
+  "source_files_identical": 513,
+  "old_atoms": [
+    75,
+    98
+  ],
+  "new_atoms": [
+    75,
+    102
+  ],
+  "old_refine_all": false,
+  "new_refine_all": true,
+  "new_no_local_refine_all": false,
+  "cpp_interface_unchanged": "PF131_ARTICLE_STUDY_R1",
+  "campaign_schema": "PF131_LJ75_LJ102_REFINE_ALL_R2",
+  "new_solver_runs": 820,
+  "table_observations": 860,
+  "no_old_results_imported": true,
+  "terminal_refinement": "Native top5 retained; refine-all applies to PF loop"
+}

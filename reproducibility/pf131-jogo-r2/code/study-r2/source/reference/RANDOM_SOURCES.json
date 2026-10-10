@@ -1,0 +1,32 @@
+{
+  "upstream": "NumPy",
+  "version": "2.3.5",
+  "files": [
+    {
+      "url": "https://github.com/numpy/numpy/blob/v2.3.5/numpy/random/bit_generator.pyx",
+      "sha256": "1e2e991c929c318b9a424e2e8ec3f92525c6478c382b59731f3a83e1a7306821"
+    },
+    {
+      "url": "https://github.com/numpy/numpy/blob/v2.3.5/numpy/random/_generator.pyx",
+      "sha256": "90e4583693c3c12969f0913c3583ee1aee82e80f40780426d9c393611fab368c"
+    },
+    {
+      "url": "https://github.com/numpy/numpy/blob/v2.3.5/numpy/random/_pcg64.pyx",
+      "sha256": "b57fb542a52d65a485546f56b2bca15c458c44dd34159dcf8417aa20acdb9afc"
+    },
+    {
+      "url": "https://github.com/numpy/numpy/blob/v2.3.5/numpy/random/src/pcg64/pcg64.h",
+      "sha256": "2ce9cc9366a9993cfd786a1ee63eaad35d8761c0ff9744ee5508192156f33d4a"
+    },
+    {
+      "url": "https://github.com/numpy/numpy/blob/v2.3.5/numpy/random/src/distributions/distributions.c",
+      "sha256": "d1bd4b618bc9e4a447efa0651c3dfeb2d186b10bd8057eab0397b40529451f47"
+    },
+    {
+      "url": "https://github.com/numpy/numpy/blob/v2.3.5/numpy/random/src/distributions/ziggurat_constants.h",
+      "sha256": "9f8b114014b8475777e88c6af80e126654fe0753693d6eabba365d3c4051236c"
+    }
+  ],
+  "license_file": "THIRD_PARTY_NOTICES.md",
+  "vendored_file": "src/numpy_rng/ziggurat_normal.hpp"
+}

@@ -1,0 +1,41 @@
+test_01_full_install (test_packaging.PackagingTests.test_01_full_install) ... ok
+test_02_originals_unchanged (test_packaging.PackagingTests.test_02_originals_unchanged) ... ok
+test_03_repeated_install_refused (test_packaging.PackagingTests.test_03_repeated_install_refused) ... ok
+test_04_baseline_grid_and_hashes (test_packaging.PackagingTests.test_04_baseline_grid_and_hashes) ... ok
+test_05_nested_sources_preserved (test_packaging.PackagingTests.test_05_nested_sources_preserved) ... ok
+test_06_source_data_not_ignored (test_packaging.PackagingTests.test_06_source_data_not_ignored) ... ok
+test_07_release_bytes_preserved (test_packaging.PackagingTests.test_07_release_bytes_preserved) ... ok
+test_08_unpack_and_rebuild (test_packaging.PackagingTests.test_08_unpack_and_rebuild) ... ok
+test_09_second_unpack_refused (test_packaging.PackagingTests.test_09_second_unpack_refused) ... ok
+test_10_publish_is_dry_run (test_packaging.PackagingTests.test_10_publish_is_dry_run) ... ok
+test_11_publish_requires_consent (test_packaging.PackagingTests.test_11_publish_requires_consent) ... ok
+test_12_publish_requires_actual_build_report (test_packaging.PackagingTests.test_12_publish_requires_actual_build_report) ... ok
+test_13_zip_traversal_refused (test_packaging.PackagingTests.test_13_zip_traversal_refused) ... ok
+test_14_zip_symlink_refused (test_packaging.PackagingTests.test_14_zip_symlink_refused) ... ok
+test_15_hash_tamper_detected (test_packaging.PackagingTests.test_15_hash_tamper_detected) ... ok
+test_16_target_not_guessed_from_scipy_success (test_packaging.PackagingTests.test_16_target_not_guessed_from_scipy_success) ... ok
+test_17_replay_no_shell_operator (test_packaging.PackagingTests.test_17_replay_no_shell_operator) ... ok
+test_18_baseline_record_aliases (test_packaging.PackagingTests.test_18_baseline_record_aliases) ... ok
+test_fractional_identity_not_truncated (test_resume_fix1.NativeRecordTests.test_fractional_identity_not_truncated) ... ok
+test_generic_success_does_not_create_a_target (test_resume_fix1.NativeRecordTests.test_generic_success_does_not_create_a_target) ... ok
+test_missing_run_has_no_path_based_fallback (test_resume_fix1.NativeRecordTests.test_missing_run_has_no_path_based_fallback) ... ok
+test_native_fields_and_accounting_scope (test_resume_fix1.NativeRecordTests.test_native_fields_and_accounting_scope) ... ok
+test_negative_counter_is_rejected (test_resume_fix1.NativeRecordTests.test_negative_counter_is_rejected) ... ok
+test_numeric_string_identity_is_exact (test_resume_fix1.NativeRecordTests.test_numeric_string_identity_is_exact) ... ok
+test_recorded_target_is_not_a_scipy_success_flag (test_resume_fix1.NativeRecordTests.test_recorded_target_is_not_a_scipy_success_flag) ... ok
+test_duplicate_native_identity_is_not_selected_arbitrarily (test_resume_fix1.RefusalTests.test_duplicate_native_identity_is_not_selected_arbitrarily) ... ok
+test_missing_native_record_cannot_be_declared_complete (test_resume_fix1.RefusalTests.test_missing_native_record_cannot_be_declared_complete) ... ok
+test_all_1200_native_records_with_hashes (test_resume_fix1.ResumeRegressionTests.test_all_1200_native_records_with_hashes) ... ok
+test_archives_reused_in_place_not_recopied (test_resume_fix1.ResumeRegressionTests.test_archives_reused_in_place_not_recopied) ... ok
+test_changed_extracted_file_rejected_without_overwrite (test_resume_fix1.ResumeRegressionTests.test_changed_extracted_file_rejected_without_overwrite) ... ok
+test_export_checksum_list_does_not_include_itself (test_resume_fix1.ResumeRegressionTests.test_export_checksum_list_does_not_include_itself) ... ok
+test_full_resume_to_hpfo (test_resume_fix1.ResumeRegressionTests.test_full_resume_to_hpfo) ... ok
+test_native_reviewer_unpack_rebuild (test_resume_fix1.ResumeRegressionTests.test_native_reviewer_unpack_rebuild) ... ok
+test_r1_failure_reproduced_zero_of_1200 (test_resume_fix1.ResumeRegressionTests.test_r1_failure_reproduced_zero_of_1200) ... ok
+test_resume_not_published_or_compiled (test_resume_fix1.ResumeRegressionTests.test_resume_not_published_or_compiled) ... ok
+test_sources_inputs_and_results_unchanged (test_resume_fix1.ResumeRegressionTests.test_sources_inputs_and_results_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 26.391s
+
+OK

@@ -1,0 +1,506 @@
+[
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/BASELINES_5_NOHUP_R1/probe_records.py",
+    "sha256": "841d8adcbbb5e45ff31225a39ee77ab93ab7da7830feb68c68a008f96510ee39"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/BASELINES_5_NOHUP_R1/supervise.py",
+    "sha256": "c07fd00355f070b10c7f33a0488d84ef69119b46c56e8aa764430a3a72a3b6b2"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/BASELINES_5_NOHUP_R1/verify_kit.py",
+    "sha256": "20f1806c2c51a9ebed8ca402c78c45d9e526ee27e266ff5c48f63adfb4589496"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/aggregate_baselines.py",
+    "sha256": "a382c5b400ad2519794ae4f91f052c3c9aa10014d5d0defe20eec13238ec42cb"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/baselines.py",
+    "sha256": "31c1f9e5f8194baf28066142cddfabe66a18ba42ca8649205a24bde597f3bebe"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/benchmark_suite.py",
+    "sha256": "dd53e7902430e68c8ff525131e439c5726c30353460b056bb6a8000ffde99511"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/campaign.py",
+    "sha256": "2a1123d0ccde5d3c793f2bf534aea3ab0e08a1c12cfd85387fb6a1d092cc1ba5"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/evaluation.py",
+    "sha256": "bf4cd2034bfe67eb0d5ff3205c97486b3a63bb2f63c2ece931819b23c545745d"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/generate_tables.py",
+    "sha256": "5b247e416a3bb8bafb1fbd6f2dbdc01695ffb0ac9a32d2017fb42359d2eb321b"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/lj_oracle.py",
+    "sha256": "686fc5cf4fec922180bafeab1bca34e3c3a8c63d1d3c8b9124dd5a359ba50291"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/preflight.py",
+    "sha256": "93394384cf907e8cd6c46770a5f30a5223576429e3ce323a352bc6da0a85e39e"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/protocol.py",
+    "sha256": "bac099ceab58135a9564146e01541cb2c0e99bcc2dbad36ea012335056dc3a5b"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/record_schema.py",
+    "sha256": "daef1476cec75caf1abd3fd386cee281a844a6f0522b3f7786039c3db6546fc7"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3/run_one_baseline.py",
+    "sha256": "a72386447beb92397705469ac632465a08a2fd7a8074a1d8dc8552548a04a50d"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/aggregate_baselines.py",
+    "sha256": "a382c5b400ad2519794ae4f91f052c3c9aa10014d5d0defe20eec13238ec42cb"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/baselines.py",
+    "sha256": "2ecc527e83b1b4c1b4fe0228f5ca1beafe89e28c45e07d3e059c17355e9b67fe"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/benchmark_suite.py",
+    "sha256": "dd53e7902430e68c8ff525131e439c5726c30353460b056bb6a8000ffde99511"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/campaign.py",
+    "sha256": "2a1123d0ccde5d3c793f2bf534aea3ab0e08a1c12cfd85387fb6a1d092cc1ba5"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/evaluation.py",
+    "sha256": "b7482e2b70d13faa26839ee8bdd9b8c6315ace6200eafcca76f8a79beb1eaa85"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/generate_tables.py",
+    "sha256": "5b247e416a3bb8bafb1fbd6f2dbdc01695ffb0ac9a32d2017fb42359d2eb321b"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/lj_oracle.py",
+    "sha256": "686fc5cf4fec922180bafeab1bca34e3c3a8c63d1d3c8b9124dd5a359ba50291"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/local_refinement.py",
+    "sha256": "fa8015128774fd285946f785c7caea1306d579531a6892d0ec5071af1d6b81ee"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/preflight.py",
+    "sha256": "1401d63db23c99748d6ef2819f98ed8269f2898d0fcea7f2707a27ade85908e4"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/protocol.py",
+    "sha256": "ba54e21285cefd12497709c819db285db3906cd81c42c2347e6e7068039fbf3a"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/record_schema.py",
+    "sha256": "daef1476cec75caf1abd3fd386cee281a844a6f0522b3f7786039c3db6546fc7"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/baselines-export/baselines_v3_1/run_one_baseline.py",
+    "sha256": "e20d2e01a830a30711562d363c73659bb31ee3fb70c84c736a10f52d4292e210"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/CMakeLists.txt",
+    "sha256": "601f94e94b9630c1b66c86f20af3bf9c551c64c0bc861623d7f6a4af7b3ce247"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/app/linear_check.cpp",
+    "sha256": "7e5c7e5cd4eb9d7f171d78ee2d114c87e79f604753dafd50d5a7292df4628ef8"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/app/local_bench.cpp",
+    "sha256": "69adb7b6a1226e6b1dcbbad4a19c91e695feaabd1fd19978750a395f3d3236b3"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/app/main.cpp",
+    "sha256": "a337a08102100d3e6ec623b9825fcb5c64c2cc08dc44983ef439dc28de7e89fd"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/app/worker.cpp",
+    "sha256": "2fb9426d4a1b4a3f85252f48a6d487d061b35bc0a324335961478881a7fbeb30"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/examples/custom_problem.cpp",
+    "sha256": "0eb53e6ebd461ae36f1b868b4a8c8a95ca3572695b661bae8068416c78ab8684"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/include/pf/pf.hpp",
+    "sha256": "543f923f83fa80cb276c51e99fcdae16667397e803a67fff801022e845caae3d"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/reference/backend_ops.py",
+    "sha256": "58f1dce729212a3c226d32552773f6f698b728e7789b639c49628b39103360f6"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/reference/general_nlp_pf_optimized_gpu.py",
+    "sha256": "6d21a05eb7b31d2a42f0041e40de72effc45d7db13bbad03ac1d5256113ee328"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/reference/legacy_v1/general_nlp_pf_optimized_gpu.py",
+    "sha256": "4090b53453b282a6e8e6b14ed9f5efe53c05d6b9e443e781f204880ca2e81f31"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/reference/solve_nlp_ipopt.py",
+    "sha256": "d7b4e1c9850bcbbbc1a10d0d7389cc63484fcc2956f6a69dc2b5459bd30078c8"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/reference/solve_nlp_local_gpu.py",
+    "sha256": "f9eb2df67812b41e6eae2c42fd73b2f9d8ae9aabefcecffdf3cd287b8b91cff5"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/clustering.cpp",
+    "sha256": "d1034e8f0b9114d5a21299b883e03b7d639d66709bfa2c71c39a6e15e0d294e0"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/internal.hpp",
+    "sha256": "820e956a19b097f7403238bcce74863e1a38c130226007ce6437699a4832da46"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/io.cpp",
+    "sha256": "0ac7d88cb52b54d7eb8c8426e718e9000b48ce8c29d8a322e0a58c5f2a7104a7"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/ipopt.cpp",
+    "sha256": "2223bac5f70a661b22adbe24a288ac2aa6f6cd587a782015ca3b30c27f4079fc"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/linear.cpp",
+    "sha256": "a6a2a2961b6c8a880a78565ad2113415068d56d800b5a5652e5c238ad55e004a"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/linear.hpp",
+    "sha256": "4d37d92c4fdc6aa607c5f9067ed1c3864c48112a915237aec98afb57c160e2e9"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/lj_newton.cpp",
+    "sha256": "8fab222a40495510ad23f0611b981ef376c40147abdea79967a1feb87088acbb"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/lj_newton.hpp",
+    "sha256": "2673bda8d3f382b3f65737d2350b0d71b7ca14732b645cac53642e55a773b634"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/local.cpp",
+    "sha256": "35faa3014dc2bbf8df5e6f7303f4194e3e5efc28728782262fd8d7e03cb6ff1d"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/local_pool.cpp",
+    "sha256": "ef39e5ec36ecbb14b653e9b4e7ae430095c9810a854ea80964b9b6f0f90c7c21"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/numpy_rng/ziggurat_normal.hpp",
+    "sha256": "ca090315bf44b48e7b877b917214623cc9569015208c754685a2b3563c350eeb"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/operators.cpp",
+    "sha256": "2f57aa1a15f594ab7db9cd2c8fff5c8f6efaea84a0f7acbff124cf0dd059ccd6"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/ordering.cpp",
+    "sha256": "95d5467fbd80f0b4aa8f77375334e666bd5bd3c7ac0a4e55cb0e5c972ab54039"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/ordering.hpp",
+    "sha256": "d515ab3cfc3aca82306a18c6622404b19d005c4185e0a2cbe14b8be1061ff938"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/problem.cpp",
+    "sha256": "dfe50717fd10e598b647821ca7e73d67441af96bec26b6d307cc9f673db6a6aa"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/random.cpp",
+    "sha256": "a75b9ab761df1cdc5baa3414fb5a22f8db1da03b1a0aaec6f53575c78e9d1ebe"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/seed.cpp",
+    "sha256": "a34b87e5c7a2316d1ef0688d5a505023e877b6f97a99ae40d24fb48c5059ad2d"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/src/solver.cpp",
+    "sha256": "e5848fe8676b11c76ffc423f19559aa26448e50fc6d9857cb53f2136466fabb0"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/benchmark_local.py",
+    "sha256": "71b6e1ed3731ee6e126bfb53f9f66127e8b1e84440b37e3c2c9eff2801fac3b7"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/benchmark_parallel.py",
+    "sha256": "1cb1079f092bc43502af2e6047d877a8a7daf54e821e5369e2ab887cb6faf049"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/integration.py",
+    "sha256": "059d51d3604c44068a0ecd44f9a36eae93afd3c9cbb00e0b28193ac38b9a2223"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/local_probe.cpp",
+    "sha256": "bc858fc76a14bf9df5fc75761846d604c8e68b890b31778fb216fc78daf01b78"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/numpy_random_parity.py",
+    "sha256": "847f545f595c47496333d848ae2fd7c7cca231188f2e71f47ad68952510a4e02"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/probe.cpp",
+    "sha256": "7ca7018acd7b27ff16c4048da6cca35d493dd04d3051ea3c664980bd8dc081b6"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/python_parity.py",
+    "sha256": "346f52659043bfc8e837507ddef17a8b86b678f841d6f6071a0991c4cccfac49"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/reference_models.py",
+    "sha256": "43e6574c5b43037502c87461b5168f257f68dea9c12498cded2fdbb9503b49c8"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/rng_probe.cpp",
+    "sha256": "91db953843a8b606b39161d27882ef162930523d4a87d5ebb5acd8400c2503d2"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/test_core.cpp",
+    "sha256": "adb4c49af8aaf2797dcec36ce49bf004fa3389a410b2cec1cddd572b272956af"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/test_eigen_boundary.cpp",
+    "sha256": "e69b58e774e6788a33aba738c97f2fada57e91202928d4e259ffb8b06c71b73e"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/test_lj_newton.cpp",
+    "sha256": "2b315b3b032b069baa54fa42cc633c65b5285277b19a5913bf061e75ebbef7ce"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/test_local_incumbent.cpp",
+    "sha256": "66f50bf45211f5a45ccae3dbfac15171c525696c0be5953af6c6bff627fd67ff"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/tests/validate_metis.py",
+    "sha256": "0f96190c466b849b04233be23b5c67a67e949d005a0cb5b6cf634bafd5490fbe"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/validation/previous_v1.3.0/run_direct_checks.py",
+    "sha256": "832a265f9f0c377014aade4b9ab3c6ceacfb67cd560fbebac38b2722d4026133"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/main-pf131/validation/previous_v1.3.0/run_pf_checks.py",
+    "sha256": "cf8b0778aae7621e27ce5fab507791eee5467f845bbb6781dc4453f956549245"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/reuse_binaries.py",
+    "sha256": "6521b4e56155b9a041c90b0d65c17a7e6143f25dd0645b13f62f777aaa515341"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/CMakeLists.txt",
+    "sha256": "6739296943955634128d8a3a939808998b5387422c99a65532e658bbfd6ae373"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/app/linear_check.cpp",
+    "sha256": "7e5c7e5cd4eb9d7f171d78ee2d114c87e79f604753dafd50d5a7292df4628ef8"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/app/local_bench.cpp",
+    "sha256": "69adb7b6a1226e6b1dcbbad4a19c91e695feaabd1fd19978750a395f3d3236b3"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/app/main.cpp",
+    "sha256": "d1beaba5cbc624b3e87582e7c04b89904b062314821ac4e668507072b08aeb3c"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/app/worker.cpp",
+    "sha256": "2fb9426d4a1b4a3f85252f48a6d487d061b35bc0a324335961478881a7fbeb30"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/examples/custom_problem.cpp",
+    "sha256": "0eb53e6ebd461ae36f1b868b4a8c8a95ca3572695b661bae8068416c78ab8684"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/include/pf/pf.hpp",
+    "sha256": "6bdceb1a55d8e1809276c25e362dc79225ae7206eeed62ced842c9e65536f1e1"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/reference/backend_ops.py",
+    "sha256": "58f1dce729212a3c226d32552773f6f698b728e7789b639c49628b39103360f6"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/reference/general_nlp_pf_optimized_gpu.py",
+    "sha256": "6d21a05eb7b31d2a42f0041e40de72effc45d7db13bbad03ac1d5256113ee328"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/reference/legacy_v1/general_nlp_pf_optimized_gpu.py",
+    "sha256": "4090b53453b282a6e8e6b14ed9f5efe53c05d6b9e443e781f204880ca2e81f31"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/reference/solve_nlp_ipopt.py",
+    "sha256": "d7b4e1c9850bcbbbc1a10d0d7389cc63484fcc2956f6a69dc2b5459bd30078c8"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/reference/solve_nlp_local_gpu.py",
+    "sha256": "f9eb2df67812b41e6eae2c42fd73b2f9d8ae9aabefcecffdf3cd287b8b91cff5"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/clustering.cpp",
+    "sha256": "d1034e8f0b9114d5a21299b883e03b7d639d66709bfa2c71c39a6e15e0d294e0"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/internal.hpp",
+    "sha256": "820e956a19b097f7403238bcce74863e1a38c130226007ce6437699a4832da46"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/io.cpp",
+    "sha256": "a7acda6b881989b51912454fcf7c894335af420244f80dada7ac6a59627f2f54"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/ipopt.cpp",
+    "sha256": "2223bac5f70a661b22adbe24a288ac2aa6f6cd587a782015ca3b30c27f4079fc"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/linear.cpp",
+    "sha256": "a6a2a2961b6c8a880a78565ad2113415068d56d800b5a5652e5c238ad55e004a"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/linear.hpp",
+    "sha256": "4d37d92c4fdc6aa607c5f9067ed1c3864c48112a915237aec98afb57c160e2e9"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/lj_newton.cpp",
+    "sha256": "8fab222a40495510ad23f0611b981ef376c40147abdea79967a1feb87088acbb"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/lj_newton.hpp",
+    "sha256": "2673bda8d3f382b3f65737d2350b0d71b7ca14732b645cac53642e55a773b634"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/local.cpp",
+    "sha256": "35faa3014dc2bbf8df5e6f7303f4194e3e5efc28728782262fd8d7e03cb6ff1d"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/local_pool.cpp",
+    "sha256": "ef39e5ec36ecbb14b653e9b4e7ae430095c9810a854ea80964b9b6f0f90c7c21"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/numpy_rng/ziggurat_normal.hpp",
+    "sha256": "ca090315bf44b48e7b877b917214623cc9569015208c754685a2b3563c350eeb"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/operators.cpp",
+    "sha256": "69de97feec5d3cf18cbbf2cd239db42e924c0893c831254682b4f7a423381cc3"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/ordering.cpp",
+    "sha256": "95d5467fbd80f0b4aa8f77375334e666bd5bd3c7ac0a4e55cb0e5c972ab54039"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/ordering.hpp",
+    "sha256": "d515ab3cfc3aca82306a18c6622404b19d005c4185e0a2cbe14b8be1061ff938"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/problem.cpp",
+    "sha256": "905e35786ee71d7cf4692c90eeb4fd8934a886bac05b01a014d777ec6c300536"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/random.cpp",
+    "sha256": "a75b9ab761df1cdc5baa3414fb5a22f8db1da03b1a0aaec6f53575c78e9d1ebe"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/seed.cpp",
+    "sha256": "a34b87e5c7a2316d1ef0688d5a505023e877b6f97a99ae40d24fb48c5059ad2d"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/src/solver.cpp",
+    "sha256": "a37baf04b8f8b157cb6e8588678c72d09e6e850686338af7643320c1e504fe11"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/benchmark_local.py",
+    "sha256": "71b6e1ed3731ee6e126bfb53f9f66127e8b1e84440b37e3c2c9eff2801fac3b7"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/benchmark_parallel.py",
+    "sha256": "1cb1079f092bc43502af2e6047d877a8a7daf54e821e5369e2ab887cb6faf049"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/integration.py",
+    "sha256": "059d51d3604c44068a0ecd44f9a36eae93afd3c9cbb00e0b28193ac38b9a2223"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/local_probe.cpp",
+    "sha256": "bc858fc76a14bf9df5fc75761846d604c8e68b890b31778fb216fc78daf01b78"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/numpy_random_parity.py",
+    "sha256": "847f545f595c47496333d848ae2fd7c7cca231188f2e71f47ad68952510a4e02"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/probe.cpp",
+    "sha256": "7ca7018acd7b27ff16c4048da6cca35d493dd04d3051ea3c664980bd8dc081b6"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/python_parity.py",
+    "sha256": "346f52659043bfc8e837507ddef17a8b86b678f841d6f6071a0991c4cccfac49"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/reference_models.py",
+    "sha256": "43e6574c5b43037502c87461b5168f257f68dea9c12498cded2fdbb9503b49c8"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/rng_probe.cpp",
+    "sha256": "91db953843a8b606b39161d27882ef162930523d4a87d5ebb5acd8400c2503d2"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/test_core.cpp",
+    "sha256": "adb4c49af8aaf2797dcec36ce49bf004fa3389a410b2cec1cddd572b272956af"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/test_eigen_boundary.cpp",
+    "sha256": "e69b58e774e6788a33aba738c97f2fada57e91202928d4e259ffb8b06c71b73e"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/test_lj_newton.cpp",
+    "sha256": "2b315b3b032b069baa54fa42cc633c65b5285277b19a5913bf061e75ebbef7ce"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/test_local_incumbent.cpp",
+    "sha256": "66f50bf45211f5a45ccae3dbfac15171c525696c0be5953af6c6bff627fd67ff"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/test_study_controls.cpp",
+    "sha256": "e47d802b6245a187b46e81625dc49383cc012b1d4a95eaa8d9a66473ba282131"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/tests/validate_metis.py",
+    "sha256": "0f96190c466b849b04233be23b5c67a67e949d005a0cb5b6cf634bafd5490fbe"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/validation/previous_v1.3.0/run_direct_checks.py",
+    "sha256": "832a265f9f0c377014aade4b9ab3c6ceacfb67cd560fbebac38b2722d4026133"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/source/validation/previous_v1.3.0/run_pf_checks.py",
+    "sha256": "cf8b0778aae7621e27ce5fab507791eee5467f845bbb6781dc4453f956549245"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/stop_campaign.py",
+    "sha256": "a725e86285615f981b76f7438c634a5d5bc432dc40c5d0fe3be44b59a1378fda"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/study.py",
+    "sha256": "848e738ad5f964dcab943901a6e48dfae75175540e3184278e0aa8975b613cdb"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/tests/e2e_synthetic.py",
+    "sha256": "a281be90cd5d2e46369cc56c7d0abd257e88403befa0d6f232f7422c9102d9b0"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/tests/test_runner.py",
+    "sha256": "6af6138ba2007c640f558089e6c64fd2fc64f17324f7570635f0ab5cd77260f0"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/tests/test_study_cli.py",
+    "sha256": "28334d57e189c8e0e0d5682650739036f9ea05fe42b5ebf5b3724ca931053d53"
+  },
+  {
+    "path": "reproducibility/pf131-jogo-r2/code/study-r2/tests/test_switch.py",
+    "sha256": "7842d1627826d9b70eebf0cf6c53a2d2aa63256ee196ed809f9c74f3c7c3deeb"
+  }
+]

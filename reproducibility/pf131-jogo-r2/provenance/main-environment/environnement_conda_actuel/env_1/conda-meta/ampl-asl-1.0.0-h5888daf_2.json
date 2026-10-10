@@ -1,0 +1,349 @@
+{
+  "name": "ampl-asl",
+  "version": "1.0.0",
+  "build": "h5888daf_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "ampl-asl-1.0.0-h5888daf_2.conda",
+  "md5": "ef757816a8f0fee2650b6c7e19980b6b",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ampl-asl-1.0.0-h5888daf_2.conda",
+  "sha256": "c5c1057778bec78e07a4a8f122c3659767817fc0a9fa034724ff931ad90af57b",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13"
+  ],
+  "constrains": [
+    "ampl-mp >=4.0.0"
+  ],
+  "license": "BSD-3-Clause AND SMLNJ",
+  "timestamp": 1732439392742,
+  "size": 516511,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/ampl-asl-1.0.0-h5888daf_2",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/ampl-asl-1.0.0-h5888daf_2",
+  "files": [
+    "include/asl/arith.h",
+    "include/asl/asl.h",
+    "include/asl/asl_pfg.h",
+    "include/asl/asl_pfgh.h",
+    "include/asl/avltree.h",
+    "include/asl/errchk.h",
+    "include/asl/funcadd.h",
+    "include/asl/getstub.h",
+    "include/asl/jac2dim.h",
+    "include/asl/jacpdim.h",
+    "include/asl/nlp.h",
+    "include/asl/nlp2.h",
+    "include/asl/obj_adj.h",
+    "include/asl/opcode.hd",
+    "include/asl/psinfo.h",
+    "include/asl/r_opn.hd",
+    "include/asl/stdio1.h",
+    "include/asl2/arith.h",
+    "include/asl2/asl.h",
+    "include/asl2/asl_pfg.h",
+    "include/asl2/asl_pfgh.h",
+    "include/asl2/avltree.h",
+    "include/asl2/errchk.h",
+    "include/asl2/funcadd.h",
+    "include/asl2/getstub.h",
+    "include/asl2/jac2dim.h",
+    "include/asl2/jacpdim.h",
+    "include/asl2/nlp.h",
+    "include/asl2/nlp2.h",
+    "include/asl2/obj_adj.h",
+    "include/asl2/opcode.hd",
+    "include/asl2/opno2.h",
+    "include/asl2/psinfo.h",
+    "include/asl2/r_opn.hd",
+    "include/asl2/stdio1.h",
+    "lib/libasl.so",
+    "lib/libasl2.so",
+    "share/ampl-asl/ampl-asl-config-release.cmake",
+    "share/ampl-asl/ampl-asl-config.cmake"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/asl/arith.h",
+        "path_type": "hardlink",
+        "sha256": "2bc50997449b0fef57e5ffbbee54d6ab2b6faba5e32c5ee6b2f55c892ee37676",
+        "size_in_bytes": 1871,
+        "sha256_in_prefix": "2bc50997449b0fef57e5ffbbee54d6ab2b6faba5e32c5ee6b2f55c892ee37676"
+      },
+      {
+        "_path": "include/asl/asl.h",
+        "path_type": "hardlink",
+        "sha256": "0b779f00dc9274254c35ccd2a6ae76b026e48e08e8e67a0f604db13ce66e9ef3",
+        "size_in_bytes": 42925,
+        "sha256_in_prefix": "0b779f00dc9274254c35ccd2a6ae76b026e48e08e8e67a0f604db13ce66e9ef3"
+      },
+      {
+        "_path": "include/asl/asl_pfg.h",
+        "path_type": "hardlink",
+        "sha256": "22dda1b1fcf7dd07bd05386be775719c79fb151cab5775530371f1b671227bbc",
+        "size_in_bytes": 1268,
+        "sha256_in_prefix": "22dda1b1fcf7dd07bd05386be775719c79fb151cab5775530371f1b671227bbc"
+      },
+      {
+        "_path": "include/asl/asl_pfgh.h",
+        "path_type": "hardlink",
+        "sha256": "f632cea9e892234e52a4a67012b29b535447f92d7086afbb94d01bda40b3fdec",
+        "size_in_bytes": 1288,
+        "sha256_in_prefix": "f632cea9e892234e52a4a67012b29b535447f92d7086afbb94d01bda40b3fdec"
+      },
+      {
+        "_path": "include/asl/avltree.h",
+        "path_type": "hardlink",
+        "sha256": "cc826c9e8ee83f13551e27454ab84babf7f4198bdb3850dd6e9c1ede62c06fba",
+        "size_in_bytes": 4693,
+        "sha256_in_prefix": "cc826c9e8ee83f13551e27454ab84babf7f4198bdb3850dd6e9c1ede62c06fba"
+      },
+      {
+        "_path": "include/asl/errchk.h",
+        "path_type": "hardlink",
+        "sha256": "32d62becccf8e694f14c23d011eaa9f2791e83663d252f1d295407e6106d4f78",
+        "size_in_bytes": 1695,
+        "sha256_in_prefix": "32d62becccf8e694f14c23d011eaa9f2791e83663d252f1d295407e6106d4f78"
+      },
+      {
+        "_path": "include/asl/funcadd.h",
+        "path_type": "hardlink",
+        "sha256": "3a4efc5ac2f8ffeb290bf8924d91ab556a0f3f44bc424b84927388e754250bb9",
+        "size_in_bytes": 16247,
+        "sha256_in_prefix": "3a4efc5ac2f8ffeb290bf8924d91ab556a0f3f44bc424b84927388e754250bb9"
+      },
+      {
+        "_path": "include/asl/getstub.h",
+        "path_type": "hardlink",
+        "sha256": "ed51ad45f30b6154ad2381321aeae3ef7ede2c37968de15193810949e68ea9e6",
+        "size_in_bytes": 7079,
+        "sha256_in_prefix": "ed51ad45f30b6154ad2381321aeae3ef7ede2c37968de15193810949e68ea9e6"
+      },
+      {
+        "_path": "include/asl/jac2dim.h",
+        "path_type": "hardlink",
+        "sha256": "d725b356a363d9fd8b0d83b404c4b7bbeaf71c37ab998fa69287a178b1cced8a",
+        "size_in_bytes": 1982,
+        "sha256_in_prefix": "d725b356a363d9fd8b0d83b404c4b7bbeaf71c37ab998fa69287a178b1cced8a"
+      },
+      {
+        "_path": "include/asl/jacpdim.h",
+        "path_type": "hardlink",
+        "sha256": "7bae1f5eb769ce81c4f48714ac95afe88da3ae9c936052892300d9b9c8b0c617",
+        "size_in_bytes": 2722,
+        "sha256_in_prefix": "7bae1f5eb769ce81c4f48714ac95afe88da3ae9c936052892300d9b9c8b0c617"
+      },
+      {
+        "_path": "include/asl/nlp.h",
+        "path_type": "hardlink",
+        "sha256": "17bfd0776b4598e232554e2036d6c0f0f02417e2218d82be106a260f264469d9",
+        "size_in_bytes": 5384,
+        "sha256_in_prefix": "17bfd0776b4598e232554e2036d6c0f0f02417e2218d82be106a260f264469d9"
+      },
+      {
+        "_path": "include/asl/nlp2.h",
+        "path_type": "hardlink",
+        "sha256": "eb54b167f1bcee819a4cae8d7b07166324973105639ed76c66190a06fc310696",
+        "size_in_bytes": 7126,
+        "sha256_in_prefix": "eb54b167f1bcee819a4cae8d7b07166324973105639ed76c66190a06fc310696"
+      },
+      {
+        "_path": "include/asl/obj_adj.h",
+        "path_type": "hardlink",
+        "sha256": "1288febfb15df606918ceb470335aaeb7f79b1d4ccee31c14db27fc0541a26b0",
+        "size_in_bytes": 2218,
+        "sha256_in_prefix": "1288febfb15df606918ceb470335aaeb7f79b1d4ccee31c14db27fc0541a26b0"
+      },
+      {
+        "_path": "include/asl/opcode.hd",
+        "path_type": "hardlink",
+        "sha256": "c0b1bbfb4981c876fbb55df10c1409896aed1fc343b9a6842405c8dd4e1390f1",
+        "size_in_bytes": 1348,
+        "sha256_in_prefix": "c0b1bbfb4981c876fbb55df10c1409896aed1fc343b9a6842405c8dd4e1390f1"
+      },
+      {
+        "_path": "include/asl/psinfo.h",
+        "path_type": "hardlink",
+        "sha256": "8412b9f10caa48fd91294242168b0a74508aca8f6e11b2556af6110cecc1e42b",
+        "size_in_bytes": 10201,
+        "sha256_in_prefix": "8412b9f10caa48fd91294242168b0a74508aca8f6e11b2556af6110cecc1e42b"
+      },
+      {
+        "_path": "include/asl/r_opn.hd",
+        "path_type": "hardlink",
+        "sha256": "32bb2a573600bca244aaf4397a79a1fff1a047618453d2785c00160366e27252",
+        "size_in_bytes": 412,
+        "sha256_in_prefix": "32bb2a573600bca244aaf4397a79a1fff1a047618453d2785c00160366e27252"
+      },
+      {
+        "_path": "include/asl/stdio1.h",
+        "path_type": "hardlink",
+        "sha256": "fe4ab3d3b465a3ae437807e0cc20460dd5536956e7562edbecc3e892d279ce3e",
+        "size_in_bytes": 3058,
+        "sha256_in_prefix": "fe4ab3d3b465a3ae437807e0cc20460dd5536956e7562edbecc3e892d279ce3e"
+      },
+      {
+        "_path": "include/asl2/arith.h",
+        "path_type": "hardlink",
+        "sha256": "2bc50997449b0fef57e5ffbbee54d6ab2b6faba5e32c5ee6b2f55c892ee37676",
+        "size_in_bytes": 1871,
+        "sha256_in_prefix": "2bc50997449b0fef57e5ffbbee54d6ab2b6faba5e32c5ee6b2f55c892ee37676"
+      },
+      {
+        "_path": "include/asl2/asl.h",
+        "path_type": "hardlink",
+        "sha256": "4de4eaf241da413a0b4a2e88e657386c97a24b11aa0585c29e27246224d85289",
+        "size_in_bytes": 48517,
+        "sha256_in_prefix": "4de4eaf241da413a0b4a2e88e657386c97a24b11aa0585c29e27246224d85289"
+      },
+      {
+        "_path": "include/asl2/asl_pfg.h",
+        "path_type": "hardlink",
+        "sha256": "22dda1b1fcf7dd07bd05386be775719c79fb151cab5775530371f1b671227bbc",
+        "size_in_bytes": 1268,
+        "sha256_in_prefix": "22dda1b1fcf7dd07bd05386be775719c79fb151cab5775530371f1b671227bbc"
+      },
+      {
+        "_path": "include/asl2/asl_pfgh.h",
+        "path_type": "hardlink",
+        "sha256": "f632cea9e892234e52a4a67012b29b535447f92d7086afbb94d01bda40b3fdec",
+        "size_in_bytes": 1288,
+        "sha256_in_prefix": "f632cea9e892234e52a4a67012b29b535447f92d7086afbb94d01bda40b3fdec"
+      },
+      {
+        "_path": "include/asl2/avltree.h",
+        "path_type": "hardlink",
+        "sha256": "cc826c9e8ee83f13551e27454ab84babf7f4198bdb3850dd6e9c1ede62c06fba",
+        "size_in_bytes": 4693,
+        "sha256_in_prefix": "cc826c9e8ee83f13551e27454ab84babf7f4198bdb3850dd6e9c1ede62c06fba"
+      },
+      {
+        "_path": "include/asl2/errchk.h",
+        "path_type": "hardlink",
+        "sha256": "32d62becccf8e694f14c23d011eaa9f2791e83663d252f1d295407e6106d4f78",
+        "size_in_bytes": 1695,
+        "sha256_in_prefix": "32d62becccf8e694f14c23d011eaa9f2791e83663d252f1d295407e6106d4f78"
+      },
+      {
+        "_path": "include/asl2/funcadd.h",
+        "path_type": "hardlink",
+        "sha256": "3a4efc5ac2f8ffeb290bf8924d91ab556a0f3f44bc424b84927388e754250bb9",
+        "size_in_bytes": 16247,
+        "sha256_in_prefix": "3a4efc5ac2f8ffeb290bf8924d91ab556a0f3f44bc424b84927388e754250bb9"
+      },
+      {
+        "_path": "include/asl2/getstub.h",
+        "path_type": "hardlink",
+        "sha256": "ed51ad45f30b6154ad2381321aeae3ef7ede2c37968de15193810949e68ea9e6",
+        "size_in_bytes": 7079,
+        "sha256_in_prefix": "ed51ad45f30b6154ad2381321aeae3ef7ede2c37968de15193810949e68ea9e6"
+      },
+      {
+        "_path": "include/asl2/jac2dim.h",
+        "path_type": "hardlink",
+        "sha256": "d725b356a363d9fd8b0d83b404c4b7bbeaf71c37ab998fa69287a178b1cced8a",
+        "size_in_bytes": 1982,
+        "sha256_in_prefix": "d725b356a363d9fd8b0d83b404c4b7bbeaf71c37ab998fa69287a178b1cced8a"
+      },
+      {
+        "_path": "include/asl2/jacpdim.h",
+        "path_type": "hardlink",
+        "sha256": "54bad46ef6b816782356aecd8f9a1919aaccd33948114d54775edf1c07c3f062",
+        "size_in_bytes": 2790,
+        "sha256_in_prefix": "54bad46ef6b816782356aecd8f9a1919aaccd33948114d54775edf1c07c3f062"
+      },
+      {
+        "_path": "include/asl2/nlp.h",
+        "path_type": "hardlink",
+        "sha256": "8d8a25a4cd11afbdd5dd3d2897e8aa831cb2edebf0958db3728e653e6a6c4f86",
+        "size_in_bytes": 4524,
+        "sha256_in_prefix": "8d8a25a4cd11afbdd5dd3d2897e8aa831cb2edebf0958db3728e653e6a6c4f86"
+      },
+      {
+        "_path": "include/asl2/nlp2.h",
+        "path_type": "hardlink",
+        "sha256": "9b00f727002a722fa51d3a983c73a18f8635ae7a87fab7633cb9e43b2ee1e0c6",
+        "size_in_bytes": 4697,
+        "sha256_in_prefix": "9b00f727002a722fa51d3a983c73a18f8635ae7a87fab7633cb9e43b2ee1e0c6"
+      },
+      {
+        "_path": "include/asl2/obj_adj.h",
+        "path_type": "hardlink",
+        "sha256": "1288febfb15df606918ceb470335aaeb7f79b1d4ccee31c14db27fc0541a26b0",
+        "size_in_bytes": 2218,
+        "sha256_in_prefix": "1288febfb15df606918ceb470335aaeb7f79b1d4ccee31c14db27fc0541a26b0"
+      },
+      {
+        "_path": "include/asl2/opcode.hd",
+        "path_type": "hardlink",
+        "sha256": "c0b1bbfb4981c876fbb55df10c1409896aed1fc343b9a6842405c8dd4e1390f1",
+        "size_in_bytes": 1348,
+        "sha256_in_prefix": "c0b1bbfb4981c876fbb55df10c1409896aed1fc343b9a6842405c8dd4e1390f1"
+      },
+      {
+        "_path": "include/asl2/opno2.h",
+        "path_type": "hardlink",
+        "sha256": "a22b44e5b46b725f774ccfa0c71daba1391df775f181c0e516d2de25cfeca2bd",
+        "size_in_bytes": 4720,
+        "sha256_in_prefix": "a22b44e5b46b725f774ccfa0c71daba1391df775f181c0e516d2de25cfeca2bd"
+      },
+      {
+        "_path": "include/asl2/psinfo.h",
+        "path_type": "hardlink",
+        "sha256": "81d8f52a933cca39d48e35520c3ade697c22277826dd66c18012528fe2559d0d",
+        "size_in_bytes": 12657,
+        "sha256_in_prefix": "81d8f52a933cca39d48e35520c3ade697c22277826dd66c18012528fe2559d0d"
+      },
+      {
+        "_path": "include/asl2/r_opn.hd",
+        "path_type": "hardlink",
+        "sha256": "32bb2a573600bca244aaf4397a79a1fff1a047618453d2785c00160366e27252",
+        "size_in_bytes": 412,
+        "sha256_in_prefix": "32bb2a573600bca244aaf4397a79a1fff1a047618453d2785c00160366e27252"
+      },
+      {
+        "_path": "include/asl2/stdio1.h",
+        "path_type": "hardlink",
+        "sha256": "fe4ab3d3b465a3ae437807e0cc20460dd5536956e7562edbecc3e892d279ce3e",
+        "size_in_bytes": 3058,
+        "sha256_in_prefix": "fe4ab3d3b465a3ae437807e0cc20460dd5536956e7562edbecc3e892d279ce3e"
+      },
+      {
+        "_path": "lib/libasl.so",
+        "path_type": "hardlink",
+        "sha256": "bfe531a3e3afefcdc2db27c0eeb0af3c44ef969679d46f95ba88b37236c41194",
+        "size_in_bytes": 671208,
+        "sha256_in_prefix": "bfe531a3e3afefcdc2db27c0eeb0af3c44ef969679d46f95ba88b37236c41194"
+      },
+      {
+        "_path": "lib/libasl2.so",
+        "path_type": "hardlink",
+        "sha256": "245ffc6e4d98185fbf15cffdb8a52879bb713f75b2837602cf3e33782c15521a",
+        "size_in_bytes": 675344,
+        "sha256_in_prefix": "245ffc6e4d98185fbf15cffdb8a52879bb713f75b2837602cf3e33782c15521a"
+      },
+      {
+        "_path": "share/ampl-asl/ampl-asl-config-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "3b66f6c824940167b405675462fa9a89b7fa1f1b67f01423e3290a148878fe0c",
+        "size_in_bytes": 1174,
+        "sha256_in_prefix": "3b66f6c824940167b405675462fa9a89b7fa1f1b67f01423e3290a148878fe0c"
+      },
+      {
+        "_path": "share/ampl-asl/ampl-asl-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "547a86b910c6f2e6c6e39859c3244b42d123df6fc34f20843ec69df8df4e96b9",
+        "size_in_bytes": 4249,
+        "sha256_in_prefix": "547a86b910c6f2e6c6e39859c3244b42d123df6fc34f20843ec69df8df4e96b9"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/ampl-asl-1.0.0-h5888daf_2",
+    "type": 1
+  }
+}

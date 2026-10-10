@@ -1,0 +1,83 @@
+{
+  "name": "pkg-config",
+  "version": "0.29.2",
+  "build": "h1114479_1013",
+  "build_number": 1013,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "pkg-config-0.29.2-h1114479_1013.conda",
+  "md5": "0aab2923309084c5f89ef32cd39a19b2",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pkg-config-0.29.2-h1114479_1013.conda",
+  "sha256": "8f27ee1b6166c5be505dba4b0dd0f3b3b81ddec811f6118cc337b90cbd3937a4",
+  "depends": [
+    "libgcc >=15",
+    "__glibc >=2.17,<3.0.a0"
+  ],
+  "constrains": [],
+  "license": "GPL-2.0-or-later",
+  "timestamp": 1788677377648,
+  "size": 141376,
+  "requested_spec": "pkg-config",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/pkg-config-0.29.2-h1114479_1013.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/pkg-config-0.29.2-h1114479_1013",
+  "files": [
+    "bin/pkg-config",
+    "bin/pkg-config.bin",
+    "bin/x86_64-conda-linux-gnu-pkg-config",
+    "share/aclocal/pkg.m4",
+    "share/doc/pkg-config/pkg-config-guide.html",
+    "share/man/man1/pkg-config.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/pkg-config",
+        "path_type": "hardlink",
+        "sha256": "7590aa30f53362ced6ba582bd8b34cfe3fca67e0f84fb6b01a0542d3c1bc4e03",
+        "size_in_bytes": 4100,
+        "sha256_in_prefix": "7590aa30f53362ced6ba582bd8b34cfe3fca67e0f84fb6b01a0542d3c1bc4e03"
+      },
+      {
+        "_path": "bin/pkg-config.bin",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_pkg-config_1788677377/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "18660a2e0bc700c9c5b5ed3756d8b966d5d507a41bc91068e6e554e51f999810",
+        "size_in_bytes": 299240,
+        "sha256_in_prefix": "e6345fe0055768d677ac60d9d661a757fa556c99fe4f8eb3b38f719ca26b7f4f"
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-pkg-config",
+        "path_type": "softlink",
+        "sha256": "7590aa30f53362ced6ba582bd8b34cfe3fca67e0f84fb6b01a0542d3c1bc4e03",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "share/aclocal/pkg.m4",
+        "path_type": "hardlink",
+        "sha256": "140b9a7bc1fa8730b62e74f8413af2bd15b53969a084fc4a041ba70b11e352f3",
+        "size_in_bytes": 10247,
+        "sha256_in_prefix": "140b9a7bc1fa8730b62e74f8413af2bd15b53969a084fc4a041ba70b11e352f3"
+      },
+      {
+        "_path": "share/doc/pkg-config/pkg-config-guide.html",
+        "path_type": "hardlink",
+        "sha256": "abec943644a7c87d15bae2f5d5763488a592183ff35319732d44892a42a167c1",
+        "size_in_bytes": 17832,
+        "sha256_in_prefix": "abec943644a7c87d15bae2f5d5763488a592183ff35319732d44892a42a167c1"
+      },
+      {
+        "_path": "share/man/man1/pkg-config.1",
+        "path_type": "hardlink",
+        "sha256": "3591588e106c870d35f9da41bec0528a7e6577c45a97bb08766a33f1638a49f9",
+        "size_in_bytes": 23611,
+        "sha256_in_prefix": "3591588e106c870d35f9da41bec0528a7e6577c45a97bb08766a33f1638a49f9"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/pkg-config-0.29.2-h1114479_1013",
+    "type": 1
+  }
+}

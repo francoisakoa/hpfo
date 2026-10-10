@@ -1,0 +1,41 @@
+{
+  "prepared_utc": "2026-10-10T08:57:21.722798+00:00",
+  "repository": "francoisakoa/hpfo",
+  "main_archive_sha256": "7fb0ee2444308058cc54bd50de40fbcafcc9e8a4b0e1d194fc2a67d326835b6a",
+  "indexed_results": {
+    "main": 240,
+    "ipopt_multistart": 240,
+    "study": 820,
+    "external_baselines": 1200
+  },
+  "baseline_import": {
+    "state": "IMPORTED_GRID_VERIFIED",
+    "results": 1200,
+    "cells": 40,
+    "runs_per_cell": 30,
+    "archive_hash_matches": 1200,
+    "note": "Hashes checked when present in exported manifests/index. Export membership is not a new historical execution certificate.",
+    "frozen_drivers": [
+      "baselines_v3/run_one_baseline.py",
+      "baselines_v3_1/run_one_baseline.py"
+    ],
+    "budget_files": [
+      "baselines_v3/baseline_eval_limits_v3.json",
+      "baselines_v3_1/baseline_eval_limits_v3.json"
+    ],
+    "source_files_copied": 52,
+    "excluded_from_git_but_retained_in_zip": [
+      "results_baselines_nohup_R1/scheduler.events.jsonl"
+    ],
+    "invalid_nonresult_json_files": [],
+    "baseline_trajectories_complete": false
+  },
+  "optimization_executed": false,
+  "cpp_build_executed": false,
+  "source_campaigns_modified": false,
+  "historical_main_binary_run_link_certified": false,
+  "publication_state": "LOCAL_ASSEMBLY_COMPLETE_BUILD_AND_AUTHOR_REVIEW_REQUIRED",
+  "local_directory_created_utc": "2026-10-10T16:31:46.205259+00:00",
+  "packaging_version": "HPFO_TRX_REVIEW_R1_FIX1",
+  "resumed_preparation": true
+}

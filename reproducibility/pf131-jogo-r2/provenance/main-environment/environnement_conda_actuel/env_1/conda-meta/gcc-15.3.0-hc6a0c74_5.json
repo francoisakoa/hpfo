@@ -1,0 +1,97 @@
+{
+  "name": "gcc",
+  "version": "15.3.0",
+  "build": "hc6a0c74_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "gcc-15.3.0-hc6a0c74_5.conda",
+  "md5": "991fd0f71d6dd95cdce863823ec746f7",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gcc-15.3.0-hc6a0c74_5.conda",
+  "sha256": "82ced70a8e470b2c4a0be0af465cfee6a54b3dedea6fd20a33bd69e95f57ca02",
+  "depends": [
+    "conda-gcc-specs",
+    "gcc_impl_linux-64 15.3.0 hc396a85_5"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1789487004656,
+  "size": 29465,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/gcc-15.3.0-hc6a0c74_5.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/gcc-15.3.0-hc6a0c74_5",
+  "files": [
+    "bin/cc",
+    "bin/cpp",
+    "bin/gcc",
+    "bin/gcc-ar",
+    "bin/gcc-nm",
+    "bin/gcc-ranlib",
+    "bin/gcov",
+    "bin/gcov-dump",
+    "bin/gcov-tool"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/cc",
+        "path_type": "softlink",
+        "sha256": "63dfc772807e4782a67e61eafaeb829394aef96bd3ea9862b05b80dfc7d97d89",
+        "size_in_bytes": 2173144
+      },
+      {
+        "_path": "bin/cpp",
+        "path_type": "softlink",
+        "sha256": "7e51c5c35b70e29c2886c7ce2a57e43febd548ff137fbb5b453fb7d8285d8d22",
+        "size_in_bytes": 2177240
+      },
+      {
+        "_path": "bin/gcc",
+        "path_type": "softlink",
+        "sha256": "63dfc772807e4782a67e61eafaeb829394aef96bd3ea9862b05b80dfc7d97d89",
+        "size_in_bytes": 2173144
+      },
+      {
+        "_path": "bin/gcc-ar",
+        "path_type": "softlink",
+        "sha256": "376bb40b10d64c6dd824084022495d03ee6b27495ab76c6cf6b0e1ba10cefde5",
+        "size_in_bytes": 39520
+      },
+      {
+        "_path": "bin/gcc-nm",
+        "path_type": "softlink",
+        "sha256": "aaed81d76871ade136d7faa14ba15ffeff2b7f84f9bd96c9ce5f8b3720eae3c6",
+        "size_in_bytes": 39520
+      },
+      {
+        "_path": "bin/gcc-ranlib",
+        "path_type": "softlink",
+        "sha256": "b12b7ab97076c403475da22115743137e176f519a63a5b7b3afd7a124180ed21",
+        "size_in_bytes": 39520
+      },
+      {
+        "_path": "bin/gcov",
+        "path_type": "softlink",
+        "sha256": "005ee8893cb35b7825c2886f230714447744b193465c305a494d5d5eb7a6be1f",
+        "size_in_bytes": 1531200
+      },
+      {
+        "_path": "bin/gcov-dump",
+        "path_type": "softlink",
+        "sha256": "0a4e5bc0303c13cd90d0ceb378e48206a6f42e940ad873fd0f73fd4518d775af",
+        "size_in_bytes": 1252600
+      },
+      {
+        "_path": "bin/gcov-tool",
+        "path_type": "softlink",
+        "sha256": "3db5a07aa53931e89c8e09ad30da00a75ace2f2dd1f0d78a233f843c3999c0e8",
+        "size_in_bytes": 1277248
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/gcc-15.3.0-hc6a0c74_5",
+    "type": 1
+  }
+}

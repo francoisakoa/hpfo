@@ -1,0 +1,13 @@
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+IPOPT_INCLUDE_DIR:PATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/include/coin-or
+IPOPT_LIBRARY:FILEPATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/libipopt.so
+PF_EIGEN_INCLUDE:PATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/include/eigen3
+PF_METIS_INCLUDE:PATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/include/coin-or/metis
+PF_METIS_LIBRARY:FILEPATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/libcoinmetis.so
+PF_MUMPS_INCLUDE:PATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/include/coin-or/mumps
+PF_MUMPS_LIBRARY:FILEPATH=/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/casadi/libcoinmumps.so
+PF_NATIVE:BOOL=ON
+PF_WITH_IPOPT:BOOL=ON
+PF_WITH_METIS:BOOL=ON
+PF_WITH_MUMPS:BOOL=ON
+PF_WITH_OPENMP:BOOL=ON

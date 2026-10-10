@@ -1,0 +1,48 @@
+[  2%] Building CXX object CMakeFiles/pf.dir/src/linear.cpp.o
+[  5%] Building CXX object CMakeFiles/pf.dir/src/ordering.cpp.o
+[  8%] Building CXX object CMakeFiles/pf.dir/src/random.cpp.o
+[ 11%] Building CXX object CMakeFiles/pf.dir/src/lj_newton.cpp.o
+[ 13%] Building CXX object CMakeFiles/pf.dir/src/seed.cpp.o
+[ 16%] Building CXX object CMakeFiles/pf.dir/src/problem.cpp.o
+[ 19%] Building CXX object CMakeFiles/pf.dir/src/operators.cpp.o
+[ 22%] Building CXX object CMakeFiles/pf.dir/src/clustering.cpp.o
+[ 25%] Building CXX object CMakeFiles/pf.dir/src/local.cpp.o
+[ 27%] Building CXX object CMakeFiles/pf.dir/src/ipopt.cpp.o
+[ 30%] Building CXX object CMakeFiles/pf.dir/src/local_pool.cpp.o
+[ 33%] Building CXX object CMakeFiles/pf.dir/src/solver.cpp.o
+[ 36%] Building CXX object CMakeFiles/pf.dir/src/io.cpp.o
+[ 38%] Linking CXX static library libpf.a
+[ 38%] Built target pf
+[ 41%] Building CXX object CMakeFiles/pf_local_worker.dir/app/worker.cpp.o
+[ 44%] Building CXX object CMakeFiles/pf_linear_check.dir/app/linear_check.cpp.o
+[ 47%] Building CXX object CMakeFiles/pf_eigen_boundary_tests.dir/tests/test_eigen_boundary.cpp.o
+[ 50%] Building CXX object CMakeFiles/pf_probe.dir/tests/probe.cpp.o
+[ 52%] Linking CXX executable pf_local_worker
+[ 52%] Built target pf_local_worker
+[ 55%] Building CXX object CMakeFiles/pf_lj_newton_tests.dir/tests/test_lj_newton.cpp.o
+[ 58%] Linking CXX executable pf_probe
+[ 58%] Built target pf_probe
+[ 61%] Building CXX object CMakeFiles/pf_local_probe.dir/tests/local_probe.cpp.o
+[ 63%] Linking CXX executable pf_eigen_boundary_tests
+[ 63%] Built target pf_eigen_boundary_tests
+[ 66%] Building CXX object CMakeFiles/pf_rng_probe.dir/tests/rng_probe.cpp.o
+[ 69%] Linking CXX executable pf_linear_check
+[ 69%] Built target pf_linear_check
+[ 72%] Building CXX object CMakeFiles/pf_solver.dir/app/main.cpp.o
+[ 75%] Linking CXX executable pf_rng_probe
+[ 75%] Built target pf_rng_probe
+[ 77%] Building CXX object CMakeFiles/pf_local_bench.dir/app/local_bench.cpp.o
+[ 80%] Linking CXX executable pf_local_probe
+[ 80%] Built target pf_local_probe
+[ 83%] Building CXX object CMakeFiles/pf_local_incumbent_tests.dir/tests/test_local_incumbent.cpp.o
+[ 86%] Linking CXX executable pf_lj_newton_tests
+[ 86%] Built target pf_lj_newton_tests
+[ 88%] Building CXX object CMakeFiles/pf_tests.dir/tests/test_core.cpp.o
+[ 91%] Linking CXX executable pf_solver
+[ 91%] Built target pf_solver
+[ 94%] Linking CXX executable pf_local_bench
+[ 94%] Built target pf_local_bench
+[ 97%] Linking CXX executable pf_local_incumbent_tests
+[ 97%] Built target pf_local_incumbent_tests
+[100%] Linking CXX executable pf_tests
+[100%] Built target pf_tests

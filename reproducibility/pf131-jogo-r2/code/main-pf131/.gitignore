@@ -1,0 +1,6 @@
+build*/
+results*/
+validation_*/
+__pycache__/
+*.o
+*.a

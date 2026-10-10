@@ -1,0 +1,119 @@
+{
+  "name": "mumps-include",
+  "version": "5.8.2",
+  "build": "h5a610fb_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "mumps-include-5.8.2-h5a610fb_2.conda",
+  "md5": "8ae8d5b0f9d76a386d74adce53e6a81d",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mumps-include-5.8.2-h5a610fb_2.conda",
+  "sha256": "0e7bde047934c87b8f7e663ee0c06d679d0347d84228ca83cb9fd09abc722156",
+  "depends": [],
+  "constrains": [],
+  "license": "CECILL-C",
+  "timestamp": 1771833764224,
+  "size": 20694,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/mumps-include-5.8.2-h5a610fb_2",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/mumps-include-5.8.2-h5a610fb_2",
+  "files": [
+    "include/cmumps_c.h",
+    "include/cmumps_struc.h",
+    "include/dmumps_c.h",
+    "include/dmumps_struc.h",
+    "include/mumps_c_types.h",
+    "include/mumps_compat.h",
+    "include/mumps_int_def.h",
+    "include/smumps_c.h",
+    "include/smumps_struc.h",
+    "include/zmumps_c.h",
+    "include/zmumps_struc.h"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/cmumps_c.h",
+        "path_type": "hardlink",
+        "sha256": "c928ea7e05f97ee9d3e15ff8df21d93946328a7cfcf894caadd038a5d66ba87e",
+        "size_in_bytes": 4133,
+        "sha256_in_prefix": "c928ea7e05f97ee9d3e15ff8df21d93946328a7cfcf894caadd038a5d66ba87e"
+      },
+      {
+        "_path": "include/cmumps_struc.h",
+        "path_type": "hardlink",
+        "sha256": "6273325df21fdff4770afb327d119544ddff17916f7f536b62cceaa284479ce7",
+        "size_in_bytes": 11980,
+        "sha256_in_prefix": "6273325df21fdff4770afb327d119544ddff17916f7f536b62cceaa284479ce7"
+      },
+      {
+        "_path": "include/dmumps_c.h",
+        "path_type": "hardlink",
+        "sha256": "28b5f41ae3025c55bfc522b811d963a0a80b8cfc987eb506a2e59601eb5113ae",
+        "size_in_bytes": 4133,
+        "sha256_in_prefix": "28b5f41ae3025c55bfc522b811d963a0a80b8cfc987eb506a2e59601eb5113ae"
+      },
+      {
+        "_path": "include/dmumps_struc.h",
+        "path_type": "hardlink",
+        "sha256": "fff14e44031da289115673a715a140f0fac403dfd2781bb1200b10fb871e86b8",
+        "size_in_bytes": 12206,
+        "sha256_in_prefix": "fff14e44031da289115673a715a140f0fac403dfd2781bb1200b10fb871e86b8"
+      },
+      {
+        "_path": "include/mumps_c_types.h",
+        "path_type": "hardlink",
+        "sha256": "965da59ef6f559c100085d7e1ca0176c398b4ce859d2270d32b1052937771af0",
+        "size_in_bytes": 1847,
+        "sha256_in_prefix": "965da59ef6f559c100085d7e1ca0176c398b4ce859d2270d32b1052937771af0"
+      },
+      {
+        "_path": "include/mumps_compat.h",
+        "path_type": "hardlink",
+        "sha256": "c6d7d609de0e1833dbceb36bf2a1b695ea4ecc3102a8eabb0849d704f691a55b",
+        "size_in_bytes": 1153,
+        "sha256_in_prefix": "c6d7d609de0e1833dbceb36bf2a1b695ea4ecc3102a8eabb0849d704f691a55b"
+      },
+      {
+        "_path": "include/mumps_int_def.h",
+        "path_type": "hardlink",
+        "sha256": "f243a4ef00aef6c7327713778738a2e3669d6e7ee5d2438f6b8839f6686f30d4",
+        "size_in_bytes": 774,
+        "sha256_in_prefix": "f243a4ef00aef6c7327713778738a2e3669d6e7ee5d2438f6b8839f6686f30d4"
+      },
+      {
+        "_path": "include/smumps_c.h",
+        "path_type": "hardlink",
+        "sha256": "ed8cf8234cbbd5b14136ad5d56616f9e5b468786b0f3e81cd68c844d5600fef7",
+        "size_in_bytes": 4133,
+        "sha256_in_prefix": "ed8cf8234cbbd5b14136ad5d56616f9e5b468786b0f3e81cd68c844d5600fef7"
+      },
+      {
+        "_path": "include/smumps_struc.h",
+        "path_type": "hardlink",
+        "sha256": "6ffa76be068a548800e288e2de19473fa1a5b2040ca8c3f708a6f0b17c769cd0",
+        "size_in_bytes": 11942,
+        "sha256_in_prefix": "6ffa76be068a548800e288e2de19473fa1a5b2040ca8c3f708a6f0b17c769cd0"
+      },
+      {
+        "_path": "include/zmumps_c.h",
+        "path_type": "hardlink",
+        "sha256": "c56ecc59350429e2c0704974779c08579b7ae8d5216f0ebd4fa05e471fbdd85a",
+        "size_in_bytes": 4133,
+        "sha256_in_prefix": "c56ecc59350429e2c0704974779c08579b7ae8d5216f0ebd4fa05e471fbdd85a"
+      },
+      {
+        "_path": "include/zmumps_struc.h",
+        "path_type": "hardlink",
+        "sha256": "01cc6a86d41c70d433ec04f45fab17408c81a8fcf3fe31b478de9c617a597850",
+        "size_in_bytes": 12192,
+        "sha256_in_prefix": "01cc6a86d41c70d433ec04f45fab17408c81a8fcf3fe31b478de9c617a597850"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/mumps-include-5.8.2-h5a610fb_2",
+    "type": 1
+  }
+}

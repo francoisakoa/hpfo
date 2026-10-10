@@ -1,0 +1,9 @@
+{
+  "identity": {
+    "solver_sha256": "cc85426f7c4a1f11029d6e5ed5c8b88556022c75ad8be5e18ba3be2dc4a0a86d",
+    "worker_sha256": "99be253f22c91dc7518db3adf8408caac6dc5280dbea68a4bae3bc7c322f6364"
+  },
+  "version": "1.3.1-article-study-r1 ipopt=1 float64=1 native_mumps=0 metis=0 metis_api=0 openmp=1\n",
+  "collected_utc": "2026-09-26T17:54:50.271149+00:00",
+  "original_path": "/data/projects/PF_GlobalOptimization/PF131_REFINE_ALL_INSTALL_zdjmfTml/PF131_ABLATION_SENSIBILITE_LJ75_LJ102_REFINE_ALL_R2/build/pf_solver"
+}

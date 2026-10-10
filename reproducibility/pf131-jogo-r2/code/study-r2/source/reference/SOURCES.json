@@ -1,0 +1,26 @@
+{
+  "archive": "ReleasePFJOGO-v1.0-jogo-r2.tar.gz",
+  "archive_sha256": "b4ea0bb0d27b4de634ced239eda27994fc6d59df2c87f59a88a040b8c97c922d",
+  "files": [
+    {
+      "path": "reference/backend_ops.py",
+      "bytes": 22214,
+      "sha256": "58f1dce729212a3c226d32552773f6f698b728e7789b639c49628b39103360f6"
+    },
+    {
+      "path": "reference/general_nlp_pf_optimized_gpu.py",
+      "bytes": 71700,
+      "sha256": "6d21a05eb7b31d2a42f0041e40de72effc45d7db13bbad03ac1d5256113ee328"
+    },
+    {
+      "path": "reference/solve_nlp_ipopt.py",
+      "bytes": 13790,
+      "sha256": "d7b4e1c9850bcbbbc1a10d0d7389cc63484fcc2956f6a69dc2b5459bd30078c8"
+    },
+    {
+      "path": "reference/solve_nlp_local_gpu.py",
+      "bytes": 20784,
+      "sha256": "f9eb2df67812b41e6eae2c42fd73b2f9d8ae9aabefcecffdf3cd287b8b91cff5"
+    }
+  ]
+}

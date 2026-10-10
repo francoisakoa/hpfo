@@ -1,0 +1,17 @@
+{
+  "supervise.py": "c07fd00355f070b10c7f33a0488d84ef69119b46c56e8aa764430a3a72a3b6b2",
+  "probe_records.py": "841d8adcbbb5e45ff31225a39ee77ab93ab7da7830feb68c68a008f96510ee39",
+  "launch_nohup.sh": "7c6efee521be8cc74690201e8d78a45ac485057b98012b3a9918ca4bc8f1e4d5",
+  "verify_kit.py": "20f1806c2c51a9ebed8ca402c78c45d9e526ee27e266ff5c48f63adfb4589496",
+  "SOURCE_LOCK.json": "8bf186bc8e4f8d7520f6e80b05e7d24fcaec35ae12065e264c2a3608740ce09d",
+  "README_FR.md": "cd53f8db0227f9cc7dd27f2c5bd5328a0a56c146f1f975b5f592033c2ac5e5ad",
+  "tests/test_supervisor.py": "55aa23b2b91e802ee92daec2058c7afe9ec6816c0fa7831860f10e29f721e3ae",
+  "validation/UNIT_TESTS.log": "79d5b8aae0cc7d4243db4c43d3bef84b3d29517fff41fc3ce919e3d390cd56cf",
+  "validation/INTEGRATION.json": "027b93eb9a68fda67eda13627eee81da742a0aa5fdbc91d6529d53897f5e5707",
+  "validation/INTEGRATION.log": "ec2a6306dd4c61bb61e95bb4cd03aae9ef4464ce6bea5c016252ab1c6e649d5e",
+  "validation/INTEGRATION_REPLAY.log": "027b93eb9a68fda67eda13627eee81da742a0aa5fdbc91d6529d53897f5e5707",
+  "validation/WRAPPER_TEST.json": "4e9fb1bc74a5ca6a1c0e4fa582457d8cae80b0e15854d92154e19d7e18240b2a",
+  "validation/WRAPPER_TEST.log": "1b5d0ba029e65f6f6cd2e971b5a75351a0bf0f33c033dabfa8760230fe9f00c6",
+  "validation/VALIDATION_FR.md": "69018da1f2f8bc9709a165a37783820c4975740b957cca248e81b997a2a2ce07",
+  "validation/run_integration_test.py": "aa6a62f33d27407868f1b89aafd972b0c2efc2449789b918b0a732fbdf0ce6e1"
+}

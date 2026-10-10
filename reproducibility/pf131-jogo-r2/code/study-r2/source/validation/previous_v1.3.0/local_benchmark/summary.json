@@ -1,0 +1,161 @@
+{
+  "summary": [
+    {
+      "atoms": 38,
+      "method": "lj-newton",
+      "workers": 1,
+      "median_seconds": 0.108963228,
+      "seconds": [
+        0.137442303,
+        0.102683245,
+        0.108963228
+      ],
+      "audit_pass_count": 8,
+      "starts": 8,
+      "objective_min": -163.83497097139164,
+      "objective_median": -156.69586144557903,
+      "max_projected_stationarity": 4.715945273181532e-09,
+      "local_failed": 0,
+      "local_limited": 0,
+      "initial_sha256": "72e173eeaa15dc509030e65ae7002c4e98f09db98e97f23b05d834b9bed1a4d6"
+    },
+    {
+      "atoms": 38,
+      "method": "lj-newton",
+      "workers": 4,
+      "median_seconds": 0.031320465,
+      "seconds": [
+        0.031320465,
+        0.040188455,
+        0.030137191
+      ],
+      "audit_pass_count": 8,
+      "starts": 8,
+      "objective_min": -163.83497097139164,
+      "objective_median": -156.69586144557903,
+      "max_projected_stationarity": 4.715945273181532e-09,
+      "local_failed": 0,
+      "local_limited": 0,
+      "initial_sha256": "72e173eeaa15dc509030e65ae7002c4e98f09db98e97f23b05d834b9bed1a4d6"
+    },
+    {
+      "atoms": 38,
+      "method": "ipopt",
+      "workers": 1,
+      "median_seconds": 4.721793398,
+      "seconds": [
+        4.94943353,
+        4.555959449,
+        4.721793398
+      ],
+      "audit_pass_count": 2,
+      "starts": 8,
+      "objective_min": -159.9187248670318,
+      "objective_median": -154.40695448220458,
+      "max_projected_stationarity": 2.5950899478210943e-06,
+      "local_failed": 0,
+      "local_limited": 0,
+      "initial_sha256": "72e173eeaa15dc509030e65ae7002c4e98f09db98e97f23b05d834b9bed1a4d6"
+    },
+    {
+      "atoms": 38,
+      "method": "ipopt",
+      "workers": 4,
+      "median_seconds": 1.44155278,
+      "seconds": [
+        1.44155278,
+        1.489625377,
+        1.424174968
+      ],
+      "audit_pass_count": 2,
+      "starts": 8,
+      "objective_min": -159.9187248670318,
+      "objective_median": -154.40695448220458,
+      "max_projected_stationarity": 2.5950899478210943e-06,
+      "local_failed": 0,
+      "local_limited": 0,
+      "initial_sha256": "72e173eeaa15dc509030e65ae7002c4e98f09db98e97f23b05d834b9bed1a4d6"
+    },
+    {
+      "atoms": 76,
+      "method": "lj-newton",
+      "workers": 1,
+      "median_seconds": 0.519702397,
+      "seconds": [
+        0.519081111,
+        0.53242794,
+        0.519702397
+      ],
+      "audit_pass_count": 8,
+      "starts": 8,
+      "objective_min": -383.1739460794631,
+      "objective_median": -377.1414366114134,
+      "max_projected_stationarity": 2.067155002727361e-09,
+      "local_failed": 0,
+      "local_limited": 0,
+      "initial_sha256": "de88078bfaa7c89d8db9ef3d1b9d6fda0c017bc0107ef7d12fd58ee50d9ecdc3"
+    },
+    {
+      "atoms": 76,
+      "method": "lj-newton",
+      "workers": 4,
+      "median_seconds": 0.170504696,
+      "seconds": [
+        0.189554037,
+        0.162719495,
+        0.170504696
+      ],
+      "audit_pass_count": 8,
+      "starts": 8,
+      "objective_min": -383.1739460794631,
+      "objective_median": -377.1414366114134,
+      "max_projected_stationarity": 2.067155002727361e-09,
+      "local_failed": 0,
+      "local_limited": 0,
+      "initial_sha256": "de88078bfaa7c89d8db9ef3d1b9d6fda0c017bc0107ef7d12fd58ee50d9ecdc3"
+    },
+    {
+      "atoms": 76,
+      "method": "ipopt",
+      "workers": 1,
+      "median_seconds": 12.772642792,
+      "seconds": [
+        12.904452446,
+        12.633676672,
+        12.772642792
+      ],
+      "audit_pass_count": 0,
+      "starts": 8,
+      "objective_min": -395.3190568478743,
+      "objective_median": -381.5318716313463,
+      "max_projected_stationarity": 0.21585238092079617,
+      "local_failed": 0,
+      "local_limited": 0,
+      "initial_sha256": "de88078bfaa7c89d8db9ef3d1b9d6fda0c017bc0107ef7d12fd58ee50d9ecdc3"
+    },
+    {
+      "atoms": 76,
+      "method": "ipopt",
+      "workers": 4,
+      "median_seconds": 4.387356075,
+      "seconds": [
+        4.387356075,
+        4.380234453,
+        4.514046446
+      ],
+      "audit_pass_count": 0,
+      "starts": 8,
+      "objective_min": -395.3190568478743,
+      "objective_median": -381.5318716313463,
+      "max_projected_stationarity": 0.21585238092079617,
+      "local_failed": 0,
+      "local_limited": 0,
+      "initial_sha256": "de88078bfaa7c89d8db9ef3d1b9d6fda0c017bc0107ef7d12fd58ee50d9ecdc3"
+    }
+  ],
+  "local_tolerance": 1e-08,
+  "repeats": 3,
+  "parallel_endpoints_exact": true,
+  "comparison_scope": "Same supplied starts and constraints. Different local basins and stopping tests; independent unscaled projected-stationarity audit retained.",
+  "full_global_optimization": false
+}

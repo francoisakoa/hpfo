@@ -1,0 +1,19 @@
+[
+  "/workspace/scratch/8543e66db3a1/pf_cpp_v1.3.0/build_native/pf_local_bench",
+  "--atoms",
+  "38",
+  "--starts",
+  "8",
+  "--method",
+  "lj-newton",
+  "--workers",
+  "1",
+  "--local-tol",
+  "1e-08",
+  "--local-max-iter",
+  "5000",
+  "--output",
+  "/workspace/scratch/8543e66db3a1/pf_cpp_v1.3.0/validation/local_benchmark/LJ38_lj-newton_w1_r2.json",
+  "--population",
+  "/workspace/scratch/8543e66db3a1/pf_cpp_v1.3.0/validation/local_benchmark/LJ38_lj-newton_w1_r1.json.initial.pfpop"
+]

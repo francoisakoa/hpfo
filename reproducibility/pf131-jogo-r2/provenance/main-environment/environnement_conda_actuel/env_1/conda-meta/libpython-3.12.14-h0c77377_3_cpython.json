@@ -1,0 +1,60 @@
+{
+  "name": "libpython",
+  "version": "3.12.14",
+  "build": "h0c77377_3_cpython",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libpython-3.12.14-h0c77377_3_cpython.conda",
+  "md5": "d247b7632f09324c11f24b5270361385",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libpython-3.12.14-h0c77377_3_cpython.conda",
+  "sha256": "6be16a4906d83eb8e9e04375d524f339f426a847cffd294f1ceb0611988dc17a",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=15",
+    "libstdcxx >=15"
+  ],
+  "constrains": [],
+  "license": "Python-2.0",
+  "timestamp": 1788392466381,
+  "size": 8770625,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/libpython-3.12.14-h0c77377_3_cpython.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/libpython-3.12.14-h0c77377_3_cpython",
+  "files": [
+    "lib/libpython3.12.so",
+    "lib/libpython3.12.so.1.0",
+    "lib/libpython3.so"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libpython3.12.so",
+        "path_type": "softlink",
+        "sha256": "e538cebda5372163c6a97e758ee6fc8c5928bd2f6b2aec401bacd5a301d04b75",
+        "size_in_bytes": 31841520
+      },
+      {
+        "_path": "lib/libpython3.12.so.1.0",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/python-split_1788390929916/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "sha256": "e538cebda5372163c6a97e758ee6fc8c5928bd2f6b2aec401bacd5a301d04b75",
+        "size_in_bytes": 31841520,
+        "sha256_in_prefix": "8c0b81bd1ec964acdc319798e2d6fe986452044321b0083f9662debb53baf32a"
+      },
+      {
+        "_path": "lib/libpython3.so",
+        "path_type": "hardlink",
+        "sha256": "f298e706c59771f934a5496c7c22324bc758ae243dc852c69d04c43bcf6b6386",
+        "size_in_bytes": 14920,
+        "sha256_in_prefix": "f298e706c59771f934a5496c7c22324bc758ae243dc852c69d04c43bcf6b6386"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/libpython-3.12.14-h0c77377_3_cpython",
+    "type": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "parallel_replay_exact": true,
+  "runs": [
+    {
+      "atoms": 38,
+      "backend": "ldl",
+      "workers": 4,
+      "audit_pass": 4,
+      "factorizations": 2642,
+      "fallbacks": 0
+    },
+    {
+      "atoms": 38,
+      "backend": "mumps",
+      "workers": 1,
+      "audit_pass": 4,
+      "factorizations": 2595,
+      "fallbacks": 0
+    },
+    {
+      "atoms": 38,
+      "backend": "mumps",
+      "workers": 4,
+      "audit_pass": 4,
+      "factorizations": 2595,
+      "fallbacks": 0
+    },
+    {
+      "atoms": 76,
+      "backend": "ldl",
+      "workers": 4,
+      "audit_pass": 4,
+      "factorizations": 3350,
+      "fallbacks": 0
+    },
+    {
+      "atoms": 76,
+      "backend": "mumps",
+      "workers": 1,
+      "audit_pass": 4,
+      "factorizations": 3343,
+      "fallbacks": 0
+    },
+    {
+      "atoms": 76,
+      "backend": "mumps",
+      "workers": 4,
+      "audit_pass": 4,
+      "factorizations": 3343,
+      "fallbacks": 0
+    }
+  ]
+}

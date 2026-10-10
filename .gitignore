@@ -1,0 +1,11 @@
+# Raw data are release assets; these paths must never enter Git history.
+/release-assets/
+/data/
+/.local/
+/_build/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,49 @@
+{
+  "name": "gxx",
+  "version": "15.3.0",
+  "build": "hc6a0c74_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "gxx-15.3.0-hc6a0c74_5.conda",
+  "md5": "dbf1e3e3871d3133c0bc9f8078014f6e",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx-15.3.0-hc6a0c74_5.conda",
+  "sha256": "f090b2500c715a498177d725048270925d1e3089e379ae550df2a5be983b7bb1",
+  "depends": [
+    "conda-gcc-specs",
+    "gcc 15.3.0 hc6a0c74_5",
+    "gxx_impl_linux-64 15.3.0 h90d9265_5"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1789487101928,
+  "size": 28952,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/gxx-15.3.0-hc6a0c74_5.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/gxx-15.3.0-hc6a0c74_5",
+  "files": [
+    "bin/c++",
+    "bin/g++"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/c++",
+        "path_type": "softlink",
+        "sha256": "000c1e662e0145c30ebcdb369b22ba5972a7cd11fe1bb8ac528b7dca9f719167",
+        "size_in_bytes": 2177240
+      },
+      {
+        "_path": "bin/g++",
+        "path_type": "softlink",
+        "sha256": "000c1e662e0145c30ebcdb369b22ba5972a7cd11fe1bb8ac528b7dca9f719167",
+        "size_in_bytes": 2177240
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/gxx-15.3.0-hc6a0c74_5",
+    "type": 1
+  }
+}

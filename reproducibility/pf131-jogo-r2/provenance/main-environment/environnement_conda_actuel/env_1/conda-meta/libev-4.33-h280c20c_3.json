@@ -1,0 +1,72 @@
+{
+  "name": "libev",
+  "version": "4.33",
+  "build": "h280c20c_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libev-4.33-h280c20c_3.conda",
+  "md5": "7bc31538d6e3fb349e897353969237ec",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libev-4.33-h280c20c_3.conda",
+  "sha256": "e4418f68d01a6307c4431b585c71b584f40189877364e542ee87deb777f5e85b",
+  "depends": [
+    "libgcc >=14",
+    "__glibc >=2.17,<3.0.a0"
+  ],
+  "constrains": [],
+  "license": "BSD-2-Clause OR GPL-2.0-or-later",
+  "timestamp": 1785917328200,
+  "size": 43220,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/libev-4.33-h280c20c_3.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/libev-4.33-h280c20c_3",
+  "files": [
+    "include/ev++.h",
+    "include/ev.h",
+    "lib/libev.so",
+    "lib/libev.so.4",
+    "lib/libev.so.4.0.0"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "include/ev++.h",
+        "path_type": "hardlink",
+        "sha256": "918c757dc7f2ccf58012326b9aa6e5060d3b951b5e2c0542111204762df936e7",
+        "size_in_bytes": 20549,
+        "sha256_in_prefix": "918c757dc7f2ccf58012326b9aa6e5060d3b951b5e2c0542111204762df936e7"
+      },
+      {
+        "_path": "include/ev.h",
+        "path_type": "hardlink",
+        "sha256": "6622bd23ae922f066cecbba48b3290a6c9325c879db158484cf0899ca95687d2",
+        "size_in_bytes": 30257,
+        "sha256_in_prefix": "6622bd23ae922f066cecbba48b3290a6c9325c879db158484cf0899ca95687d2"
+      },
+      {
+        "_path": "lib/libev.so",
+        "path_type": "softlink",
+        "sha256": "27a02ebc78bb3a6b1ce4c649efb31ccfa0a66d04979fd2cc3121a52e599bd878",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/libev.so.4",
+        "path_type": "softlink",
+        "sha256": "27a02ebc78bb3a6b1ce4c649efb31ccfa0a66d04979fd2cc3121a52e599bd878",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/libev.so.4.0.0",
+        "path_type": "hardlink",
+        "sha256": "27a02ebc78bb3a6b1ce4c649efb31ccfa0a66d04979fd2cc3121a52e599bd878",
+        "size_in_bytes": 69096,
+        "sha256_in_prefix": "27a02ebc78bb3a6b1ce4c649efb31ccfa0a66d04979fd2cc3121a52e599bd878"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/libev-4.33-h280c20c_3",
+    "type": 1
+  }
+}

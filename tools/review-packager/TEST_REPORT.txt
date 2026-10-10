@@ -1,0 +1,53 @@
+HPFO_TRX_REVIEW_R1_FIX1 — importer and resume verification
+Date: 2026-10-10
+
+STATUS: 36/36 packaging/regression tests passed (26.391 s in the first full run).
+The 18 original tests are preserved; 18 tests exercise native-field parsing,
+refusals and resumption of a failed R1 assembly.
+
+OBSERVED DEFECT
+The user's diagnostic identifies valid JSON records with method, n_atoms,
+run_id, energy, wall_time and n_func_evals. The R1 parser accepted the other
+fields but did not recognize n_func_evals, so its result-shaped-record filter
+returned None. With a complete synthetic 1200-record grid using those field
+names, the original unmodified R1 kit reproduces found=0 and missing=1200.
+No numerical values from the user's real baselines were invented for this test.
+
+CHANGES
+- n_func_evals is accepted as the recorded objective-evaluation counter.
+- Exact integer identities stored as decimal-digit strings are supported.
+- The recorded wall_time is retained; audit_seconds and
+  elapsed_including_audit are not silently substituted.
+- Success is computed from the recorded energy target and tolerance. A generic
+  success flag is not interpreted as an energy-target certificate.
+- --resume-work resumes the existing incomplete .hpfo-preparation-* directory.
+- Original staged files and copied archives are rechecked before reuse.
+- Extracted ZIP/TAR members are compared byte-for-byte by SHA256 before reuse.
+- The release checksum manifest is not inserted into its own asset list.
+- Source locations for the main PF131 solver and the study variant are printed.
+
+TEST EVIDENCE
+- Original R1 failure reproduced on 1200 native-schema synthetic records.
+- An intentionally changed extracted member is refused without overwriting it.
+- After restoring that fixture member, FIX1 resumes to a completed hpfo folder.
+- All 1200 unique method/size/run triples and their archived hashes are present.
+- The same archive inodes, modification times and SHA256 hashes are preserved
+  through the resume and final directory rename: the archives were not recopied.
+- Original staging, raw JSONs, input export and index remain unchanged.
+- Copied C++ source fixture bytes remain unchanged.
+- Reviewer extraction and table rebuilding succeed for all 2500 fixture records.
+- A duplicate result or missing grid element cannot be marked complete.
+- Existing destination, path traversal, symlinks and checksum errors are refused.
+- Publication remains a dry run by default and requires a clean-build report
+  plus explicit author consent before any actual remote write.
+
+LIMITS
+This is a tested packaging correction, not a production C++ solver modification.
+The actual 10 October baseline ZIP and TRX filesystem are not mounted here.
+Their 1200 records, source presence and copied assets will be verified when
+FIX1 runs on the TRX. No claim is made that those production records have
+already passed the corrected importer in this session.
+No C++ compilation, scientific optimization campaign, GitHub operation or
+remote publication has been performed by these tests.
+
+The raw unittest output accompanies this report.

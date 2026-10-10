@@ -1,0 +1,39 @@
+{
+  "baselines_v3": {
+    "code_sha256": "fa1be72e679ca64290c47fbea8a928b953fddc51fc6c83f828fd38d19cdb3499",
+    "files": {
+      "baselines.py": "31c1f9e5f8194baf28066142cddfabe66a18ba42ca8649205a24bde597f3bebe",
+      "lj_oracle.py": "686fc5cf4fec922180bafeab1bca34e3c3a8c63d1d3c8b9124dd5a359ba50291",
+      "evaluation.py": "bf4cd2034bfe67eb0d5ff3205c97486b3a63bb2f63c2ece931819b23c545745d",
+      "protocol.py": "bac099ceab58135a9564146e01541cb2c0e99bcc2dbad36ea012335056dc3a5b",
+      "record_schema.py": "daef1476cec75caf1abd3fd386cee281a844a6f0522b3f7786039c3db6546fc7",
+      "run_one_baseline.py": "a72386447beb92397705469ac632465a08a2fd7a8074a1d8dc8552548a04a50d",
+      "aggregate_baselines.py": "a382c5b400ad2519794ae4f91f052c3c9aa10014d5d0defe20eec13238ec42cb",
+      "campaign.py": "2a1123d0ccde5d3c793f2bf534aea3ab0e08a1c12cfd85387fb6a1d092cc1ba5",
+      "benchmark_suite.py": "dd53e7902430e68c8ff525131e439c5726c30353460b056bb6a8000ffde99511",
+      "generate_tables.py": "5b247e416a3bb8bafb1fbd6f2dbdc01695ffb0ac9a32d2017fb42359d2eb321b",
+      "preflight.py": "93394384cf907e8cd6c46770a5f30a5223576429e3ce323a352bc6da0a85e39e",
+      "launch_baselines.sh": "1f5ff1179aa1a8ae866e62543d1317c0480d766cd2cf5526a21e35d05cf27fb6",
+      "baseline_eval_limits_v3.json": "03ce9018559a16e77841790eb0a39434e42af53d0a6e38b797c2f8f5f2c59954"
+    }
+  },
+  "baselines_v3_1": {
+    "code_sha256": "90d0facf1c126dc931904640ee3eb7d369bc65bd8233d67cd2cd9c293fee8ca2",
+    "files": {
+      "local_refinement.py": "fa8015128774fd285946f785c7caea1306d579531a6892d0ec5071af1d6b81ee",
+      "baselines.py": "2ecc527e83b1b4c1b4fe0228f5ca1beafe89e28c45e07d3e059c17355e9b67fe",
+      "lj_oracle.py": "686fc5cf4fec922180bafeab1bca34e3c3a8c63d1d3c8b9124dd5a359ba50291",
+      "evaluation.py": "b7482e2b70d13faa26839ee8bdd9b8c6315ace6200eafcca76f8a79beb1eaa85",
+      "protocol.py": "ba54e21285cefd12497709c819db285db3906cd81c42c2347e6e7068039fbf3a",
+      "record_schema.py": "daef1476cec75caf1abd3fd386cee281a844a6f0522b3f7786039c3db6546fc7",
+      "run_one_baseline.py": "e20d2e01a830a30711562d363c73659bb31ee3fb70c84c736a10f52d4292e210",
+      "aggregate_baselines.py": "a382c5b400ad2519794ae4f91f052c3c9aa10014d5d0defe20eec13238ec42cb",
+      "campaign.py": "2a1123d0ccde5d3c793f2bf534aea3ab0e08a1c12cfd85387fb6a1d092cc1ba5",
+      "benchmark_suite.py": "dd53e7902430e68c8ff525131e439c5726c30353460b056bb6a8000ffde99511",
+      "generate_tables.py": "5b247e416a3bb8bafb1fbd6f2dbdc01695ffb0ac9a32d2017fb42359d2eb321b",
+      "preflight.py": "1401d63db23c99748d6ef2819f98ed8269f2898d0fcea7f2707a27ade85908e4",
+      "launch_baselines.sh": "1de328d7bd247a409bfcf8632bb07a532586c5336ed115ccbbb7f3697c13e5de",
+      "baseline_eval_limits_v3.json": "03ce9018559a16e77841790eb0a39434e42af53d0a6e38b797c2f8f5f2c59954"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "gxx_impl_linux-64",
+  "version": "15.3.0",
+  "build": "h90d9265_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "gxx_impl_linux-64-15.3.0-h90d9265_5.conda",
+  "md5": "9807d970a37a428c4990e7a1d70fd4ae",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx_impl_linux-64-15.3.0-h90d9265_5.conda",
+  "sha256": "0e58e81f8d31454bd5edc39b15df6dae46aa00ca6ab5ff7f2b6996cfbedeb4ea",
+  "depends": [
+    "gcc_impl_linux-64 15.3.0 hc396a85_5",
+    "libstdcxx-devel_linux-64 15.3.0 hb2c5482_105",
+    "sysroot_linux-64",
+    "tzdata"
+  ],
+  "constrains": [],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "timestamp": 1789486960809,
+  "size": 16225632,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/gxx_impl_linux-64-15.3.0-h90d9265_5.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/gxx_impl_linux-64-15.3.0-h90d9265_5",
+  "files": [
+    "bin/x86_64-conda-linux-gnu-c++",
+    "bin/x86_64-conda-linux-gnu-g++",
+    "lib/-gdb.py",
+    "libexec/gcc/x86_64-conda-linux-gnu/15.3.0/cc1plus",
+    "share/gcc-15.3.0/python/libstdcxx/__init__.py",
+    "share/gcc-15.3.0/python/libstdcxx/v6/__init__.py",
+    "share/gcc-15.3.0/python/libstdcxx/v6/printers.py",
+    "share/gcc-15.3.0/python/libstdcxx/v6/xmethods.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-c++",
+        "path_type": "hardlink",
+        "sha256": "000c1e662e0145c30ebcdb369b22ba5972a7cd11fe1bb8ac528b7dca9f719167",
+        "size_in_bytes": 2177240,
+        "sha256_in_prefix": "000c1e662e0145c30ebcdb369b22ba5972a7cd11fe1bb8ac528b7dca9f719167"
+      },
+      {
+        "_path": "bin/x86_64-conda-linux-gnu-g++",
+        "path_type": "hardlink",
+        "sha256": "000c1e662e0145c30ebcdb369b22ba5972a7cd11fe1bb8ac528b7dca9f719167",
+        "size_in_bytes": 2177240,
+        "sha256_in_prefix": "000c1e662e0145c30ebcdb369b22ba5972a7cd11fe1bb8ac528b7dca9f719167"
+      },
+      {
+        "_path": "lib/-gdb.py",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/gcc_compilers_1789484200796/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "40ad95fd41456ab1e7d9984c26627ebf14a650e54f233851a318d7d6d28d32df",
+        "size_in_bytes": 3431,
+        "sha256_in_prefix": "c1b20423276939eeaffccfdd85d008da7cb43f1088cfb4ad3efc8861a3a27e95"
+      },
+      {
+        "_path": "libexec/gcc/x86_64-conda-linux-gnu/15.3.0/cc1plus",
+        "path_type": "hardlink",
+        "sha256": "5a4d0162b2626681a54cc7e73ed5acb3e3d7a1bf7aaff3411452b8a7df0af0d4",
+        "size_in_bytes": 48753232,
+        "sha256_in_prefix": "5a4d0162b2626681a54cc7e73ed5acb3e3d7a1bf7aaff3411452b8a7df0af0d4"
+      },
+      {
+        "_path": "share/gcc-15.3.0/python/libstdcxx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1,
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      {
+        "_path": "share/gcc-15.3.0/python/libstdcxx/v6/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2cafc1b79bcd4efab8233623bd93c7e1e1a6c29fcf80d5b7787ea9dbfe80dcda",
+        "size_in_bytes": 1149,
+        "sha256_in_prefix": "2cafc1b79bcd4efab8233623bd93c7e1e1a6c29fcf80d5b7787ea9dbfe80dcda"
+      },
+      {
+        "_path": "share/gcc-15.3.0/python/libstdcxx/v6/printers.py",
+        "path_type": "hardlink",
+        "sha256": "1612c03543016c154939bf0081488f2fa95aa24178c94a1cf18e9cdeb21c586a",
+        "size_in_bytes": 112279,
+        "sha256_in_prefix": "1612c03543016c154939bf0081488f2fa95aa24178c94a1cf18e9cdeb21c586a"
+      },
+      {
+        "_path": "share/gcc-15.3.0/python/libstdcxx/v6/xmethods.py",
+        "path_type": "hardlink",
+        "sha256": "a4715a5275e120d2bfbc99354446ddd05a67d450ef53fd33e2d9d10eee5883ee",
+        "size_in_bytes": 28845,
+        "sha256_in_prefix": "a4715a5275e120d2bfbc99354446ddd05a67d450ef53fd33e2d9d10eee5883ee"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/gxx_impl_linux-64-15.3.0-h90d9265_5",
+    "type": 1
+  }
+}

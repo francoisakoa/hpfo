@@ -1,0 +1,1758 @@
+[
+  {
+    "path": "pf_cpp_v1.3.1/MANIFEST.sha256",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/.ninja_deps",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/.ninja_log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeCache.txt",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/4.4.3/CMakeCXXCompiler.cmake",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/4.4.3/CMakeDetermineCompilerABI_CXX.bin",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/4.4.3/CMakeSystem.cmake",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/4.4.3/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/4.4.3/CompilerIdCXX/a.out",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/CMakeConfigureLog.yaml",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/CTestScript.cmake",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/FindOpenMP/ompver_CXX.bin",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/InstallScripts.json",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/TargetDirectories.txt",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/cmake.check_cache",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/clustering.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/io.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/ipopt.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/linear.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/lj_newton.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/local.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/local_pool.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/operators.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/ordering.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/problem.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/random.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/seed.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf.dir/src/solver.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_eigen_boundary_tests.dir/tests/test_eigen_boundary.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_linear_check.dir/app/linear_check.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_lj_newton_tests.dir/tests/test_lj_newton.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_local_bench.dir/app/local_bench.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_local_incumbent_tests.dir/tests/test_local_incumbent.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_local_probe.dir/tests/local_probe.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_local_worker.dir/app/worker.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_probe.dir/tests/probe.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_rng_probe.dir/tests/rng_probe.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_solver.dir/app/main.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/pf_tests.dir/tests/test_core.cpp.o",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CMakeFiles/rules.ninja",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/CTestTestfile.cmake",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/DartConfiguration.tcl",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/Testing/Temporary/CTestCostData.txt",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/Testing/Temporary/LastTest.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/build.ninja",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/cmake_install.cmake",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/libpf.a",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/numpy_random_parity.json",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_eigen_boundary_tests",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_linear_check",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_lj_newton_tests",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_local_bench",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_local_incumbent_tests",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_local_probe",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_local_worker",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_probe",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_rng_probe",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_solver",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/build_release/pf_tests",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/reference/__pycache__/backend_ops.cpython-312.pyc",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/build_metis5.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/build_metis5_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/build_native.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/build_native_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/build_no_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/build_no_metis_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/configure_metis5.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/configure_native.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/configure_no_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/ctest_cli_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/ctest_metis5.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/ctest_metis5_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/ctest_native.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/ctest_native_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/ctest_no_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/ctest_no_metis_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/linear_ldl_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/linear_ldl_metis5.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/linear_mumps_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ38_ipopt_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ38_ldl_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ38_ldl_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ38_mumps_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ38_mumps_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ76_ipopt_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ76_ldl_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ76_ldl_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ76_mumps_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis/LJ76_mumps_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ38_ipopt_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ38_ldl_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ38_ldl_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ38_mumps_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ38_mumps_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ76_ipopt_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ76_ldl_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ76_ldl_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ76_mumps_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/lj_metis_final/LJ76_mumps_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/local_incumbent.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/configure_native.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/configure_portable.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/direct_checks.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/direct_ldl38_w4.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/direct_ldl76_w4.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/direct_mumps38_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/direct_mumps38_w4.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/direct_mumps76_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/direct_mumps76_w4.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/install_check.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/pf_LJ38_ipopt.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/pf_LJ38_lj-newton.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/pf_LJ76_ipopt.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/pf_LJ76_lj-newton.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "pf_cpp_v1.3.1/validation/previous_v1.3.0/pf_checks.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/build.sh",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/reference/PF131_ARTICLE_STUDY.patch",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/reference/R1_TO_R2_RUNNER.patch",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/reference/UPSTREAM_MANIFEST.sha256",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/reference/pf_cpp_v1.3.1_source.tar.gz",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/build_metis5.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/build_metis5_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/build_native.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/build_native_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/build_no_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/build_no_metis_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/configure_metis5.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/configure_native.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/configure_no_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/ctest_cli_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/ctest_metis5.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/ctest_metis5_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/ctest_native.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/ctest_native_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/ctest_no_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/ctest_no_metis_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/linear_ldl_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/linear_ldl_metis5.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/linear_mumps_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ38_ipopt_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ38_ldl_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ38_ldl_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ38_mumps_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ38_mumps_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ76_ipopt_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ76_ldl_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ76_ldl_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ76_mumps_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis/LJ76_mumps_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ38_ipopt_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ38_ldl_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ38_ldl_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ38_mumps_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ38_mumps_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ76_ipopt_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ76_ldl_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ76_ldl_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ76_mumps_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final/LJ76_mumps_w2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/lj_metis_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/local_incumbent.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/configure_native.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/configure_portable.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/direct_checks.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/direct_ldl38_w4.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/direct_ldl76_w4.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/direct_mumps38_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/direct_mumps38_w4.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/direct_mumps76_w1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/direct_mumps76_w4.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/install_check.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_ipopt_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ38_lj-newton_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_ipopt_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark/LJ76_lj-newton_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_ipopt_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ38_lj-newton_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_ipopt_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w1_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w1_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w1_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w4_r1.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w4_r2.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final/LJ76_lj-newton_w4_r3.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/local_benchmark_final.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/pf_LJ38_ipopt.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/pf_LJ38_lj-newton.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/pf_LJ76_ipopt.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/pf_LJ76_lj-newton.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/provenance/kit/source/validation/previous_v1.3.0/pf_checks.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_100/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_200/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_300/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_011/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_012/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_013/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_014/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_015/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_016/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_017/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_018/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_019/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_020/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_021/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_022/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_023/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_024/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_025/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_026/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_027/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_028/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_029/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_362/run_030/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_400/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ102/np_500/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_100/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_200/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_011/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_012/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_013/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_014/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_015/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_016/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_017/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_018/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_019/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_020/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_021/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_022/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_023/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_024/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_025/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_026/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_027/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_028/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_029/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_281/run_030/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_300/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_400/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_001/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_002/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_003/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_004/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_005/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_006/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_007/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_008/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_009/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  },
+  {
+    "path": "/data/projects/PF_GlobalOptimization/PF131_ETUDES_LJ75_LJ102_REFINE_ALL_R2/inputs/LJ75/np_500/run_010/attempt_001/generation.log",
+    "reason": "outside-source-selection"
+  }
+]

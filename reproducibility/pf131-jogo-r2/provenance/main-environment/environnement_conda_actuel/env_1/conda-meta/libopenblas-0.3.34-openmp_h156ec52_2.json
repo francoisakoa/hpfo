@@ -1,0 +1,65 @@
+{
+  "name": "libopenblas",
+  "version": "0.3.34",
+  "build": "openmp_h156ec52_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "subdir": "linux-64",
+  "fn": "libopenblas-0.3.34-openmp_h156ec52_2.conda",
+  "md5": "85d0ace74af50f6eea7010679eacb59a",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libopenblas-0.3.34-openmp_h156ec52_2.conda",
+  "sha256": "dbcd501070d124ee7e02740e5483e2e83158ab4a0cabfc65fb4253e0168ff428",
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "llvm-openmp >=23.1.1",
+    "_openmp_mutex >=4.5",
+    "_openmp_mutex * *_llvm",
+    "libgcc >=15",
+    "libgfortran5 >=15.3.0",
+    "libgfortran"
+  ],
+  "constrains": [
+    "openblas >=0.3.34,<0.3.35.0a0"
+  ],
+  "track_features": "libopenblas-p-0",
+  "license": "BSD-3-Clause",
+  "timestamp": 1789141495971,
+  "size": 6856873,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/home/fakoa/anaconda3/pkgs/libopenblas-0.3.34-openmp_h156ec52_2.conda",
+  "extracted_package_dir": "/home/fakoa/anaconda3/pkgs/libopenblas-0.3.34-openmp_h156ec52_2",
+  "files": [
+    "etc/conda/test-files/libopenblas/0/test_openblas.c",
+    "lib/libopenblas.so.0",
+    "lib/libopenblasp-r0.3.34.so"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "etc/conda/test-files/libopenblas/0/test_openblas.c",
+        "path_type": "hardlink",
+        "sha256": "c00f5ab721599cd19465092d53e744b21f8cc26c6c9e1323da7c03ed4dc7ab98",
+        "size_in_bytes": 230,
+        "sha256_in_prefix": "c00f5ab721599cd19465092d53e744b21f8cc26c6c9e1323da7c03ed4dc7ab98"
+      },
+      {
+        "_path": "lib/libopenblas.so.0",
+        "path_type": "softlink",
+        "sha256": "5a345212e7311feb4b26c29a9103ce75dab3c1361cff4d9827fd435fa337ab51",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/libopenblasp-r0.3.34.so",
+        "path_type": "hardlink",
+        "sha256": "5a345212e7311feb4b26c29a9103ce75dab3c1361cff4d9827fd435fa337ab51",
+        "size_in_bytes": 41559024,
+        "sha256_in_prefix": "5a345212e7311feb4b26c29a9103ce75dab3c1361cff4d9827fd435fa337ab51"
+      }
+    ]
+  },
+  "link": {
+    "source": "/home/fakoa/anaconda3/pkgs/libopenblas-0.3.34-openmp_h156ec52_2",
+    "type": 1
+  }
+}

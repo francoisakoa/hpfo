@@ -1,0 +1,315 @@
+--- R1/create_hpfo.py
++++ R1_FIX1/create_hpfo.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Create a NEW hpfo directory from existing, completed local exports.
++"""Create hpfo, or resume its verified incomplete local preparation.
+ No optimizer, network operation, Git commit, or repository publication is run.
+ """
+ from __future__ import annotations
+@@ -15,9 +15,22 @@
+ NO_DIR={'.git','.venv','venv','__pycache__','node_modules','site-packages','CMakeFiles'}
+ SECRET=re.compile(rb'(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----)')
+ 
++RESUME_MODE = False
++
++def reuse_copy(src, dst):
++    """On resume only, reuse an identical regular file; never overwrite a conflict."""
++    src, dst = Path(src), Path(dst)
++    if RESUME_MODE and (dst.exists() or dst.is_symlink()):
++        require(src.is_file() and not src.is_symlink(), 'Invalid source: ' + str(src))
++        require(dst.is_file() and not dst.is_symlink(), 'Invalid existing copy: ' + str(dst))
++        require(src.stat().st_size == dst.stat().st_size and sha(src) == sha(dst),
++                'Existing prepared copy differs: ' + str(dst))
++        return
++    snapshot_copy(src, dst)
++
+ def baseline_import(zips, destination, index_path, assets, provenance):
+-    scratch=destination/'.local/baseline-unpack';scratch.mkdir(parents=True)
+-    for z in zips:extract_zip(z,scratch)
++    scratch=destination/'.local/baseline-unpack';scratch.mkdir(parents=True,exist_ok=RESUME_MODE)
++    for z in zips:extract_zip(z,scratch,reuse_identical=RESUME_MODE)
+     # Source bundles may be nested. Expand these into a separate, path-traceable tree.
+     nested=[]
+     for depth in range(3):
+@@ -27,8 +40,8 @@
+         for p in candidates:
+             require(p.stat().st_size<150*1024**2,'Unexpectedly large nested source archive: '+str(p))
+             nested.append(p);out=p.parent/(p.name+'.contents')
+-            if p.suffix=='.zip':extract_zip(p,out,max_bytes=1024**3)
+-            else:extract_tar(p,out,max_bytes=1024**3)
++            if p.suffix=='.zip':extract_zip(p,out,max_bytes=1024**3,reuse_identical=RESUME_MODE)
++            else:extract_tar(p,out,max_bytes=1024**3,reuse_identical=RESUME_MODE)
+     parsed={};known_hashes=hashes_in(load(index_path));json_errors=[]
+     for p in sorted(scratch.rglob('*.json')):
+         require(p.stat().st_size<128*1024**2,'Unexpectedly large JSON: '+str(p))
+@@ -68,7 +81,7 @@
+         allowed=p.suffix.lower() in TEXT_EXT or p.name.lower().startswith(('license','copying','notice')) or p.name in ('Makefile','CMakeLists.txt','.gitignore')
+         if not allowed or p.stat().st_size>=40*1024**2:
+             exclusions.append(rel.as_posix());continue
+-        snapshot_copy(p,code/rel);copied.append(rel.as_posix())
++        reuse_copy(p,code/rel);copied.append(rel.as_posix())
+     drivers=[p.relative_to(code).as_posix() for p in code.rglob('run_one_baseline.py')]
+     budgets=[p.relative_to(code).as_posix() for p in code.rglob('*eval*limit*.json')]
+     require(drivers,'Frozen baseline run_one_baseline.py missing from ZIP; refusing a results-only repository')
+@@ -82,9 +95,13 @@
+         'frozen_drivers':drivers,'budget_files':budgets,'source_files_copied':len(copied),
+         'excluded_from_git_but_retained_in_zip':exclusions,'invalid_nonresult_json_files':json_errors,
+         'baseline_trajectories_complete':False})
++    print('BASELINES_RECONNUES=1200/1200 ; DOUBLONS=0',flush=True)
++    print('BASELINES_EMPREINTES_RETROUVEES='+str(sum(r['archived_hash_match'] for r in rows))+'/1200',flush=True)
+     return scratch,rows
+ 
+ def create(args):
++    global RESUME_MODE
++    RESUME_MODE = getattr(args,'resume_work',None) is not None
+     stage=args.stage.resolve();old=stage/'git'/SUBDIR
+     target=args.destination.absolute();target.parent.mkdir(parents=True,exist_ok=True)
+     require(not target.exists() and not target.is_symlink(),'Destination already exists; it will NOT be overwritten: '+str(target))
+@@ -100,35 +117,71 @@
+     zips=[br/n for h,n in checks if re.fullmatch(r'BASELINES_COMPACT_\d+\.zip',Path(n).name)]
+     require(zips,'No verified BASELINES_COMPACT ZIP in export')
+     live_index=args.baselines_index.resolve();require(live_index.is_file(),'Baseline index missing: '+str(live_index))
+-    free=shutil.disk_usage(target.parent).free
+-    needed=sum((stage/'release-assets'/n).stat().st_size for h,n in original_assets)+sum(p.stat().st_size for p in zips)+2*1024**3
+-    require(free>needed,'Insufficient free space: needs roughly '+str(round(needed/1024**3,1))+' GiB')
+-    work=Path(tempfile.mkdtemp(prefix='.hpfo-preparation-',dir=str(target.parent)))
+-    print('PREPARATION_TEMPORAIRE='+str(work),flush=True)
++    if RESUME_MODE:
++        candidate = args.resume_work.absolute()
++        require(not candidate.is_symlink(), 'Symlink resume directory refused')
++        work = candidate.resolve()
++        require(work.is_dir() and work.parent == target.parent.resolve()
++                and work.name.startswith('.hpfo-preparation-'),
++                'Resume must name the existing .hpfo-preparation-* directory beside hpfo')
++        require(not (work/'.git').exists() and not (work/'PACKAGE_MANIFEST.json').exists(),
++                'Resume refuses an existing Git or already completed package')
++        require((work/'.local/BASELINES_IMPORT_DIAGNOSTIC.json').is_file()
++                or (work/'.local/RESUME_ORIGIN_FIX1.json').is_file(),
++                'No incomplete baseline-import checkpoint in this directory')
++        print('REPRISE_PREPARATION='+str(work),flush=True)
++        # Files derived below may already have changed during an interrupted FIX1 retry.
++        mutable={'SHA256SUMS.txt','provenance/PREPARATION.json',
++                 'provenance/BASELINES_IMPORT.json','provenance/RELEASE_ASSETS.json'}
++        checkpoint=work/'.local/RESUME_ORIGIN_FIX1.json'
++        origin={'stage':str(stage),'upstream_manifest':sha(old/'SHA256SUMS.txt'),
++                'baseline_manifest':sha(br/'SHA256SUMS.txt'),'baseline_index':sha(live_index)}
++        if checkpoint.exists():require(load(checkpoint)==origin,'Resume inputs have changed')
++        for h,name in rows:
++            p=in_root(work/SUBDIR,name)
++            if checkpoint.exists() and name in mutable:continue
++            require(p.is_file() and sha(p)==h,'Resume upstream copy mismatch: '+str(p))
++        for h,name in original_assets:
++            p=in_root(work/'release-assets',name)
++            require(p.is_file() and sha(p)==h,'Resume archive mismatch: '+str(p))
++        for z in zips:
++            p=in_root(work/'release-assets',z.name)
++            require(p.is_file() and sha(p)==sha(z),'Resume baseline ZIP mismatch: '+str(p))
++        (work/'.local').mkdir(exist_ok=True)
++        if not checkpoint.exists():write_json(checkpoint,origin)
++        print('ARCHIVES_EXISTANTES_VERIFIEES=OUI ; RECOPIE_GROSSES_ARCHIVES=NON',flush=True)
++    else:
++        free=shutil.disk_usage(target.parent).free
++        needed=sum((stage/'release-assets'/n).stat().st_size for h,n in original_assets)+sum(p.stat().st_size for p in zips)+2*1024**3
++        require(free>needed,'Insufficient free space: needs roughly '+str(round(needed/1024**3,1))+' GiB')
++        work=Path(tempfile.mkdtemp(prefix='.hpfo-preparation-',dir=str(target.parent)))
++        print('PREPARATION_TEMPORAIRE='+str(work),flush=True)
+     try:
+-        package=work/SUBDIR;package.mkdir(parents=True)
+-        for h,name in rows:snapshot_copy(in_root(old,name),package/name)
+-        snapshot_copy(old/'SHA256SUMS.txt',package/'provenance/UPSTREAM_SHA256SUMS.txt')
+-        (package/'provenance/UPSTREAM_PREPARATION.json').write_bytes((package/'provenance/PREPARATION.json').read_bytes())
++        package=work/SUBDIR;package.mkdir(parents=True,exist_ok=RESUME_MODE)
++        if not RESUME_MODE:
++            for h,name in rows:reuse_copy(in_root(old,name),package/name)
++        reuse_copy(old/'SHA256SUMS.txt',package/'provenance/UPSTREAM_SHA256SUMS.txt')
++        reuse_copy(old/'provenance/PREPARATION.json',package/'provenance/UPSTREAM_PREPARATION.json')
+         # Keep the two large PF data archives byte-identical; no recompression.
+-        assets=work/'release-assets';assets.mkdir()
++        assets=work/'release-assets';assets.mkdir(exist_ok=RESUME_MODE)
+         for h,name in original_assets:
+-            print('COPIE_ARCHIVE='+name,flush=True);snapshot_copy(stage/'release-assets'/name,assets/name)
+-        for p in zips:snapshot_copy(p,assets/p.name)
++            print(('VERIFICATION_ARCHIVE=' if RESUME_MODE else 'COPIE_ARCHIVE=')+name,flush=True);reuse_copy(stage/'release-assets'/name,assets/name)
++        for p in zips:reuse_copy(p,assets/p.name)
+         provenance=package/'provenance'
+-        snapshot_copy(br/'SHA256SUMS.txt',provenance/'BASELINES_EXPORT_SHA256SUMS.txt')
+-        snapshot_copy(live_index,provenance/'BASELINES_ORIGINAL_RESULTS_INDEX.json')
++        reuse_copy(br/'SHA256SUMS.txt',provenance/'BASELINES_EXPORT_SHA256SUMS.txt')
++        reuse_copy(live_index,provenance/'BASELINES_ORIGINAL_RESULTS_INDEX.json')
+         scratch,baseline_rows=baseline_import(zips,work,live_index,assets,provenance)
+         for p in sorted((KIT/'payload').rglob('*')):
+-            if p.is_file() and '__pycache__' not in p.parts:snapshot_copy(p,work/p.relative_to(KIT/'payload'))
+-        snapshot_copy(package/'CITATION.cff',work/'CITATION.cff')
++            if p.is_file() and '__pycache__' not in p.parts:reuse_copy(p,work/p.relative_to(KIT/'payload'))
++        reuse_copy(package/'CITATION.cff',work/'CITATION.cff')
+         # Publish the assembler and its synthetic tests as well, not only the generated tree.
+         for digest,name in manifest_read(KIT/'KIT_SHA256SUMS.txt'):
+-            snapshot_copy(KIT/name,work/'tools/review-packager'/name)
+-        snapshot_copy(KIT/'KIT_SHA256SUMS.txt',work/'tools/review-packager/KIT_SHA256SUMS.txt')
++            reuse_copy(KIT/name,work/'tools/review-packager'/name)
++        reuse_copy(KIT/'KIT_SHA256SUMS.txt',work/'tools/review-packager/KIT_SHA256SUMS.txt')
+         prep=load(package/'provenance/PREPARATION.json')
+         prep.update(repository='francoisakoa/hpfo',local_directory_created_utc=datetime.now(timezone.utc).isoformat(),
+                     baseline_import=load(provenance/'BASELINES_IMPORT.json'),
++                    packaging_version='HPFO_TRX_REVIEW_R1_FIX1',resumed_preparation=RESUME_MODE,
+                     indexed_results={'main':240,'ipopt_multistart':240,'study':820,'external_baselines':1200},
+                     publication_state='LOCAL_ASSEMBLY_COMPLETE_BUILD_AND_AUTHOR_REVIEW_REQUIRED',
+                     optimization_executed=False,cpp_build_executed=False)
+@@ -142,7 +195,8 @@
+         write_json(provenance/'FIGURE_SCOPE.json',{'diagnostic_script':'scripts/plot_history.py',
+                    'exact_manuscript_figures_reproduced_by_this_installer':False,
+                    'note':'Original source snapshots are retained. Diagnostic plots are not substitutes for the paper figure-generation pipeline.'})
+-        asset_rows=[{'name':p.name,'sha256':sha(p),'bytes':p.stat().st_size} for p in sorted(assets.iterdir()) if p.is_file()]
++        asset_names=[name for _,name in original_assets]+[p.name for p in zips]
++        asset_rows=[{'name':name,'sha256':sha(assets/name),'bytes':(assets/name).stat().st_size} for name in sorted(asset_names)]
+         write_json(provenance/'RELEASE_ASSETS.json',asset_rows)
+         sums=''.join(r['sha256']+'  '+r['name']+'\n' for r in asset_rows)
+         (assets/'SHA256SUMS.txt').write_text(sums)
+@@ -150,12 +204,15 @@
+         # Recompute summaries from actual local JSONs, not the printed report.
+         sys.path.insert(0,str(work/'scripts'))
+         import rebuild_all
+-        rebuild_all.rebuild(work,stage/'raw/data',scratch,work/'.local/rebuilt')
++        rebuilt=work/'.local/rebuilt'
++        if rebuilt.exists():
++            rebuilt=Path(tempfile.mkdtemp(prefix='rebuild-fix1-',dir=work/'.local'))/'tables'
++        rebuild_all.rebuild(work,stage/'raw/data',scratch,rebuilt)
+         for t in (7,8,9,10):
+-            require((work/'.local/rebuilt'/f'TABLE_{t}.csv').read_bytes()==(package/'tables'/f'TABLE_{t}.csv').read_bytes(),
++            require((rebuilt/f'TABLE_{t}.csv').read_bytes()==(package/'tables'/f'TABLE_{t}.csv').read_bytes(),
+                     'Staged Table '+str(t)+' differs from raw-data reconstruction')
+         for name in ('MAIN_SUMMARY.csv','IPOPT_MULTISTART_SUMMARY.csv','BASELINES_SUMMARY.csv','BASELINES_RUNS.csv','BASELINES_SUMMARY.md'):
+-            snapshot_copy(work/'.local/rebuilt'/name,package/'tables'/name)
++            reuse_copy(rebuilt/name,package/'tables'/name)
+         # A limited token/key screen: do not claim that this is a full privacy audit.
+         for r,p in managed_files(work):
+             require(p.stat().st_size<50*1024**2,'File too large for planned Git content: '+r)
+@@ -177,6 +234,8 @@
+         require(not target.exists(),'Destination appeared during preparation')
+         work.rename(target)
+         print('HPFO='+str(target))
++        print('SOURCES_PF131='+str(target/SUBDIR/'code/main-pf131'))
++        print('SOURCES_ETUDE_R2='+str(target/SUBDIR/'code/study-r2/source'))
+         print('FICHIERS_GIT='+str(len(load(target/'PACKAGE_MANIFEST.json')['files'])))
+         print('RESULTATS_PF=240 ; IPOPT_MULTISTART=240 ; ETUDE=820 ; BASELINES=1200')
+         print('ASSEMBLAGE_LOCAL=OK ; TABLEAUX_RECONSTRUITS=OK ; SOURCES_BASELINES=PRESENTES')
+@@ -192,5 +251,6 @@
+     p.add_argument('--baselines-dir',type=Path,default=base/'EXPORT_BASELINES_COMPACT_20261010T141633Z_y3yzr2g9')
+     p.add_argument('--baselines-index',type=Path,default=base/'results_baselines_nohup_R1/results_index.json')
+     p.add_argument('--destination',type=Path,default=base/'hpfo')
++    p.add_argument('--resume-work',type=Path,help='Reuse a verified incomplete .hpfo-preparation-* directory; no recopy of archives')
+     try:create(p.parse_args())
+     except Exception as e:sys.exit('ERREUR: '+str(e))
+--- R1/payload/scripts/hpfo_common.py
++++ R1_FIX1/payload/scripts/hpfo_common.py
+@@ -74,7 +74,24 @@
+         require(p.is_file() and sha(p)==digest,'SHA256 mismatch/missing: '+str(p))
+     return rows
+ 
+-def extract_zip(archive,dest,max_bytes=8*1024**3):
++def write_or_verify_stream(stream, path, reuse_identical=False):
++    """Read the complete archive stream, including CRC checks, before reuse."""
++    path = Path(path)
++    if path.exists() or path.is_symlink():
++        require(reuse_identical and path.is_file() and not path.is_symlink(),
++                'Archive destination collision: ' + str(path))
++        expected = hashlib.sha256()
++        for block in iter(lambda: stream.read(1 << 20), b''):
++            expected.update(block)
++        require(sha(path) == expected.hexdigest(),
++                'Existing extracted file differs from archive: ' + str(path))
++        return False
++    path.parent.mkdir(parents=True, exist_ok=True)
++    with path.open('xb') as out:
++        shutil.copyfileobj(stream, out)
++    return True
++
++def extract_zip(archive,dest,max_bytes=8*1024**3,reuse_identical=False):
+     dest=Path(dest);dest.mkdir(parents=True,exist_ok=True)
+     with zipfile.ZipFile(archive) as z:
+         require(sum(i.file_size for i in z.infolist())<=max_bytes,'ZIP exceeds extraction limit')
+@@ -87,13 +104,12 @@
+             require(not (i.flag_bits&1),'Encrypted ZIP refused')
+             p=in_root(dest,name)
+             if i.is_dir(): p.mkdir(parents=True,exist_ok=True);continue
+-            require(not p.exists(),'ZIP destination collision: '+str(p))
+-            p.parent.mkdir(parents=True,exist_ok=True)
+-            with z.open(i) as a,p.open('wb') as b: shutil.copyfileobj(a,b)
+-            p.chmod(0o755 if mode&0o111 else 0o644)
++            with z.open(i) as a:
++                created=write_or_verify_stream(a,p,reuse_identical)
++            if created:p.chmod(0o755 if mode&0o111 else 0o644)
+     return dest
+ 
+-def extract_tar(archive,dest,max_bytes=30*1024**3,allowed_prefix=None):
++def extract_tar(archive,dest,max_bytes=30*1024**3,allowed_prefix=None,reuse_identical=False):
+     dest=Path(dest);dest.mkdir(parents=True,exist_ok=True);total=0;seen=set()
+     with tarfile.open(archive,'r:*') as t:
+         for m in t:
+@@ -106,10 +122,9 @@
+             p=in_root(dest,name)
+             if m.isdir(): p.mkdir(parents=True,exist_ok=True);continue
+             total+=m.size;require(total<=max_bytes,'TAR exceeds extraction limit')
+-            require(not p.exists(),'TAR destination collision: '+name)
+-            p.parent.mkdir(parents=True,exist_ok=True)
+-            with t.extractfile(m) as a,p.open('wb') as b: shutil.copyfileobj(a,b)
+-            p.chmod(0o755 if m.mode&0o111 else 0o644)
++            with t.extractfile(m) as a:
++                created=write_or_verify_stream(a,p,reuse_identical)
++            if created:p.chmod(0o755 if m.mode&0o111 else 0o644)
+     return dest
+ 
+ def first(obj, paths, numeric=False):
+@@ -124,6 +139,16 @@
+         return value,path
+     return None,None
+ 
++def identity_field(obj, paths):
++    """Read an integer identity from JSON, never from a filename or a guessed row."""
++    for name in paths:
++        value, key = first(obj, (name,))
++        if type(value) is str and re.fullmatch(r"[0-9]+", value):
++            return int(value), key
++        if type(value) in (int, float) and math.isfinite(value) and int(value) == value:
++            return int(value), key
++    return None, None
++
+ def baseline_record(j):
+     if not isinstance(j,dict): return None
+     meth,mk=first(j,('method','algorithm','algo','config.method','result.method','record.method','summary.method'))
+@@ -131,14 +156,14 @@
+     canon={'BHOJ':'BH-OJ','BH-OJ':'BH-OJ','GA':'GA','PSO':'PSO','CLPSO':'CLPSO','SMC':'SMC'}
+     method=canon.get(meth.upper().replace('_','-'))
+     if method is None: return None
+-    atoms,nk=first(j,('atoms','N','n_atoms','n','config.atoms','config.N','result.atoms','record.atoms','summary.atoms'),True)
+-    run,rk=first(j,('run','run_index','run_id','repetition','config.run','result.run','record.run'),True)
++    atoms,nk=identity_field(j,('atoms','N','n_atoms','n','config.atoms','config.N','result.atoms','record.atoms','summary.atoms'))
++    run,rk=identity_field(j,('run','run_index','run_id','repetition','config.run','result.run','record.run'))
+     objective,ek=first(j,('objective','best_energy','best_objective','best_f','f_best','fun','f','energy','best.energy','result.objective','result.best_energy','record.objective','summary.best_energy'),True)
+     # Only result-shaped records; index metadata and task configs are not results.
+     if atoms is None or run is None or objective is None: return None
+     if int(atoms)!=atoms or int(run)!=run: return None
+     seconds,tk=first(j,('seconds','elapsed_seconds','wall_seconds','runtime_seconds','duration_seconds','elapsed_time','time_s','time_sec','elapsed_s','wall_time_s','wall_time','runtime','elapsed','time_seconds','time','result.seconds','metrics.seconds','summary.seconds'),True)
+-    evals,ck=first(j,('objective_evaluations','nfev','n_eval','evals_total','evaluations_used','objective_evals','function_evaluations','evals','evals_used','eval_count','objective_calls','evaluations','counters.objective','counters.objective_evaluations','counters.nfev','evaluations.objective','result.objective_evaluations','summary.objective_evaluations'),True)
++    evals,ck=first(j,('n_func_evals','objective_evaluations','nfev','n_eval','evals_total','evaluations_used','objective_evals','function_evaluations','evals','evals_used','eval_count','objective_calls','evaluations','counters.objective','counters.objective_evaluations','counters.nfev','evaluations.objective','result.objective_evaluations','summary.objective_evaluations'),True)
+     if seconds is None or evals is None: return None
+     status,_=first(j,('status','termination','stop_reason','result.status'))
+     require(atoms in ATOMS and 1<=run<=30,'Unexpected baseline result identity')
+--- R1/payload/README.md
++++ R1_FIX1/payload/README.md
+@@ -7,6 +7,14 @@
+ **Proposed fixed review tag:** `pf131-jogo-r2` (not a statement that it has already been published)
+ 
+ Start with [the reviewer guide](docs/REVIEWER_GUIDE.md).
++
++**PF1.3.1 solver source:** [main-pf131](reproducibility/pf131-jogo-r2/code/main-pf131),
++including `src/solver.cpp`, `src/local.cpp`, `app/main.cpp` and `CMakeLists.txt`.
++The compiled executable is named `pf_solver`; it is built from this source, not
++included as a platform-specific binary in this source artifact.
++The separate instrumented study source is
++[study-r2/source](reproducibility/pf131-jogo-r2/code/study-r2/source).
++
+ 
+ This artifact distinguishes the archived main PF131 implementation from the
+ instrumented component-study implementation. Neither is replaced by PF1.4/PF1.5.

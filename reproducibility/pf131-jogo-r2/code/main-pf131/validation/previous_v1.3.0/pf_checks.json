@@ -1,0 +1,41 @@
+{
+  "scope": "20-iteration integration checks, single run, no performance claim",
+  "runs": [
+    {
+      "atoms": 38,
+      "method": "lj-newton",
+      "objective": -168.28412414600814,
+      "seconds": 0.646278201,
+      "particles": 170,
+      "status": "iteration_limit",
+      "initial_sha256": "3340039292698e240c3c7698000672d5f52003d1ea7b3549689195fe3bdce7c7"
+    },
+    {
+      "atoms": 38,
+      "method": "ipopt",
+      "objective": -171.792291553938,
+      "seconds": 22.695009068,
+      "particles": 170,
+      "status": "iteration_limit",
+      "initial_sha256": "3340039292698e240c3c7698000672d5f52003d1ea7b3549689195fe3bdce7c7"
+    },
+    {
+      "atoms": 76,
+      "method": "lj-newton",
+      "objective": -395.50850602572905,
+      "seconds": 3.410328457,
+      "particles": 284,
+      "status": "iteration_limit",
+      "initial_sha256": "a36321ae238c462da303342e88f8542a35805e556a1ea693d760517459938532"
+    },
+    {
+      "atoms": 76,
+      "method": "ipopt",
+      "objective": -394.15310429698377,
+      "seconds": 94.53184623,
+      "particles": 284,
+      "status": "iteration_limit",
+      "initial_sha256": "a36321ae238c462da303342e88f8542a35805e556a1ea693d760517459938532"
+    }
+  ]
+}

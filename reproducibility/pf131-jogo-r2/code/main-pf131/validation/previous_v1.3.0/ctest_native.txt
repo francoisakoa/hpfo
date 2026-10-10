@@ -1,0 +1,21 @@
+Test project /workspace/scratch/8543e66db3a1/pf_cpp_v1.3.0/build_native
+    Start 1: linear_ldl
+1/8 Test #1: linear_ldl .......................   Passed    0.07 sec
+    Start 2: linear_mumps
+2/8 Test #2: linear_mumps .....................   Passed    0.06 sec
+    Start 3: core
+3/8 Test #3: core .............................   Passed    0.55 sec
+    Start 4: eigen_memory_boundary
+4/8 Test #4: eigen_memory_boundary ............   Passed    0.07 sec
+    Start 5: lj_newton
+5/8 Test #5: lj_newton ........................   Passed    0.06 sec
+    Start 6: numpy_random_parity
+6/8 Test #6: numpy_random_parity ..............   Passed   15.06 sec
+    Start 7: python_source_parity
+7/8 Test #7: python_source_parity .............   Passed    1.16 sec
+    Start 8: cli_integration
+8/8 Test #8: cli_integration ..................   Passed    1.90 sec
+
+100% tests passed out of 8
+
+Total Test time (real) =  18.94 sec

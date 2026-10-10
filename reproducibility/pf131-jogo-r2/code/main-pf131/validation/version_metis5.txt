@@ -1,0 +1,1 @@
+1.3.1 ipopt=0 float64=1 native_mumps=0 metis=1 metis_api=5 openmp=1
