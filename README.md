@@ -1,86 +1,109 @@
-# HPFO — PF C++ 1.3.1 reviewer artifact
+# HPFO — PF C++ 1.3.1
 
-**Manuscript:** *A Hybrid Particle Filtering and Local Optimization Framework for Solving Challenging Lennard-Jones Cluster Problems*  
+Reproducibility materials for:
+
+**A Hybrid Particle Filtering and Local Optimization Framework for Solving
+Challenging Lennard-Jones Cluster Problems**
+
+Journal of Global Optimization — Manuscript **JOGO-D-25-00267**
+
 **Author:** François Bertrand Akoa  
-**Journal submission:** JOGO-D-25-00267  
-**Repository:** https://github.com/francoisakoa/hpfo  
-**Proposed fixed review tag:** `pf131-jogo-r2` (not a statement that it has already been published)
+**Position and institution:** R&D Director, MAATAI-LAB  
+**Contact:** francois.akoa@maatai-lab.com
 
-Start with [the reviewer guide](docs/REVIEWER_GUIDE.md).
+## Start here
 
-**PF1.3.1 solver source:** [main-pf131](reproducibility/pf131-jogo-r2/code/main-pf131),
-including `src/solver.cpp`, `src/local.cpp`, `app/main.cpp` and `CMakeLists.txt`.
-The compiled executable is named `pf_solver`; it is built from this source, not
-included as a platform-specific binary in this source artifact.
-The separate instrumented study source is
-[study-r2/source](reproducibility/pf131-jogo-r2/code/study-r2/source).
+[Open the experimental files and source archives](https://github.com/francoisakoa/hpfo/releases/tag/pf131-jogo-r2)
 
+The tables below identify the downloads for each experiment.
+Large numerical datasets are distributed under **Assets** on the release
+page, not inside GitHub's automatic **Source code** downloads.
 
-This artifact distinguishes the archived main PF131 implementation from the
-instrumented component-study implementation. Neither is replaced by PF1.4/PF1.5.
-The source snapshots and experiment drivers are under
-[`reproducibility/pf131-jogo-r2/code`](reproducibility/pf131-jogo-r2/code).
+## Main benchmark: 240 runs with independent initial populations
 
-| Dataset | Distinct results | Interpretation |
-|---|---:|---|
-| Main PF131 benchmark | 240 | 30 search runs on each of eight LJ sizes |
-| Associated IPOPT multistart | 240 | Companion benchmark; do not pool with PF |
-| Component study | 820 | 600 ablation runs + 220 additional sensitivity runs |
-| External baselines | 1,200 | Five implementations × eight sizes × 30 runs |
+The benchmark covers LJ38, LJ75, LJ76, LJ77, LJ98, LJ102, LJ103 and LJ104,
+with 30 separately generated initial populations per size.
 
-**Table 7 uses the component-study `full` control and all 30 repetitions.**
-Tables 8–10 use ten repetitions; their shared default references use only
-component-study `full` runs 1–10. These are not extra independent simulations.
-The main benchmark and the component study are not pooled.
+Download the protocols/source archive and the data archives for the
+cluster sizes to be examined.
 
-## Quick inspection — no new optimization
+| Material | Download |
+|---|---|
+| Dataset guide | [Independent-initialization README](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-README-20261018.md) |
+| Source code, campaign scripts, protocols and analysis materials | [Protocols and sources](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-protocols-20261018.tar.gz) |
+| LJ38 — 30 runs | [LJ38 data](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-LJ38-20261018.tar.gz) |
+| LJ75 — 30 runs | [LJ75 data](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-LJ75-20261018.tar.gz) |
+| LJ76 — 30 runs | [LJ76 data](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-LJ76-20261018.tar.gz) |
+| LJ77 — 30 runs | [LJ77 data](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-LJ77-20261018.tar.gz) |
+| LJ98 — 30 runs | [LJ98 data](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-LJ98-20261018.tar.gz) |
+| LJ102 — 30 runs | [LJ102 data](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-LJ102-20261018.tar.gz) |
+| LJ103 — 30 runs | [LJ103 data](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-LJ103-20261018.tar.gz) |
+| LJ104 — 30 runs | [LJ104 data](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-LJ104-20261018.tar.gz) |
+| Download checksums | [SHA256 manifest](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-independent-SHA256SUMS-20261018.txt) |
+
+The run materials include complete `pf.json` records, native
+`initial.pfpop` populations, initialization metadata, final `pf.xyz`
+coordinates and recorded iteration histories.
+
+## Baselines, component studies and initialization comparison
+
+These are separate experimental datasets. Do not pool their runs with
+the main independent-initialization benchmark.
+
+| Experiment | Download |
+|---|---|
+| Five baseline methods: BH-OJ, GA, PSO, CLPSO and SMC — 1,200 runs | [Baseline archive](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/BASELINES_COMPACT_001.zip) |
+| Ablation and sensitivity on LJ75/LJ102 — 820 distinct runs | [Component-study archive](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-study-data.tar.gz) |
+| Fixed-population HPF comparison — 240 runs, with associated Ipopt multistart records | [Fixed-population archive](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/hpfo-pf131-main-data.tar.gz) |
+| Checksums for these three archives | [SHA256 manifest](https://github.com/francoisakoa/hpfo/releases/download/pf131-jogo-r2/SHA256SUMS.txt) |
+
+The component-study `full` configuration is the reference for its
+ablation comparisons. It must not be replaced by results from the
+main benchmark.
+
+## Browse the implementation
+
+- [PF C++ 1.3.1 source code](https://github.com/francoisakoa/hpfo/tree/pf131-jogo-r2/reproducibility/pf131-jogo-r2/code/main-pf131)
+- [Component-study source code and driver](https://github.com/francoisakoa/hpfo/tree/pf131-jogo-r2/reproducibility/pf131-jogo-r2/code/study-r2)
+- [Baseline source code](https://github.com/francoisakoa/hpfo/tree/pf131-jogo-r2/reproducibility/pf131-jogo-r2/code/baselines-export)
+- [Build and replay instructions](https://github.com/francoisakoa/hpfo/blob/pf131-jogo-r2/docs/BUILD_AND_REPLAY.md)
+
+For the independent-initialization campaign, use the campaign scripts,
+configuration records and analysis materials in the **Protocols and
+sources** archive linked above.
+
+The C++ executable is named `pf_solver`.
+
+## Verify downloaded files
+
+After downloading all files listed in the corresponding manifest,
+run the following commands from the download directory:
 
 ```bash
-python3 scripts/verify_package.py
+sha256sum -c hpfo-pf131-independent-SHA256SUMS-20261018.txt
+sha256sum -c SHA256SUMS.txt
 ```
 
-The large raw data archives are GitHub **Release assets**, not Git-tracked files.
-On the author's TRX they are already in `release-assets/`. After cloning the tagged
-review artifact, download them from its Release, then:
+A missing-file message means that a file listed in that manifest has
+not been downloaded. An integrity mismatch must be resolved before
+using the affected archive.
 
-```bash
-bash scripts/fetch_release_assets.sh pf131-jogo-r2
-python3 scripts/verify_package.py --assets
-python3 scripts/unpack_data.py
-python3 scripts/rebuild_all.py --output .local/tables-rebuilt
-```
+Read the dataset guide and the instructions included with each
+source/protocol archive before extracting or running analysis scripts.
 
-The last command verifies the indexed JSON hashes and rebuilds Tables 7–10 and
-main, multistart and external-baseline summaries from raw records. It never calls
-an optimizer. CSV summaries are generated machine-readable outputs, not new runs.
+## Interpretation of results
 
-## Build / test / explicit replay
+Initialization seeds and search seeds are recorded separately.
+PF objective-evaluation counts include population and local-refinement
+evaluations. Target attainment, solver stopping status, elapsed time
+and evaluation counts are distinct measurements.
 
-See [BUILD_AND_REPLAY.md](docs/BUILD_AND_REPLAY.md). The repository supplies separate
-clean builds and their original CTest tests. A successful build does not prove
-that an executable generated today is the executable used historically.
-Replays are dry runs unless `--execute` is supplied, and require new output paths.
-No original campaign result is overwritten.
+Rebuilding numerical summaries from saved records does not require
+rerunning the optimization campaigns. A target-attainment result is
+not a certificate of global optimality or stationarity.
 
-## Interpretation and limits
+## Contact
 
-Success means attainment of the **recorded energy target** at the recorded
-tolerance, not a certificate of global optimality or stationarity. Local work is
-included in objective counts. Timings are elapsed solver times, not summed worker
-CPU times. The two PF source snapshots, their flow schedules and parameter records
-remain separately traceable.
-
-The theoretical statements for an idealized uncapped surrogate are not convergence
-guarantees for the practical capped, adaptive, archive-dependent implementation.
-Baseline claims concern the specific implementations and adopted comparable-budget
-protocol, not entire algorithmic families. Validation is restricted to the stated
-Lennard-Jones experiments.
-
-Raw baseline event-by-event logs are not supplied by the compact export; the full
-backups remain with the author. `plot_history.py` creates diagnostics from stored
-PF traces; these are not claimed to be the exact submitted manuscript figures.
-Read [ARTIFACT_SCOPE.md](docs/ARTIFACT_SCOPE.md) for those boundaries.
-
-Existing source/license notices are retained. This packaging does not invent a
-software license, grant rights to third-party material, or include proprietary
-HSL binaries. See the retained `LICENSE_POLICY.md` and `THIRD_PARTY_NOTICES.md` files.
+François Bertrand Akoa  
+R&D Director, MAATAI-LAB  
+francois.akoa@maatai-lab.com
